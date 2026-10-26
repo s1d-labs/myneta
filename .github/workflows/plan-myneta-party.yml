@@ -1,0 +1,30 @@
+name: plan-myneta-party
+
+# Lists every party on myneta.info with its years of donations and income-expenditure (plan_myneta_party.py) and commits
+# data/myneta_party.json. About 70 requests, one at a time with pauses. Then run setup to seed the queue from it.
+on:
+  workflow_dispatch:
+    inputs:
+      max_parties:
+        description: "Stop after N party summaries (empty = all)"
+        default: ""
+
+permissions:
+  contents: write
+
+jobs:
+  plan:
+    runs-on: ubuntu-latest
+    timeout-minutes: 60
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install -r requirements.txt
+      - run: python plan_myneta_party.py ${{ inputs.max_parties && format('--max {0}', inputs.max_parties) || '' }}
+      - run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/myneta_party.json
+          git diff --cached --quiet || git commit -m "plan-myneta: refresh party list" && git push

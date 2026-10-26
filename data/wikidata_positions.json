@@ -1,0 +1,1170 @@
+{
+ "lok_sabha": [
+  {
+   "qid": "Q16556694",
+   "label": "member of the Lok Sabha",
+   "term": null,
+   "pages": 4,
+   "expected": 400
+  },
+  {
+   "qid": "Q63098715",
+   "label": "Leader of the Opposition in the Lok Sabha",
+   "term": null,
+   "pages": 1,
+   "expected": 20
+  },
+  {
+   "qid": "Q42528724",
+   "label": "Member of the 1st Lok Sabha",
+   "term": 1,
+   "pages": 2,
+   "expected": 280
+  },
+  {
+   "qid": "Q16308357",
+   "label": "Member of the 2nd Lok Sabha",
+   "term": 2,
+   "pages": 2,
+   "expected": 280
+  },
+  {
+   "qid": "Q16308374",
+   "label": "Member of the 3rd Lok Sabha",
+   "term": 3,
+   "pages": 2,
+   "expected": 280
+  },
+  {
+   "qid": "Q16308396",
+   "label": "Member of the 4th Lok Sabha",
+   "term": 4,
+   "pages": 2,
+   "expected": 280
+  },
+  {
+   "qid": "Q16308414",
+   "label": "Member of the 5th Lok Sabha",
+   "term": 5,
+   "pages": 2,
+   "expected": 280
+  },
+  {
+   "qid": "Q16308421",
+   "label": "Member of the 6th Lok Sabha",
+   "term": 6,
+   "pages": 2,
+   "expected": 280
+  },
+  {
+   "qid": "Q16308458",
+   "label": "Member of the 7th Lok Sabha",
+   "term": 7,
+   "pages": 2,
+   "expected": 280
+  },
+  {
+   "qid": "Q42529522",
+   "label": "Member of the 8th Lok Sabha",
+   "term": 8,
+   "pages": 2,
+   "expected": 280
+  },
+  {
+   "qid": "Q42529713",
+   "label": "Member of the 9th Lok Sabha",
+   "term": 9,
+   "pages": 2,
+   "expected": 280
+  },
+  {
+   "qid": "Q16308300",
+   "label": "Member of the 10th Lok Sabha",
+   "term": 10,
+   "pages": 2,
+   "expected": 280
+  },
+  {
+   "qid": "Q42529900",
+   "label": "Member of the 11th Lok Sabha",
+   "term": 11,
+   "pages": 2,
+   "expected": 280
+  },
+  {
+   "qid": "Q15686905",
+   "label": "Member of the 12th Lok Sabha",
+   "term": 12,
+   "pages": 2,
+   "expected": 280
+  },
+  {
+   "qid": "Q15686910",
+   "label": "Member of the 13th Lok Sabha",
+   "term": 13,
+   "pages": 2,
+   "expected": 280
+  },
+  {
+   "qid": "Q15686915",
+   "label": "Member of the 14th Lok Sabha",
+   "term": 14,
+   "pages": 2,
+   "expected": 280
+  },
+  {
+   "qid": "Q15686919",
+   "label": "Member of the 15th Lok Sabha",
+   "term": 15,
+   "pages": 2,
+   "expected": 280
+  },
+  {
+   "qid": "Q42509248",
+   "label": "Member of the 16th Lok Sabha",
+   "term": 16,
+   "pages": 2,
+   "expected": 280
+  },
+  {
+   "qid": "Q56051771",
+   "label": "Member of the 17th Lok Sabha",
+   "term": 17,
+   "pages": 2,
+   "expected": 280
+  },
+  {
+   "qid": "Q125498038",
+   "label": "Member of the 18th Lok Sabha",
+   "term": 18,
+   "pages": 2,
+   "expected": 280
+  }
+ ],
+ "ministers": [
+  {
+   "qid": "Q108559581",
+   "label": "Minister of Co-operation",
+   "pages": 1,
+   "expected": 20
+  },
+  {
+   "qid": "Q108559630",
+   "label": "Minister of Micro, Small and Medium Enterprises",
+   "pages": 1,
+   "expected": 20
+  },
+  {
+   "qid": "Q108559711",
+   "label": "Minister of Power",
+   "pages": 1,
+   "expected": 20
+  },
+  {
+   "qid": "Q108559737",
+   "label": "Minister of Environment and Forests",
+   "pages": 1,
+   "expected": 20
+  },
+  {
+   "qid": "Q108560642",
+   "label": "Minister of Women and Child Development",
+   "pages": 1,
+   "expected": 20
+  },
+  {
+   "qid": "Q108560657",
+   "label": "Minister of Ports, Shipping and Waterways",
+   "pages": 1,
+   "expected": 20
+  },
+  {
+   "qid": "Q108560662",
+   "label": "Minister of Ayush",
+   "pages": 1,
+   "expected": 20
+  },
+  {
+   "qid": "Q108560745",
+   "label": "Minister of Fisheries, Animal Husbandry and Dairying",
+   "pages": 1,
+   "expected": 20
+  },
+  {
+   "qid": "Q108560754",
+   "label": "Minister of Corporate Affairs",
+   "pages": 1,
+   "expected": 20
+  },
+  {
+   "qid": "Q108560799",
+   "label": "Minister of Skill Development and Entrepreneurship",
+   "pages": 1,
+   "expected": 20
+  },
+  {
+   "qid": "Q108560812",
+   "label": "Minister of Education",
+   "pages": 1,
+   "expected": 20
+  },
+  {
+   "qid": "Q108560839",
+   "label": "Minister of Culture",
+   "pages": 1,
+   "expected": 20
+  },
+  {
+   "qid": "Q108560857",
+   "label": "Minister of Electronics and Information Technology",
+   "pages": 1,
+   "expected": 20
+  },
+  {
+   "qid": "Q108560859",
+   "label": "Minister of Communications",
+   "pages": 1,
+   "expected": 20
+  },
+  {
+   "qid": "Q108560946",
+   "label": "Minister of Jal Shakti",
+   "pages": 1,
+   "expected": 20
+  },
+  {
+   "qid": "Q123746324",
+   "label": "Minister of State for Social Justice and Empowerment",
+   "pages": 1,
+   "expected": 20
+  },
+  {
+   "qid": "Q12454125",
+   "label": "Minister of Human Resource Development",
+   "pages": 1,
+   "expected": 20
+  },
+  {
+   "qid": "Q1416501",
+   "label": "Minister of Finance",
+   "pages": 1,
+   "expected": 20
+  },
+  {
+   "qid": "Q16868002",
+   "label": "Minister of Urban Development",
+   "pages": 1,
+   "expected": 20
+  },
+  {
+   "qid": "Q16874648",
+   "label": "Minister of Rural Development",
+   "pages": 1,
+   "expected": 20
+  },
+  {
+   "qid": "Q16875646",
+   "label": "Minister of Shipping (India)",
+   "pages": 1,
+   "expected": 20
+  },
+  {
+   "qid": "Q16878665",
+   "label": "Minister of Consumer Affairs, Food and Public Distribution",
+   "pages": 1,
+   "expected": 20
+  },
+  {
+   "qid": "Q16920783",
+   "label": "Minister of Development of North Eastern Region",
+   "pages": 1,
+   "expected": 20
+  },
+  {
+   "qid": "Q16934521",
+   "label": "Minister of Water Resources",
+   "pages": 1,
+   "expected": 20
+  },
+  {
+   "qid": "Q17073489",
+   "label": "Minister of Health and Family Welfare",
+   "pages": 1,
+   "expected": 20
+  },
+  {
+   "qid": "Q1708557",
+   "label": "Deputy Prime Minister of India",
+   "pages": 1,
+   "expected": 20
+  },
+  {
+   "qid": "Q18128069",
+   "label": "Minister of Coal",
+   "pages": 1,
+   "expected": 20
+  },
+  {
+   "qid": "Q18128071",
+   "label": "Minister of Law and Justice of India",
+   "pages": 1,
+   "expected": 20
+  },
+  {
+   "qid": "Q18128073",
+   "label": "Minister of Minority Affairs",
+   "pages": 1,
+   "expected": 20
+  },
+  {
+   "qid": "Q18390718",
+   "label": "Minister of Civil Aviation",
+   "pages": 1,
+   "expected": 20
+  },
+  {
+   "qid": "Q192711",
+   "label": "Prime Minister of India",
+   "pages": 1,
+   "expected": 20
+  },
+  {
+   "qid": "Q30275501",
+   "label": "Minister for Information and Technology",
+   "pages": 1,
+   "expected": 20
+  },
+  {
+   "qid": "Q313465",
+   "label": "Minister of External Affairs",
+   "pages": 1,
+   "expected": 20
+  },
+  {
+   "qid": "Q3440901",
+   "label": "Minister of Home Affairs",
+   "pages": 1,
+   "expected": 20
+  },
+  {
+   "qid": "Q3533315",
+   "label": "Minister of Defence",
+   "pages": 1,
+   "expected": 20
+  },
+  {
+   "qid": "Q55623231",
+   "label": "Minister of Agriculture & Farmers Welfare",
+   "pages": 1,
+   "expected": 20
+  },
+  {
+   "qid": "Q6866049",
+   "label": "Minister of Chemicals and Fertilizers",
+   "pages": 1,
+   "expected": 20
+  },
+  {
+   "qid": "Q6866058",
+   "label": "Minister of Commerce and Industry",
+   "pages": 1,
+   "expected": 20
+  },
+  {
+   "qid": "Q6866064",
+   "label": "Minister of Communications and Information Technology",
+   "pages": 1,
+   "expected": 20
+  },
+  {
+   "qid": "Q6866140",
+   "label": "Minister of Food Processing Industries",
+   "pages": 1,
+   "expected": 20
+  },
+  {
+   "qid": "Q6866176",
+   "label": "Minister of Heavy Industries and Public Enterprises",
+   "pages": 1,
+   "expected": 20
+  },
+  {
+   "qid": "Q6866188",
+   "label": "Minister of Housing and Urban Poverty Alleviation",
+   "pages": 1,
+   "expected": 20
+  },
+  {
+   "qid": "Q6866209",
+   "label": "Minister of Information and Broadcasting",
+   "pages": 1,
+   "expected": 20
+  },
+  {
+   "qid": "Q6866235",
+   "label": "Minister of Labour and Employment",
+   "pages": 1,
+   "expected": 20
+  },
+  {
+   "qid": "Q6866250",
+   "label": "Minister of Mines",
+   "pages": 1,
+   "expected": 20
+  },
+  {
+   "qid": "Q6866267",
+   "label": "Minister of New and Renewable Energy",
+   "pages": 1,
+   "expected": 20
+  },
+  {
+   "qid": "Q6866268",
+   "label": "Minister of Overseas Indian Affairs",
+   "pages": 1,
+   "expected": 20
+  },
+  {
+   "qid": "Q6866272",
+   "label": "Minister of Panchayati Raj",
+   "pages": 1,
+   "expected": 20
+  },
+  {
+   "qid": "Q6866273",
+   "label": "Minister of Parliamentary Affairs",
+   "pages": 1,
+   "expected": 20
+  },
+  {
+   "qid": "Q6866278",
+   "label": "Minister of Petroleum and Natural Gas",
+   "pages": 1,
+   "expected": 20
+  },
+  {
+   "qid": "Q6866301",
+   "label": "Minister of Railways",
+   "pages": 1,
+   "expected": 20
+  },
+  {
+   "qid": "Q6866308",
+   "label": "Minister of Road Transport and Highways",
+   "pages": 1,
+   "expected": 20
+  },
+  {
+   "qid": "Q6866326",
+   "label": "Minister of Social Justice and Empowerment",
+   "pages": 1,
+   "expected": 20
+  },
+  {
+   "qid": "Q6866391",
+   "label": "Minister of Steel",
+   "pages": 1,
+   "expected": 20
+  },
+  {
+   "qid": "Q6866396",
+   "label": "Minister of Textiles",
+   "pages": 1,
+   "expected": 20
+  },
+  {
+   "qid": "Q6866398",
+   "label": "Minister of Tourism",
+   "pages": 1,
+   "expected": 20
+  },
+  {
+   "qid": "Q6866408",
+   "label": "Minister of Tribal Affairs",
+   "pages": 1,
+   "expected": 20
+  },
+  {
+   "qid": "Q6866423",
+   "label": "Minister of Youth Affairs and Sports",
+   "pages": 1,
+   "expected": 20
+  }
+ ],
+ "assembly": {
+  "Andhra Pradesh": [
+   {
+    "qid": "Q17598882",
+    "label": "Member of the Andhra Pradesh Legislative Assembly",
+    "pages": 4,
+    "expected": 400
+   },
+   {
+    "qid": "Q125949631",
+    "label": "Member of the 15th Andhra Pradesh Legislative Assembly",
+    "pages": 1,
+    "expected": 200
+   },
+   {
+    "qid": "Q126414673",
+    "label": "Member of the 16th Andhra Pradesh Legislative Assembly",
+    "pages": 1,
+    "expected": 200
+   }
+  ],
+  "Arunachal Pradesh": [
+   {
+    "qid": "Q24456735",
+    "label": "Member of the Arunachal Pradesh Legislative Assembly",
+    "pages": 4,
+    "expected": 400
+   }
+  ],
+  "Assam": [
+   {
+    "qid": "Q21191662",
+    "label": "Member of the Assam Legislative Assembly",
+    "pages": 4,
+    "expected": 400
+   }
+  ],
+  "Bihar": [
+   {
+    "qid": "Q24457068",
+    "label": "Member of the Bihar Legislative Assembly",
+    "pages": 4,
+    "expected": 400
+   }
+  ],
+  "Chhattisgarh": [
+   {
+    "qid": "Q24457183",
+    "label": "Member of the Chhattisgarh Legislative Assembly",
+    "pages": 4,
+    "expected": 400
+   }
+  ],
+  "Delhi": [
+   {
+    "qid": "Q24461612",
+    "label": "Member of the Delhi Legislative Assembly",
+    "pages": 4,
+    "expected": 400
+   }
+  ],
+  "Goa": [
+   {
+    "qid": "Q24461695",
+    "label": "Member of the Goa Legislative Assembly",
+    "pages": 4,
+    "expected": 400
+   }
+  ],
+  "Gujarat": [
+   {
+    "qid": "Q17582810",
+    "label": "Member of the Gujarat Legislative Assembly",
+    "pages": 4,
+    "expected": 400
+   }
+  ],
+  "Haryana": [
+   {
+    "qid": "Q24497178",
+    "label": "Member of the Haryana Legislative Assembly",
+    "pages": 4,
+    "expected": 400
+   }
+  ],
+  "Himachal Pradesh": [
+   {
+    "qid": "Q18055586",
+    "label": "Member of the Himachal Pradesh Legislative Assembly",
+    "pages": 4,
+    "expected": 400
+   }
+  ],
+  "Jammu and Kashmir": [
+   {
+    "qid": "Q18171423",
+    "label": "member of the Jammu and Kashmir Legislative Assembly",
+    "pages": 4,
+    "expected": 400
+   }
+  ],
+  "Jharkhand": [
+   {
+    "qid": "Q24525324",
+    "label": "Member of the Jharkhand Legislative Assembly",
+    "pages": 4,
+    "expected": 400
+   }
+  ],
+  "Karnataka": [
+   {
+    "qid": "Q24525419",
+    "label": "Member of the Karnataka Legislative Assembly",
+    "pages": 4,
+    "expected": 400
+   }
+  ],
+  "Kerala": [
+   {
+    "qid": "Q19468152",
+    "label": "Member of the Kerala Legislative Assembly",
+    "pages": 4,
+    "expected": 400
+   }
+  ],
+  "Madhya Pradesh": [
+   {
+    "qid": "Q24529702",
+    "label": "Member of the Madhya Pradesh Legislative Assembly",
+    "pages": 4,
+    "expected": 400
+   }
+  ],
+  "Maharashtra": [
+   {
+    "qid": "Q13119774",
+    "label": "Member of Maharashtra Legislative Assembly",
+    "pages": 4,
+    "expected": 400
+   }
+  ],
+  "Manipur": [
+   {
+    "qid": "Q19464087",
+    "label": "Member of the Manipur Legislative Assembly",
+    "pages": 4,
+    "expected": 400
+   }
+  ],
+  "Meghalaya": [
+   {
+    "qid": "Q21191665",
+    "label": "Member of the Meghalaya Legislative Assembly",
+    "pages": 4,
+    "expected": 400
+   }
+  ],
+  "Mizoram": [
+   {
+    "qid": "Q24540202",
+    "label": "Member of the Mizoram Legislative Assembly",
+    "pages": 4,
+    "expected": 400
+   },
+   {
+    "qid": "Q130741131",
+    "label": "Member of the 9th Mizoram Legislative Assembly",
+    "pages": 1,
+    "expected": 200
+   }
+  ],
+  "Nagaland": [
+   {
+    "qid": "Q24541525",
+    "label": "Member of the Nagaland Legislative Assembly",
+    "pages": 4,
+    "expected": 400
+   },
+   {
+    "qid": "Q117317084",
+    "label": "Member of the Fourteenth Nagaland Legislative Assembly",
+    "pages": 1,
+    "expected": 200
+   }
+  ],
+  "Odisha": [
+   {
+    "qid": "Q24546266",
+    "label": "Member of the Odisha Legislative Assembly",
+    "pages": 4,
+    "expected": 400
+   },
+   {
+    "qid": "Q61479084",
+    "label": "Member of the Fifteenth Odisha Legislative Assembly",
+    "pages": 1,
+    "expected": 200
+   },
+   {
+    "qid": "Q61479102",
+    "label": "Member of the Fourteenth Odisha Legislative Assembly",
+    "pages": 1,
+    "expected": 200
+   },
+   {
+    "qid": "Q61479103",
+    "label": "Member of the Sixteenth Odisha Legislative Assembly",
+    "pages": 1,
+    "expected": 200
+   },
+   {
+    "qid": "Q61479168",
+    "label": "Member of the Thirteenth Odisha Legislative Assembly",
+    "pages": 1,
+    "expected": 200
+   },
+   {
+    "qid": "Q61479185",
+    "label": "Member of the Seventeenth Odisha Legislative Assembly",
+    "pages": 1,
+    "expected": 200
+   },
+   {
+    "qid": "Q61479266",
+    "label": "Member of the Twelfth Odisha Legislative Assembly",
+    "pages": 1,
+    "expected": 200
+   },
+   {
+    "qid": "Q61479293",
+    "label": "Member of the Eleventh Odisha Legislative Assembly",
+    "pages": 1,
+    "expected": 200
+   },
+   {
+    "qid": "Q61479298",
+    "label": "Member of the Tenth Odisha Legislative Assembly",
+    "pages": 1,
+    "expected": 200
+   },
+   {
+    "qid": "Q61479306",
+    "label": "Member of the Ninth Odisha Legislative Assembly",
+    "pages": 1,
+    "expected": 200
+   },
+   {
+    "qid": "Q61480440",
+    "label": "Member of the Eighth Odisha Legislative Assembly",
+    "pages": 1,
+    "expected": 200
+   },
+   {
+    "qid": "Q61480451",
+    "label": "Member of the Seventh Odisha Legislative Assembly",
+    "pages": 1,
+    "expected": 200
+   },
+   {
+    "qid": "Q61480471",
+    "label": "Member of the Sixth Odisha Legislative Assembly",
+    "pages": 1,
+    "expected": 200
+   },
+   {
+    "qid": "Q61480556",
+    "label": "Member of the Fifth Odisha Legislative Assembly",
+    "pages": 1,
+    "expected": 200
+   },
+   {
+    "qid": "Q61480559",
+    "label": "Member of the Fourth Odisha Legislative Assembly",
+    "pages": 1,
+    "expected": 200
+   },
+   {
+    "qid": "Q61480562",
+    "label": "Member of the Third Odisha Legislative Assembly",
+    "pages": 1,
+    "expected": 200
+   },
+   {
+    "qid": "Q61480563",
+    "label": "Member of the Second Odisha Legislative Assembly",
+    "pages": 1,
+    "expected": 200
+   },
+   {
+    "qid": "Q61480564",
+    "label": "Member of the First Odisha Legislative Assembly",
+    "pages": 1,
+    "expected": 200
+   },
+   {
+    "qid": "Q98930880",
+    "label": "Member of the First Pre-Ind. Odisha Legislative Assembly",
+    "pages": 1,
+    "expected": 200
+   },
+   {
+    "qid": "Q98930924",
+    "label": "Member of the Second Pre-Ind. Odisha Legislative Assembly",
+    "pages": 1,
+    "expected": 200
+   }
+  ],
+  "Puducherry": [
+   {
+    "qid": "Q24340546",
+    "label": "Member of the Puducherry Legislative Assembly",
+    "pages": 4,
+    "expected": 400
+   }
+  ],
+  "Punjab": [
+   {
+    "qid": "Q24340550",
+    "label": "Member of the Punjab Legislative Assembly",
+    "pages": 4,
+    "expected": 400
+   },
+   {
+    "qid": "Q125358504",
+    "label": "Member of the 16th Punjab Legislative Assembly",
+    "pages": 1,
+    "expected": 200
+   },
+   {
+    "qid": "Q125358505",
+    "label": "Member of the 15th Punjab Legislative Assembly",
+    "pages": 1,
+    "expected": 200
+   },
+   {
+    "qid": "Q125358507",
+    "label": "Member of the 14th Punjab Legislative Assembly",
+    "pages": 1,
+    "expected": 200
+   },
+   {
+    "qid": "Q125358508",
+    "label": "Member of the 13th Punjab Legislative Assembly",
+    "pages": 1,
+    "expected": 200
+   },
+   {
+    "qid": "Q125358510",
+    "label": "Member of the 11th Punjab Legislative Assembly",
+    "pages": 1,
+    "expected": 200
+   },
+   {
+    "qid": "Q125358511",
+    "label": "Member of the 9th Punjab Legislative Assembly",
+    "pages": 1,
+    "expected": 200
+   },
+   {
+    "qid": "Q125358512",
+    "label": "Member of the 8th Punjab Legislative Assembly",
+    "pages": 1,
+    "expected": 200
+   },
+   {
+    "qid": "Q125358513",
+    "label": "Member of the 7th Punjab Legislative Assembly",
+    "pages": 1,
+    "expected": 200
+   },
+   {
+    "qid": "Q125358515",
+    "label": "Member of the 6th Punjab Legislative Assembly",
+    "pages": 1,
+    "expected": 200
+   },
+   {
+    "qid": "Q125358516",
+    "label": "Member of the 5th Punjab Legislative Assembly",
+    "pages": 1,
+    "expected": 200
+   },
+   {
+    "qid": "Q125358518",
+    "label": "Member of the 4th Punjab Legislative Assembly",
+    "pages": 1,
+    "expected": 200
+   },
+   {
+    "qid": "Q125358520",
+    "label": "Member of the 3rd Punjab Legislative Assembly",
+    "pages": 1,
+    "expected": 200
+   },
+   {
+    "qid": "Q125358522",
+    "label": "Member of the 2ndth Punjab Legislative Assembly",
+    "pages": 1,
+    "expected": 200
+   },
+   {
+    "qid": "Q125358523",
+    "label": "Member of the 1st Punjab Legislative Assembly",
+    "pages": 1,
+    "expected": 200
+   }
+  ],
+  "Rajasthan": [
+   {
+    "qid": "Q17599276",
+    "label": "Member of the Rajasthan Legislative Assembly",
+    "pages": 4,
+    "expected": 400
+   }
+  ],
+  "Sikkim": [
+   {
+    "qid": "Q24547509",
+    "label": "Member of the Sikkim Legislative Assembly",
+    "pages": 4,
+    "expected": 400
+   }
+  ],
+  "Tamil Nadu": [
+   {
+    "qid": "Q24558764",
+    "label": "Member of the Tamil Nadu Legislative Assembly",
+    "pages": 4,
+    "expected": 400
+   },
+   {
+    "qid": "Q124364327",
+    "label": "Member of the 1st Madras Legislative Assembly",
+    "pages": 1,
+    "expected": 200
+   },
+   {
+    "qid": "Q124364368",
+    "label": "Member of the 2nd Madras Legislative Assembly",
+    "pages": 1,
+    "expected": 200
+   },
+   {
+    "qid": "Q124365625",
+    "label": "Member of the 4th Madras Legislative Assembly",
+    "pages": 1,
+    "expected": 200
+   },
+   {
+    "qid": "Q124365626",
+    "label": "Member of the 5th Tamil Nadu Legislative Assembly",
+    "pages": 1,
+    "expected": 200
+   },
+   {
+    "qid": "Q124365627",
+    "label": "Member of the 6th Tamil Nadu Legislative Assembly",
+    "pages": 1,
+    "expected": 200
+   },
+   {
+    "qid": "Q124365628",
+    "label": "Member of the 7th Tamil Nadu Legislative Assembly",
+    "pages": 1,
+    "expected": 200
+   },
+   {
+    "qid": "Q124365629",
+    "label": "Member of the 8th Tamil Nadu Legislative Assembly",
+    "pages": 1,
+    "expected": 200
+   },
+   {
+    "qid": "Q124365630",
+    "label": "Member of the 9th Tamil Nadu Legislative Assembly",
+    "pages": 1,
+    "expected": 200
+   },
+   {
+    "qid": "Q124365631",
+    "label": "Member of the 10th Tamil Nadu Legislative Assembly",
+    "pages": 1,
+    "expected": 200
+   },
+   {
+    "qid": "Q124365632",
+    "label": "Member of the 11th Tamil Nadu Legislative Assembly",
+    "pages": 1,
+    "expected": 200
+   },
+   {
+    "qid": "Q124365633",
+    "label": "Member of the 12th Tamil Nadu Legislative Assembly",
+    "pages": 1,
+    "expected": 200
+   },
+   {
+    "qid": "Q124365634",
+    "label": "Member of the 13th Tamil Nadu Legislative Assembly",
+    "pages": 1,
+    "expected": 200
+   },
+   {
+    "qid": "Q124365635",
+    "label": "Member of the 14th Tamil Nadu Legislative Assembly",
+    "pages": 1,
+    "expected": 200
+   },
+   {
+    "qid": "Q124365636",
+    "label": "Member of the 15th Tamil Nadu Legislative Assembly",
+    "pages": 1,
+    "expected": 200
+   },
+   {
+    "qid": "Q124365637",
+    "label": "Member of the 16th Tamil Nadu Legislative Assembly",
+    "pages": 1,
+    "expected": 200
+   },
+   {
+    "qid": "Q124377611",
+    "label": "Member of the 3rd Madras Legislative Assembly",
+    "pages": 1,
+    "expected": 200
+   },
+   {
+    "qid": "Q139832360",
+    "label": "Member of the 17th Tamil Nadu Legislative Assembly",
+    "pages": 1,
+    "expected": 200
+   }
+  ],
+  "Telangana": [
+   {
+    "qid": "Q24331572",
+    "label": "Member of the Telangana Legislative Assembly",
+    "pages": 4,
+    "expected": 400
+   }
+  ],
+  "Tripura": [
+   {
+    "qid": "Q24559639",
+    "label": "Member of the Tripura Legislative Assembly",
+    "pages": 4,
+    "expected": 400
+   }
+  ],
+  "Uttar Pradesh": [
+   {
+    "qid": "Q18039836",
+    "label": "Member of the Uttar Pradesh Legislative Assembly",
+    "pages": 4,
+    "expected": 400
+   }
+  ],
+  "Uttarakhand": [
+   {
+    "qid": "Q18055681",
+    "label": "Member of the Uttarakhand Legislative Assembly",
+    "pages": 4,
+    "expected": 400
+   }
+  ],
+  "West Bengal": [
+   {
+    "qid": "Q19007052",
+    "label": "Member of the West Bengal Legislative Assembly",
+    "pages": 4,
+    "expected": 400
+   },
+   {
+    "qid": "Q106236664",
+    "label": "Member of the 1st West Bengal Legislative Assembly",
+    "pages": 1,
+    "expected": 200
+   },
+   {
+    "qid": "Q106236674",
+    "label": "Member of the 2nd West Bengal Legislative Assembly",
+    "pages": 1,
+    "expected": 200
+   },
+   {
+    "qid": "Q106236678",
+    "label": "Member of the 3rd West Bengal Legislative Assembly",
+    "pages": 1,
+    "expected": 200
+   },
+   {
+    "qid": "Q106236685",
+    "label": "Member of the 4th West Bengal Legislative Assembly",
+    "pages": 1,
+    "expected": 200
+   },
+   {
+    "qid": "Q106236715",
+    "label": "Member of the 5th West Bengal Legislative Assembly",
+    "pages": 1,
+    "expected": 200
+   },
+   {
+    "qid": "Q106236720",
+    "label": "Member of the 6th West Bengal Legislative Assembly",
+    "pages": 1,
+    "expected": 200
+   },
+   {
+    "qid": "Q106236727",
+    "label": "Member of the 7th West Bengal Legislative Assembly",
+    "pages": 1,
+    "expected": 200
+   },
+   {
+    "qid": "Q106236883",
+    "label": "Member of the 8th West Bengal Legislative Assembly",
+    "pages": 1,
+    "expected": 200
+   },
+   {
+    "qid": "Q106236905",
+    "label": "Member of the 9th West Bengal Legislative Assembly",
+    "pages": 1,
+    "expected": 200
+   },
+   {
+    "qid": "Q106236927",
+    "label": "Member of the 10th West Bengal Legislative Assembly",
+    "pages": 1,
+    "expected": 200
+   },
+   {
+    "qid": "Q106236970",
+    "label": "Member of the 11th West Bengal Legislative Assembly",
+    "pages": 1,
+    "expected": 200
+   },
+   {
+    "qid": "Q106236999",
+    "label": "Member of the 12th West Bengal Legislative Assembly",
+    "pages": 1,
+    "expected": 200
+   },
+   {
+    "qid": "Q106237032",
+    "label": "Member of the 13th West Bengal Legislative Assembly",
+    "pages": 1,
+    "expected": 200
+   },
+   {
+    "qid": "Q106237063",
+    "label": "Member of the 14th West Bengal Legislative Assembly",
+    "pages": 1,
+    "expected": 200
+   },
+   {
+    "qid": "Q106237145",
+    "label": "Member of the 15th West Bengal Legislative Assembly",
+    "pages": 1,
+    "expected": 200
+   },
+   {
+    "qid": "Q106237179",
+    "label": "Member of the 16th West Bengal Legislative Assembly",
+    "pages": 1,
+    "expected": 200
+   },
+   {
+    "qid": "Q106237205",
+    "label": "Member of the 17th West Bengal Legislative Assembly",
+    "pages": 1,
+    "expected": 200
+   }
+  ]
+ }
+}

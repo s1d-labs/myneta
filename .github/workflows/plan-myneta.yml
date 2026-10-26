@@ -1,0 +1,30 @@
+name: plan-myneta
+
+# Lists every election on myneta.info with its number of list pages (plan_myneta.py) and commits data/myneta_elections.json.
+# A few hundred requests, one at a time with pauses. Then run setup to seed the queue from it.
+on:
+  workflow_dispatch:
+    inputs:
+      max_elections:
+        description: "Stop after N elections (empty = all)"
+        default: ""
+
+permissions:
+  contents: write
+
+jobs:
+  plan:
+    runs-on: ubuntu-latest
+    timeout-minutes: 60
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install -r requirements.txt
+      - run: python plan_myneta.py ${{ inputs.max_elections && format('--max {0}', inputs.max_elections) || '' }}
+      - run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/myneta_elections.json
+          git diff --cached --quiet || git commit -m "plan-myneta: refresh election list" && git push

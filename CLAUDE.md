@@ -1,19 +1,18 @@
 # CLAUDE.md: how this repo works (s1d-labs scrape pool family)
 
 This repo is one **family** of the s1d-labs scrape pool: scrapers that run on members' GitHub Actions minutes, coordinated by
-scrape-hub (https://scrape.s1d.me). The hub is generic: it hands out queue items, sets speed per site, signs file uploads, and tracks
-requests. Everything about this family's data lives here. Below is the technical reference the runner and the hub work with; the same
-text is on home.s1d.me → Docs → Scraper guide (Part 2), and on team boxes at /usr/local/share/team-docs/13-scraper-guide.md.
+scrape-hub (https://scrape.s1d.me). The hub is generic: it hands out queue items, limits load per site, signs file uploads, and
+tracks requests. Everything about this family's data lives here. Follow the contract below exactly; it is what the runner and the
+hub enforce. The same text is on home.s1d.me → Docs → Scraper guide (Part 2).
 
 ## Working here
 
-- `family.py` holds the projects, targets, env, queue items and health checks; `scrape.json` the setup steps and tasks; the task
-  scripts do the scraping. After changing `family.py`, the **setup** workflow (Actions → setup) applies it to the hub.
-- `parse()` is pure and tested on saved pages (`tests/`); `python crawl.py --local <url>` runs one page without the hub;
-  `scrape-check` runs setup and a task against a local stand-in hub and reports what works (also run by the **check** workflow).
-- The repo is public; uploads go through `hub.upload_many` with signed links, so no storage keys are needed here.
-- The hub's speed control runs on the request metrics (`n_http`, `t_http_s`, `http_<code>`, `http_error`) and is applied through
-  `hub.settings`; a task exits when the queue is empty and the runner asks for the next one.
+- Edit `family.py` (projects, targets, env, queue items, health checks), `scrape.json` (setup steps, tasks), and the task scripts.
+- Keep `parse()` pure and test it on saved pages; run `python crawl.py --local <url>` to try one page without the hub.
+- Never add secrets, tokens or storage keys anywhere in this repo. Uploads go through `hub.upload_many`.
+- After changing `family.py`, the owner runs the **setup** workflow (Actions → setup) to apply it.
+- Be polite to the site: report every request (`n_http`, `t_http_s`, `http_<code>`, `http_error`), obey `hub.settings`, back off on
+  403/429/503, exit when the queue is empty.
 
 
 ### Repository layout (`s1d-labs/<family>`, public)
@@ -26,7 +25,7 @@ text is on home.s1d.me → Docs → Scraper guide (Part 2), and on team boxes at
 | task scripts | yes | e.g. `crawl.py`; one per task named in `scrape.json` |
 | `requirements.txt` | usually | installed by a `setup` step |
 
-- `family` is the repo name, and a family that exists on the hub (the hub owner adds it).
+- `family` must equal the repo name and a family that exists on the hub (the hub owner adds it).
 - `tasks`: names match `^[a-z0-9][a-z0-9_-]{0,40}$`; commands are argv lists. `"python"` is replaced by the runner's interpreter.
 - `setup` commands run once per runner job, in the repo root, before any task (e.g. `pip install -r requirements.txt`).
 
@@ -165,24 +164,16 @@ per thread. `HubClient` is thread-safe for `record`, `metric`, `failure`, `uploa
 
 ### Testing
 
-- **Parsing**: keep `parse()` pure and test it with saved pages (`tests/test_parse.py`, pages in `tests/pages/`); `python -m pytest tests`.
-- **One page, no hub**: `python crawl.py --local <url>` (template) fetches a page and prints the records.
-- **Against the hub's API**: `scrape-check` (from `scrape-hub-client` ≥ 0.5, `pip install "scrape-hub-client @ git+https://github.com/s1d-labs/runner@main#subdirectory=sdk"`).
-  It runs `setup_family.py` and one task against `scrape_hub_client.testhub.TestHub`, a local stand-in that answers the same runner API
-  with the same validation, using the runner's env vars, cwd and argv. Options: `--items N` (default 3), `--project`, `--task`,
-  `--pause S` (seconds the hub reports paused at the start, default 5, 0 = off), `--no-rerun`, `--timeout S`, `--json`; for repos without
-  `setup_family.py`: `--project P --task T --env K=V --item '{"key": "...", "payload": {...}}'`. Exit code 0 = no FAIL.
-  Checks: scrape.json (family name, tasks, scripts exist), setup runs, pool entries (family, task in scrape.json, target, probe
-  registered), health checks, and for each run: exits on its own with code 0, starts a run, waits while paused (an empty claim while
-  `paused` is not the end of the queue), claims all N items, completes every claimed item, ≥ 1 done, records stored, `n_http` and
-  `t_http_s` reported, run closed as finished, no call rejected; then the rerun stores the same record ids. Output in `.scrape-check/`.
-- **CI**: `.github/workflows/check.yml` (template) runs the parsing tests and `scrape-check --items 2` on every push.
-- **First pool run**: seed 3-5 items, run setup, and watch scrape.s1d.me → Runs before seeding the rest.
+- Keep `parse()` pure and test it with saved pages (`pytest` in the repo).
+- `python crawl.py --local <url>` (template) fetches one page and prints the records, without the hub.
+- The runner can be dry-run against a checkout: `python -m runner.worker --family <f> --family-dir . --dry-run --hub-fake`
+  (from a clone of s1d-labs/runner) prints the exact command and env it would run.
+- First real run: seed 3-5 items, run setup, and watch scrape.s1d.me → Runs before seeding the rest.
 
-### Common pitfalls
+### Don'ts
 
-- Secrets in the repo or in `env`: family repos are public, and uploads work without keys (`upload_many`).
-- Projects of other families: the hub refuses writes to them.
-- An endless loop on an empty queue, or tight retries of a failing request: exiting and letting the hub retry works better.
-- Fetching what is already stored, when the site's ids allow checking first.
-- Renaming tasks in `scrape.json` without updating the projects' pool entries (`set_pool`).
+- No secrets in the repo or in `env`. No storage keys: use `upload_many`.
+- Don't create projects for other families or write to them (the hub refuses).
+- Don't loop forever on an empty queue, and don't retry a failing request in a tight loop.
+- Don't fetch what is already stored when the site's ids let you check first.
+- Don't change `scrape.json` task names without updating your projects' pool entries (`set_pool`).

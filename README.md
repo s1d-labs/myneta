@@ -1,45 +1,32 @@
-# family-template
+# myneta
 
-Start a new scraping family for the s1d-labs pool. A family is one kind of site (or one platform many sites share); the pool runs
-its code on members' GitHub Actions minutes. This template is a complete, working family for
-[books.toscrape.com](https://books.toscrape.com) (a public site made for scraping practice): copy it, then change it.
+Scraper family `myneta` (repo s1d-labs/myneta) for the s1d-labs scrape pool (https://scrape.s1d.me): planned-sources category **E, political links and public
+officials** (https://india.s1d.me/#/planned-sources). `CLAUDE.md` is the pool contract; `handoff/` has per-source notes; `CONSENT.md` records site permissions (MyNeta needs ADR's).
 
-## Make your family
+| Source | Project | Task | Host |
+|---|---|---|---|
+| E02 candidate affidavits, winners, expenses (MyNeta / ADR) | myneta-candidates | `myneta` | myneta.info |
+| E04/E06 party donations and income-expenditure, ADR's bond tables (MyNeta) | myneta-party | `myneta_party` | myneta.info |
+| E03 electoral bonds (March 2024) | myneta-bonds | `eci_docs` | raw.githubusercontent.com (pinned, sha256-checked copy of ECI's PDFs) |
+| E04 Form 24A contributions, E06 party audits (E05 trusts once the catalog token is found) | myneta-eci | `eci_docs` | www.eci.gov.in |
+| E07 MPs (Lok Sabha, Rajya Sabha) | myneta-sansad | `members` | sansad.in |
+| E07 Kerala MLAs, assemblies 1-16 | myneta-kerala | `members` | niyamasabha.org |
+| E07 Lok Sabha, assembly and minister terms | myneta-wikidata | `members` | www.wikidata.org |
+| E08 IAS officers and postings (ER sheets) | myneta-ias-er | `civil_list` | supremo.nic.in |
+| E11 government organisation directory | myneta-igod | `igod` | igod.gov.in |
 
-1. Ask the hub owner to **add the family** on [scrape.s1d.me/runners](https://scrape.s1d.me/runners) (name, what it scrapes, owner).
-2. **Use this template** → owner **s1d-labs**, name = the family name, **Public** (public repos get free Actions minutes).
-3. In your repo:
-   - `scrape.json`: set `"family"` to the family name; list your tasks (one command each) and setup steps.
-   - `family.py`: your projects (one queue of work per site), their target hosts, the env your command needs, the queue items,
-     and the health checks.
-   - `crawl.py` (or whatever your tasks run): the scraper.
-4. **Check it**: `scrape-check` in the repo (needs `pip install "scrape-hub-client @ git+https://github.com/s1d-labs/runner@main#subdirectory=sdk"`).
-   It runs your setup and task against a local stand-in hub on 3 real items and says what works. The **check** workflow runs it
-   (and `tests/`) on every push.
-5. Run the **setup** workflow (Actions → setup → Run workflow). It registers the projects, puts them in the pool and registers
-   the health checks.
-6. The hub starts runs in members' accounts when the pool is on and there is work. Watch it on scrape.s1d.me.
+## Running it
 
-## What your code gets
+1. **plan-myneta** and **plan-myneta-party** workflows: list MyNeta's elections and parties into `data/` (committed back).
+2. **setup** workflow with `max_items` 3-5: registers the projects, health checks and a small trial queue. Watch scrape.s1d.me → Runs.
+3. If the trial looks right, run **setup** again with `max_items` empty to seed everything (existing items are kept).
 
-The pool worker ([s1d-labs/runner](https://github.com/s1d-labs/runner)) checks out this repo at `main`, runs the `setup` steps from
-`scrape.json`, and for each assignment runs the task's command here with:
+Locally: `python -m venv .venv && .venv/bin/pip install -r requirements.txt pytest "scrape-hub-client @ git+https://github.com/s1d-labs/runner@main#subdirectory=sdk"`,
+then `.venv/bin/python -m pytest tests`, `python <task>.py --local ...`, and `.venv/bin/scrape-check`.
+Test pages live in `tests/pages/` and are not committed (they hold personal data): `tests/fetch_*_pages.py` re-fetch them.
 
-| Variable | What |
-|---|---|
-| `SCRAPE_POOL_PROJECT` | the project to work on |
-| `SCRAPE_JOB_INDEX`, `SCRAPE_TOTAL_JOBS` | this worker's slice |
-| `SCRAPE_MAX_HOURS` | how long the command may run |
-| `SCRAPE_HUB_URL` | the hub |
-| your project's `env` | e.g. `SITE` |
+## Personal data (DPDP Act)
 
-Use `scrape_hub_client` (`HubClient`) to claim queue items, store records, upload files and report counters. Exit when there is
-nothing left; the worker then asks the hub for the next assignment.
-
-## Rules (the full contract is in CLAUDE.md, written for people and for Claude Code)
-
-- **Be polite.** Use `hub.settings["threads"]` and `delay_ms`, idle while `hub.settings["paused"]`, and report `n_http` and
-  `t_http_s` for every request and `http_<code>` / `http_error` for failures: the hub throttles you from these.
-- **Files go through the hub** (`hub.upload_many`): it signs each upload into the family's bucket (500 GB per member) and stops at
-  the cap. Never put storage keys in this repo.
-- **Public data only**; read the site's terms first. See the team docs on home.s1d.me (Scraping rules).
+Records keep what links people to parties, firms, contracts, posts and cases. Left out on purpose: voter-roll numbers, property
+addresses, bank lines, private lenders, income-tax figures, phone numbers, emails, home addresses, family details, full dates of birth.
+Tests check that these never reach a record.

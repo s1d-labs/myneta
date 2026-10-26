@@ -1,0 +1,3291 @@
+{
+ "generated": "2026-10-26",
+ "source": "saved ECI get-custom-report answers: contrib_24a=tests/pages/eci/catalog_contribution_reports.json audit=tests/pages/eci/catalog_annual_audit_reports.json",
+ "documents": [
+  {
+   "url": "https://www.eci.gov.in/eci-backend/public//pdf/report/October/1792127112.pdf",
+   "kind": "contrib_24a",
+   "party": "Jannayak Janta Party",
+   "year": "2025-26",
+   "title": "Jannayak Janta Party - Contribution Report for FY 2025-26",
+   "revised": false,
+   "expected": 0
+  },
+  {
+   "url": "https://www.eci.gov.in/eci-backend/public//pdf/report/October/1792127093.pdf",
+   "kind": "contrib_24a",
+   "party": "Shiromani Akali Dal",
+   "year": "2025-26",
+   "title": "Shiromani Akali Dal - Contribution Report for FY 2025-26",
+   "revised": false,
+   "expected": 0
+  },
+  {
+   "url": "https://www.eci.gov.in/eci-backend/public//pdf/report/October/1792127074.pdf",
+   "kind": "contrib_24a",
+   "party": "Indian Union Muslim League",
+   "year": "2025-26",
+   "title": "Indian Union Muslim League - Contribution Report for FY 2025-26",
+   "revised": false,
+   "expected": 0
+  },
+  {
+   "url": "https://www.eci.gov.in/eci-backend/public//pdf/report/October/1792127042.pdf",
+   "kind": "contrib_24a",
+   "party": "Dravida Munnetra Kazhagam",
+   "year": "2025-26",
+   "title": "Dravida Munnetra Kazhagam - Contribution Report for FY 2025-26",
+   "revised": false,
+   "expected": 0
+  },
+  {
+   "url": "https://www.eci.gov.in/eci-backend/public//pdf/report/October/1792127015.pdf",
+   "kind": "contrib_24a",
+   "party": "Maharashtra Navnirman Sena",
+   "year": "2025-26",
+   "title": "Maharashtra Navnirman Sena - Contribution Report for FY 2025-26",
+   "revised": false,
+   "expected": 0
+  },
+  {
+   "url": "https://www.eci.gov.in/eci-backend/public//pdf/report/October/1791971396.pdf",
+   "kind": "contrib_24a",
+   "party": "Communist Party of India (Marxist-Leninist) Liberation",
+   "year": "2025-26",
+   "title": "Communist Party of India (Marxist-Leninist) Liberation - Contribution Report for FY 2025-26",
+   "revised": false,
+   "expected": 0
+  },
+  {
+   "url": "https://www.eci.gov.in/eci-backend/public//pdf/report/October/1791971335.pdf",
+   "kind": "contrib_24a",
+   "party": "Naga People's Front",
+   "year": "2025-26",
+   "title": "Naga People's Front - Contribution Report for FY 2025-26",
+   "revised": false,
+   "expected": 0
+  },
+  {
+   "url": "https://www.eci.gov.in/eci-backend/public//pdf/report/October/1791971311.pdf",
+   "kind": "contrib_24a",
+   "party": "Goa Forward Party",
+   "year": "2025-26",
+   "title": "Goa Forward Party - Contribution Report for FY 2025-26",
+   "revised": false,
+   "expected": 0
+  },
+  {
+   "url": "https://www.eci.gov.in/eci-backend/public//pdf/report/October/1791525010.pdf",
+   "kind": "contrib_24a",
+   "party": "National People's Party",
+   "year": "2025-26",
+   "title": "National People's Party - Contribution Report for FY 2025-26",
+   "revised": false,
+   "expected": 0
+  },
+  {
+   "url": "https://www.eci.gov.in/eci-backend/public//pdf/report/October/1791355461.pdf",
+   "kind": "contrib_24a",
+   "party": "All India Anna Dravida Munnetra Kazhagam",
+   "year": "2025-26",
+   "title": "All India Anna Dravida Munnetra Kazhagam - Contribution Report for FY 2025-26",
+   "revised": false,
+   "expected": 0
+  },
+  {
+   "url": "https://www.eci.gov.in/eci-backend/public//pdf/report/September/1790594555.pdf",
+   "kind": "contrib_24a",
+   "party": "Lok Janshakti Party (Ram Vilas)",
+   "year": "2025-26",
+   "title": "Lok Janshakti Party (Ram Vilas) - Contribution Report for FY 2025-26",
+   "revised": false,
+   "expected": 0
+  },
+  {
+   "url": "https://www.eci.gov.in/eci-backend/public//pdf/report/September/1790313299.pdf",
+   "kind": "contrib_24a",
+   "party": "Aam Aadmi Party",
+   "year": "2025-26",
+   "title": "Aam Aadmi Party - Contribution Report for FY 2025-26",
+   "revised": false,
+   "expected": 0
+  },
+  {
+   "url": "https://www.eci.gov.in/eci-backend/public//pdf/report/September/1790313274.pdf",
+   "kind": "contrib_24a",
+   "party": "Telugu Desam Party",
+   "year": "2025-26",
+   "title": "Telugu Desam Party - Contribution Report for FY 2025-26",
+   "revised": false,
+   "expected": 0
+  },
+  {
+   "url": "https://www.eci.gov.in/eci-backend/public//pdf/report/September/1790155495.pdf",
+   "kind": "contrib_24a",
+   "party": "Bharat Rashtra Samithi",
+   "year": "2025-26",
+   "title": "Bharat Rashtra Samithi - Contribution Report for FY 2025-26",
+   "revised": false,
+   "expected": 0
+  },
+  {
+   "url": "https://www.eci.gov.in/eci-backend/public//pdf/report/September/1790155476.pdf",
+   "kind": "contrib_24a",
+   "party": "Asom Gana Parishad",
+   "year": "2025-26",
+   "title": "Asom Gana Parishad - Contribution Report for FY 2025-26",
+   "revised": false,
+   "expected": 0
+  },
+  {
+   "url": "https://www.eci.gov.in/eci-backend/public//pdf/report/September/1789989534.pdf",
+   "kind": "contrib_24a",
+   "party": "Rashtriya Loktantrik Party",
+   "year": "2025-26",
+   "title": "Rashtriya Loktantrik Party - Contribution Report for FY 2025-26",
+   "revised": false,
+   "expected": 0
+  },
+  {
+   "url": "https://www.eci.gov.in/eci-backend/public//pdf/report/September/1789989513.pdf",
+   "kind": "contrib_24a",
+   "party": "Biju Janata Dal",
+   "year": "2025-26",
+   "title": "Biju Janata Dal - Contribution Report for FY 2025-26",
+   "revised": false,
+   "expected": 0
+  },
+  {
+   "url": "https://www.eci.gov.in/eci-backend/public//pdf/report/September/1789989494.pdf",
+   "kind": "contrib_24a",
+   "party": "Sikkim Krantikari Morcha",
+   "year": "2025-26",
+   "title": "Sikkim Krantikari Morcha - Contribution Report for FY 2025-26",
+   "revised": false,
+   "expected": 0
+  },
+  {
+   "url": "https://www.eci.gov.in/eci-backend/public//pdf/report/September/1788758268.pdf",
+   "kind": "contrib_24a",
+   "party": "Yuvajana Sramika Rythu Congress Party",
+   "year": "2025-26",
+   "title": "Yuvajana Sramika Rythu Congress Party - Contribution Report for FY 2025-26",
+   "revised": false,
+   "expected": 0
+  },
+  {
+   "url": "https://www.eci.gov.in/eci-backend/public//pdf/report/August/1786947994.pdf",
+   "kind": "contrib_24a",
+   "party": "Maharashtrawadi Gomantak",
+   "year": "2025-26",
+   "title": "Maharashtrawadi Gomantak - Contribution Report for FY 2025-26",
+   "revised": false,
+   "expected": 0
+  },
+  {
+   "url": "https://www.eci.gov.in/eci-backend/public//pdf/report/August/1785756158.pdf",
+   "kind": "contrib_24a",
+   "party": "Kerala Congress (M)",
+   "year": "2025-26",
+   "title": "Kerala Congress (M) - Contribution Report for FY 2025-26",
+   "revised": false,
+   "expected": 0
+  },
+  {
+   "url": "https://www.eci.gov.in/eci-backend/public//pdf/report/July/1783919404.pdf",
+   "kind": "contrib_24a",
+   "party": "All India United Democratic Front",
+   "year": "2025-26",
+   "title": "All India United Democratic Front - Contribution Report for FY 2025-26",
+   "revised": false,
+   "expected": 0
+  },
+  {
+   "url": "https://www.eci.gov.in/eci-backend/public//pdf/report/July/1783572179.pdf",
+   "kind": "contrib_24a",
+   "party": "Bharat Adivasi Party",
+   "year": "2024-25",
+   "title": "Bharat Adivasi Party - Contribution Report for FY 2024-25",
+   "revised": false,
+   "expected": 0
+  },
+  {
+   "url": "https://www.eci.gov.in/eci-backend/public//pdf/report/March/1774440395.pdf",
+   "kind": "contrib_24a",
+   "party": "Indian Union Muslim League",
+   "year": "2024-25",
+   "title": "Indian Union Muslim League - Contribution Report for FY 2024-25",
+   "revised": false,
+   "expected": 0
+  },
+  {
+   "url": "https://www.eci.gov.in/eci-backend/public//pdf/report/January/1767327438.pdf",
+   "kind": "contrib_24a",
+   "party": "Communist Party of India",
+   "year": "2024-25",
+   "title": "Communist Party of India - Contribution Report for FY 2024-25",
+   "revised": false,
+   "expected": 0
+  },
+  {
+   "url": "https://www.eci.gov.in/eci-backend/public//pdf/report/January/1767327407.pdf",
+   "kind": "contrib_24a",
+   "party": "Janata Dal (Secular)",
+   "year": "2024-25",
+   "title": "Janata Dal (Secular) - Contribution Report for FY 2024-25",
+   "revised": false,
+   "expected": 0
+  },
+  {
+   "url": "https://www.eci.gov.in/eci-backend/public//pdf/report/January/1767327387.pdf",
+   "kind": "contrib_24a",
+   "party": "Indian National Lok Dal",
+   "year": "2024-25",
+   "title": "Indian National Lok Dal - Contribution Report for FY 2024-25",
+   "revised": false,
+   "expected": 0
+  },
+  {
+   "url": "https://www.eci.gov.in/eci-backend/public//pdf/report/December/1766120349.pdf",
+   "kind": "contrib_24a",
+   "party": "Bharatiya Janata Party",
+   "year": "2024-25",
+   "title": "Bharatiya Janata Party - Contribution Report for FY 2024-25",
+   "revised": false,
+   "expected": 0
+  },
+  {
+   "url": "https://www.eci.gov.in/eci-backend/public//pdf/report/December/1766119759.pdf",
+   "kind": "contrib_24a",
+   "party": "Communist Party of India (Marxist)",
+   "year": "2024-25",
+   "title": "Communist Party of India (Marxist) - Contribution Report for FY 2024-25",
+   "revised": false,
+   "expected": 0
+  },
+  {
+   "url": "https://www.eci.gov.in/eci-backend/public//pdf/report/December/1765881693.pdf",
+   "kind": "contrib_24a",
+   "party": "Jharkhand Mukti Morcha",
+   "year": "2024-25",
+   "title": "Jharkhand Mukti Morcha - Contribution Report for FY 2024-25",
+   "revised": false,
+   "expected": 0
+  },
+  {
+   "url": "https://www.eci.gov.in/eci-backend/public//pdf/report/December/1765881638.pdf",
+   "kind": "contrib_24a",
+   "party": "Desiya Murpokku Dravida Kazhagam",
+   "year": "2024-25",
+   "title": "Desiya Murpokku Dravida Kazhagam - Contribution Report for FY 2024-25",
+   "revised": false,
+   "expected": 0
+  },
+  {
+   "url": "https://www.eci.gov.in/eci-backend/public//pdf/report/December/1765881560.pdf",
+   "kind": "contrib_24a",
+   "party": "Sikkim Democratic Front",
+   "year": "2024-25",
+   "title": "Sikkim Democratic Front - Contribution Report for FY 2024-25",
+   "revised": false,
+   "expected": 0
+  },
+  {
+   "url": "https://www.eci.gov.in/eci-backend/public//pdf/report/December/1765881537.pdf",
+   "kind": "contrib_24a",
+   "party": "Nationalist Democratic Progressive Party",
+   "year": "2024-25",
+   "title": "Nationalist Democratic Progressive Party - Contribution Report for FY 2024-25",
+   "revised": false,
+   "expected": 0
+  },
+  {
+   "url": "https://www.eci.gov.in/eci-backend/public//pdf/report/November/1764227474.pdf",
+   "kind": "contrib_24a",
+   "party": "Indian National Congress",
+   "year": "2024-25",
+   "title": "Indian National Congress - Contribution Report for FY 2024-25",
+   "revised": false,
+   "expected": 0
+  },
+  {
+   "url": "https://www.eci.gov.in/eci-backend/public//pdf/report/November/1764227451.pdf",
+   "kind": "contrib_24a",
+   "party": "AJSU Party",
+   "year": "2024-25",
+   "title": "AJSU Party - Contribution Report for FY 2024-25",
+   "revised": false,
+   "expected": 0
+  },
+  {
+   "url": "https://www.eci.gov.in/eci-backend/public//pdf/report/November/1764227412.pdf",
+   "kind": "contrib_24a",
+   "party": "Telugu Desam Party",
+   "year": "2024-25",
+   "title": "Telugu Desam Party - Contribution Report for FY 2024-25",
+   "revised": false,
+   "expected": 0
+  },
+  {
+   "url": "https://www.eci.gov.in/eci-backend/public//pdf/report/November/1764227377.pdf",
+   "kind": "contrib_24a",
+   "party": "Maharashtra Navnirman Sena",
+   "year": "2024-25",
+   "title": "Maharashtra Navnirman Sena - Contribution Report for FY 2024-25",
+   "revised": false,
+   "expected": 0
+  },
+  {
+   "url": "https://www.eci.gov.in/eci-backend/public//pdf/report/November/1764227347.pdf",
+   "kind": "contrib_24a",
+   "party": "Apna Dal (Soneylal)",
+   "year": "2024-25",
+   "title": "Apna Dal (Soneylal) - Contribution Report for FY 2024-25",
+   "revised": false,
+   "expected": 0
+  },
+  {
+   "url": "https://www.eci.gov.in/eci-backend/public//pdf/report/November/1764226939.pdf",
+   "kind": "contrib_24a",
+   "party": "All India Majilis-e-Ittehadul Muslimeen",
+   "year": "2024-25",
+   "title": "All India Majilis-e-Ittehadul Muslimeen - Contribution Report for FY 2024-25",
+   "revised": false,
+   "expected": 0
+  },
+  {
+   "url": "https://www.eci.gov.in/eci-backend/public//pdf/report/November/1764226897.pdf",
+   "kind": "contrib_24a",
+   "party": "Janasena Party",
+   "year": "2024-25",
+   "title": "Janasena Party - Contribution Report for FY 2024-25",
+   "revised": false,
+   "expected": 0
+  },
+  {
+   "url": "https://www.eci.gov.in/eci-backend/public//pdf/report/November/1764226622.pdf",
+   "kind": "contrib_24a",
+   "party": "Communist Party of India (Marxist-Leninist) Liberation",
+   "year": "2024-25",
+   "title": "Communist Party of India (Marxist-Leninist) Liberation - Contribution Report for FY 2024-25",
+   "revised": false,
+   "expected": 0
+  },
+  {
+   "url": "https://www.eci.gov.in/eci-backend/public//pdf/report/November/1764226555.pdf",
+   "kind": "contrib_24a",
+   "party": "Janata Dal (United)",
+   "year": "2024-25",
+   "title": "Janata Dal (United) - Contribution Report for FY 2024-25",
+   "revised": false,
+   "expected": 0
+  },
+  {
+   "url": "https://www.eci.gov.in/eci-backend/public//pdf/report/October/1761296419.pdf",
+   "kind": "contrib_24a",
+   "party": "Samajwadi Party",
+   "year": "2024-25",
+   "title": "Samajwadi Party - Contribution Report for FY 2024-25",
+   "revised": false,
+   "expected": 0
+  },
+  {
+   "url": "https://www.eci.gov.in/eci-backend/public//pdf/report/October/1761296395.pdf",
+   "kind": "contrib_24a",
+   "party": "Naam Tamilar Katchi",
+   "year": "2024-25",
+   "title": "Naam Tamilar Katchi - Contribution Report for FY 2024-25",
+   "revised": false,
+   "expected": 0
+  },
+  {
+   "url": "https://www.eci.gov.in/eci-backend/public//pdf/report/October/1761296373.pdf",
+   "kind": "contrib_24a",
+   "party": "All India Trinamool Congress",
+   "year": "2024-25",
+   "title": "All India Trinamool Congress - Contribution Report for FY 2024-25",
+   "revised": false,
+   "expected": 0
+  },
+  {
+   "url": "https://www.eci.gov.in/eci-backend/public//pdf/report/October/1761296349.pdf",
+   "kind": "contrib_24a",
+   "party": "Shiromani Akali Dal",
+   "year": "2024-25",
+   "title": "Shiromani Akali Dal - Contribution Report for FY 2024-25",
+   "revised": false,
+   "expected": 0
+  },
+  {
+   "url": "https://www.eci.gov.in/eci-backend/public//pdf/report/October/1761296330.pdf",
+   "kind": "contrib_24a",
+   "party": "Sikkim Krantikari Morcha",
+   "year": "2024-25",
+   "title": "Sikkim Krantikari Morcha - Contribution Report for FY 2024-25",
+   "revised": false,
+   "expected": 0
+  },
+  {
+   "url": "https://www.eci.gov.in/eci-backend/public//pdf/report/October/1761296304.pdf",
+   "kind": "contrib_24a",
+   "party": "Bharat Rashtra Samithi",
+   "year": "2024-25",
+   "title": "Bharat Rashtra Samithi - Contribution Report for FY 2024-25",
+   "revised": false,
+   "expected": 0
+  },
+  {
+   "url": "https://www.eci.gov.in/eci-backend/public//pdf/report/October/1760615540.pdf",
+   "kind": "contrib_24a",
+   "party": "Aam Aadmi Party",
+   "year": "2024-25",
+   "title": "Aam Aadmi Party - Contribution Report for FY 2024-25",
+   "revised": false,
+   "expected": 0
+  },
+  {
+   "url": "https://www.eci.gov.in/eci-backend/public//pdf/report/October/1760615501.pdf",
+   "kind": "contrib_24a",
+   "party": "Revolutionary Goans Party",
+   "year": "2024-25",
+   "title": "Revolutionary Goans Party - Contribution Report for FY 2024-25",
+   "revised": false,
+   "expected": 0
+  },
+  {
+   "url": "https://www.eci.gov.in/eci-backend/public//pdf/report/October/1760615455.pdf",
+   "kind": "contrib_24a",
+   "party": "Yuvajana Sramika Rythu Congress Party",
+   "year": "2024-25",
+   "title": "Yuvajana Sramika Rythu Congress Party - Contribution Report for FY 2024-25",
+   "revised": false,
+   "expected": 0
+  },
+  {
+   "url": "https://www.eci.gov.in/eci-backend/public//pdf/report/October/1760615424.pdf",
+   "kind": "contrib_24a",
+   "party": "Dravida Munnetra Kazhagam",
+   "year": "2024-25",
+   "title": "Dravida Munnetra Kazhagam - Contribution Report for FY 2024-25",
+   "revised": false,
+   "expected": 0
+  },
+  {
+   "url": "https://www.eci.gov.in/eci-backend/public//pdf/report/October/1759814662.pdf",
+   "kind": "contrib_24a",
+   "party": "National People's Party",
+   "year": "2024-25",
+   "title": "National People's Party - Contribution Report for FY 2024-25",
+   "revised": false,
+   "expected": 0
+  },
+  {
+   "url": "https://www.eci.gov.in/eci-backend/public//pdf/report/September/1759203592.pdf",
+   "kind": "contrib_24a",
+   "party": "All India Anna Dravida Munnetra Kazhagam",
+   "year": "2024-25",
+   "title": "All India Anna Dravida Munnetra Kazhagam - Contribution Report for FY 2024-25",
+   "revised": false,
+   "expected": 0
+  },
+  {
+   "url": "https://www.eci.gov.in/eci-backend/public//pdf/report/September/1759203524.pdf",
+   "kind": "contrib_24a",
+   "party": "All India United Democratic Front",
+   "year": "2024-25",
+   "title": "All India United Democratic Front - Contribution Report for FY 2024-25",
+   "revised": false,
+   "expected": 0
+  },
+  {
+   "url": "https://www.eci.gov.in/eci-backend/public//pdf/report/September/1759203497.pdf",
+   "kind": "contrib_24a",
+   "party": "Biju Janata Dal",
+   "year": "2024-25",
+   "title": "Biju Janata Dal - Contribution Report for FY 2024-25",
+   "revised": false,
+   "expected": 0
+  },
+  {
+   "url": "https://www.eci.gov.in/eci-backend/public//pdf/report/September/1757410494.pdf",
+   "kind": "contrib_24a",
+   "party": "Maharashtrawadi Gomantak",
+   "year": "2024-25",
+   "title": "Maharashtrawadi Gomantak - Contribution Report for FY 2024-25",
+   "revised": false,
+   "expected": 0
+  },
+  {
+   "url": "https://www.eci.gov.in/eci-backend/public//pdf/report/September/1757410465.pdf",
+   "kind": "contrib_24a",
+   "party": "Rashtriya Loktantrik Party",
+   "year": "2024-25",
+   "title": "Rashtriya Loktantrik Party - Contribution Report for FY 2024-25",
+   "revised": false,
+   "expected": 0
+  },
+  {
+   "url": "https://www.eci.gov.in/eci-backend/public//pdf/report/August/1755855992.pdf",
+   "kind": "contrib_24a",
+   "party": "Bahujan Samaj Party",
+   "year": "2024-25",
+   "title": "Bahujan Samaj Party - Contribution Report for FY 2024-25",
+   "revised": false,
+   "expected": 0
+  },
+  {
+   "url": "https://www.eci.gov.in/eci-backend/public//pdf/report/July/1753702364.pdf",
+   "kind": "contrib_24a",
+   "party": "Jannayak Janta Party",
+   "year": "2024-25",
+   "title": "Jannayak Janta Party - Contribution Report for FY 2024-25",
+   "revised": false,
+   "expected": 0
+  },
+  {
+   "url": "https://www.eci.gov.in/eci-backend/public//pdf/report/July/1753702321.pdf",
+   "kind": "contrib_24a",
+   "party": "Lok Jan Shakti Party (Ram Vilas)",
+   "year": "2024-25",
+   "title": "Lok Jan Shakti Party (Ram Vilas) - Contribution Report for FY 2024-25",
+   "revised": false,
+   "expected": 0
+  },
+  {
+   "url": "https://www.eci.gov.in/eci-backend/public//pdf/report/July/1753702298.pdf",
+   "kind": "contrib_24a",
+   "party": "Kerala Congress (M)",
+   "year": "2024-25",
+   "title": "Kerala Congress (M) - Contribution Report for FY 2024-25",
+   "revised": false,
+   "expected": 0
+  },
+  {
+   "url": "https://www.eci.gov.in/eci-backend/public//pdf/report/July/1753702279.pdf",
+   "kind": "contrib_24a",
+   "party": "Naga People's Front",
+   "year": "2024-25",
+   "title": "Naga People's Front - Contribution Report for FY 2024-25",
+   "revised": false,
+   "expected": 0
+  },
+  {
+   "url": "https://www.eci.gov.in/eci-backend/public//pdf/report/September/1758003425.pdf",
+   "kind": "contrib_24a",
+   "party": "Communist Party of India (Marxist)",
+   "year": "2023-24",
+   "title": "Communist Party of India (Marxist) - Revised Contribution Report for FY 2023-24",
+   "revised": true,
+   "expected": 0
+  },
+  {
+   "url": "https://www.eci.gov.in/eci-backend/public//pdf/report/February/1739788312.pdf",
+   "kind": "contrib_24a",
+   "party": "Naga People's Front",
+   "year": "2023-24",
+   "title": "Naga People's Front - Contribution Report for FY 2023-24",
+   "revised": false,
+   "expected": 0
+  },
+  {
+   "url": "https://www.eci.gov.in/eci-backend/public//pdf/report/January/1738304828.pdf",
+   "kind": "contrib_24a",
+   "party": "Asom Gana Parishad",
+   "year": "2023-24",
+   "title": "Asom Gana Parishad - Contribution Report for FY 2023-24",
+   "revised": false,
+   "expected": 0
+  },
+  {
+   "url": "https://www.eci.gov.in/eci-backend/public//pdf/report/January/1738147974.pdf",
+   "kind": "contrib_24a",
+   "party": "Jammu and Kashmir National Conference",
+   "year": "2023-24",
+   "title": "Jammu and Kashmir National Conference - Contribution Report for FY 2023-24",
+   "revised": false,
+   "expected": 0
+  },
+  {
+   "url": "https://www.eci.gov.in/eci-backend/public//pdf/report/January/1736425068.pdf",
+   "kind": "contrib_24a",
+   "party": "Communist Party of India",
+   "year": "2023-24",
+   "title": "Communist Party of India - Contribution Report for FY 2023-24",
+   "revised": false,
+   "expected": 0
+  },
+  {
+   "url": "https://www.eci.gov.in/eci-backend/public//pdf/report/January/1736425040.pdf",
+   "kind": "contrib_24a",
+   "party": "Communist Party of India",
+   "year": "2023-24",
+   "title": "Communist Party of India - Contribution Report for FY 2023-24 (From Kerala and Maharashtra Units)",
+   "revised": false,
+   "expected": 0
+  },
+  {
+   "url": "https://www.eci.gov.in/eci-backend/public//pdf/report/December/1734707140.pdf",
+   "kind": "contrib_24a",
+   "party": "Indian National Congress",
+   "year": "2023-24",
+   "title": "Indian National Congress - Contribution Report for FY 2023-24",
+   "revised": false,
+   "expected": 0
+  },
+  {
+   "url": "https://www.eci.gov.in/eci-backend/public//pdf/report/December/1734707025.pdf",
+   "kind": "contrib_24a",
+   "party": "Bharatiya Janata Party",
+   "year": "2023-24",
+   "title": "Bharatiya Janata Party - Contribution Report for FY 2023-24",
+   "revised": false,
+   "expected": 0
+  },
+  {
+   "url": "https://www.eci.gov.in/eci-backend/public//pdf/report/December/1734705083.pdf",
+   "kind": "contrib_24a",
+   "party": "Aam Aadmi Party",
+   "year": "2023-24",
+   "title": "Aam Aadmi Party - Contribution Report for FY 2023-24",
+   "revised": false,
+   "expected": 0
+  },
+  {
+   "url": "https://www.eci.gov.in/eci-backend/public//pdf/report/December/1734704704.pdf",
+   "kind": "contrib_24a",
+   "party": "Communist Party of India (Marxist)",
+   "year": "2023-24",
+   "title": "Communist Party of India (Marxist) - Contribution Report for FY 2023-24",
+   "revised": false,
+   "expected": 0
+  },
+  {
+   "url": "https://www.eci.gov.in/eci-backend/public//pdf/report/December/1734704665.pdf",
+   "kind": "contrib_24a",
+   "party": "National People's Party",
+   "year": "2023-24",
+   "title": "National People's Party - Contribution Report for FY 2023-24",
+   "revised": false,
+   "expected": 0
+  },
+  {
+   "url": "https://www.eci.gov.in/eci-backend/public//pdf/report/December/1734704633.pdf",
+   "kind": "contrib_24a",
+   "party": "Bahujan Samaj Party",
+   "year": "2023-24",
+   "title": "Bahujan Samaj Party- Contribution Report for FY 2023-24",
+   "revised": false,
+   "expected": 0
+  },
+  {
+   "url": "https://www.eci.gov.in/eci-backend/public//pdf/report/December/1734704516.pdf",
+   "kind": "contrib_24a",
+   "party": "Janata Dal (Secular)",
+   "year": "2023-24",
+   "title": "Janata Dal (Secular) - Contribution Report for FY 2023-24",
+   "revised": false,
+   "expected": 0
+  },
+  {
+   "url": "https://www.eci.gov.in/eci-backend/public//pdf/report/December/1734704471.pdf",
+   "kind": "contrib_24a",
+   "party": "Janata Dal (United)",
+   "year": "2023-24",
+   "title": "Janata Dal (United) - Contribution Report for FY 2023-24",
+   "revised": false,
+   "expected": 0
+  },
+  {
+   "url": "https://www.eci.gov.in/eci-backend/public//pdf/report/December/1734704438.pdf",
+   "kind": "contrib_24a",
+   "party": "All India Trinamool Congress",
+   "year": "2023-24",
+   "title": "All India Trinamool Congress - Contribution Report for FY 2023-24",
+   "revised": false,
+   "expected": 0
+  },
+  {
+   "url": "https://www.eci.gov.in/eci-backend/public//pdf/report/December/1734704367.pdf",
+   "kind": "contrib_24a",
+   "party": "Dravida Munnetra Kazhagam",
+   "year": "2023-24",
+   "title": "Dravida Munnetra Kazhagam - Contribution Report for FY 2023-24",
+   "revised": false,
+   "expected": 0
+  },
+  {
+   "url": "https://www.eci.gov.in/eci-backend/public//pdf/report/December/1734704325.pdf",
+   "kind": "contrib_24a",
+   "party": "Telegu Desam Party",
+   "year": "2023-24",
+   "title": "Telegu Desam Party - Contribution Report for FY 2023-24",
+   "revised": false,
+   "expected": 0
+  },
+  {
+   "url": "https://www.eci.gov.in/eci-backend/public//pdf/report/December/1734704297.pdf",
+   "kind": "contrib_24a",
+   "party": "Bharat Rashtra Samithi",
+   "year": "2023-24",
+   "title": "Bharat Rashtra Samithi - Contribution Report for FY 2023-24",
+   "revised": false,
+   "expected": 0
+  },
+  {
+   "url": "https://www.eci.gov.in/eci-backend/public//pdf/report/December/1734704269.pdf",
+   "kind": "contrib_24a",
+   "party": "Jharkhand Mukti Morcha",
+   "year": "2023-24",
+   "title": "Jharkhand Mukti Morcha- Contribution Report for FY 2023-24",
+   "revised": false,
+   "expected": 0
+  },
+  {
+   "url": "https://www.eci.gov.in/eci-backend/public//pdf/report/December/1734704237.pdf",
+   "kind": "contrib_24a",
+   "party": "Maharashtra Navnirman Sena",
+   "year": "2023-24",
+   "title": "Maharashtra Navnirman Sena - Contribution Report for FY 2023-24",
+   "revised": false,
+   "expected": 0
+  },
+  {
+   "url": "https://www.eci.gov.in/eci-backend/public//pdf/report/December/1734704201.pdf",
+   "kind": "contrib_24a",
+   "party": "Shriomani Akali Dal",
+   "year": "2023-24",
+   "title": "Shriomani Akali Dal - Contribution Report for FY 2023-24",
+   "revised": false,
+   "expected": 0
+  },
+  {
+   "url": "https://www.eci.gov.in/eci-backend/public//pdf/report/December/1734704167.pdf",
+   "kind": "contrib_24a",
+   "party": "Yuvajana Sramika Rythu Congress Party",
+   "year": "2023-24",
+   "title": "Yuvajana Sramika Rythu Congress Party - Contribution Report for FY 2023-24",
+   "revised": false,
+   "expected": 0
+  },
+  {
+   "url": "https://www.eci.gov.in/eci-backend/public//pdf/report/December/1734704128.pdf",
+   "kind": "contrib_24a",
+   "party": "Rashtriya Loktantrik Party",
+   "year": "2023-24",
+   "title": "Rashtriya Loktantrik Party- Contribution Report for FY 2023-24",
+   "revised": false,
+   "expected": 0
+  },
+  {
+   "url": "https://www.eci.gov.in/eci-backend/public//pdf/report/December/1734704065.pdf",
+   "kind": "contrib_24a",
+   "party": "Desiya Murpokku Dravida Kazhagam",
+   "year": "2023-24",
+   "title": "Desiya Murpokku Dravida Kazhagam - Contribution Report for FY 2023-24",
+   "revised": false,
+   "expected": 0
+  },
+  {
+   "url": "https://www.eci.gov.in/eci-backend/public//pdf/report/December/1734704010.pdf",
+   "kind": "contrib_24a",
+   "party": "Apna Dal (Soneylal)",
+   "year": "2023-24",
+   "title": "Apna Dal (Soneylal) - Contribution Report for FY 2023-24",
+   "revised": false,
+   "expected": 0
+  },
+  {
+   "url": "https://www.eci.gov.in/eci-backend/public//pdf/report/December/1734703967.pdf",
+   "kind": "contrib_24a",
+   "party": "Communist Party of India (Marxist-Leninist) Liberation",
+   "year": "2023-24",
+   "title": "Communist Party of India (Marxist-Leninist) Liberation - Contribution Report for FY 2023-24",
+   "revised": false,
+   "expected": 0
+  },
+  {
+   "url": "https://www.eci.gov.in/eci-backend/public//pdf/report/December/1734703928.pdf",
+   "kind": "contrib_24a",
+   "party": "Indian National Lok Dal",
+   "year": "2023-24",
+   "title": "Indian National Lok Dal - Contribution Report for FY 2023-24",
+   "revised": false,
+   "expected": 0
+  },
+  {
+   "url": "https://www.eci.gov.in/eci-backend/public//pdf/report/December/1734703900.pdf",
+   "kind": "contrib_24a",
+   "party": "Samajwadi Party",
+   "year": "2023-24",
+   "title": "Samajwadi Party - Contribution Report for FY 2023-24",
+   "revised": false,
+   "expected": 0
+  },
+  {
+   "url": "https://www.eci.gov.in/eci-backend/public//pdf/report/December/1734703874.pdf",
+   "kind": "contrib_24a",
+   "party": "National Democratic Progressive Party",
+   "year": "2023-24",
+   "title": "National Democratic Progressive Party - Contribution Report for FY 2023-24",
+   "revised": false,
+   "expected": 0
+  },
+  {
+   "url": "https://www.eci.gov.in/eci-backend/public//pdf/report/December/1734703843.pdf",
+   "kind": "contrib_24a",
+   "party": "Voice of the People Party",
+   "year": "2023-24",
+   "title": "Voice of the People Party - Contribution Report for FY 2023-24",
+   "revised": false,
+   "expected": 0
+  },
+  {
+   "url": "https://www.eci.gov.in/eci-backend/public//pdf/report/December/1734703812.pdf",
+   "kind": "contrib_24a",
+   "party": "AJSU Party",
+   "year": "2023-24",
+   "title": "AJSU Party - Contribution Report for FY 2023-24",
+   "revised": false,
+   "expected": 0
+  },
+  {
+   "url": "https://www.eci.gov.in/eci-backend/public//pdf/report/December/1734703783.pdf",
+   "kind": "contrib_24a",
+   "party": "Sikkim Krantikari Morcha",
+   "year": "2023-24",
+   "title": "Sikkim Krantikari Morcha - Contribution Report for FY 2023-24",
+   "revised": false,
+   "expected": 0
+  },
+  {
+   "url": "https://www.eci.gov.in/eci-backend/public//pdf/report/December/1734703748.pdf",
+   "kind": "contrib_24a",
+   "party": "All India Majilis-e-Ittehadul Muslimeen",
+   "year": "2023-24",
+   "title": "All India Majilis-e-Ittehadul Muslimeen - Contribution Report for FY 2023-24",
+   "revised": false,
+   "expected": 0
+  },
+  {
+   "url": "https://www.eci.gov.in/eci-backend/public//pdf/report/December/1734703647.pdf",
+   "kind": "contrib_24a",
+   "party": "Biju Janata Dal",
+   "year": "2023-24",
+   "title": "Biju Janata Dal - Contribution Report for FY 2023-24",
+   "revised": false,
+   "expected": 0
+  },
+  {
+   "url": "https://www.eci.gov.in/eci-backend/public//pdf/report/December/1734703616.pdf",
+   "kind": "contrib_24a",
+   "party": "Goa Forward Party",
+   "year": "2023-24",
+   "title": "Goa Forward Party - Contribution Report for FY 2023-24",
+   "revised": false,
+   "expected": 0
+  },
+  {
+   "url": "https://www.eci.gov.in/eci-backend/public//pdf/report/December/1734703559.pdf",
+   "kind": "contrib_24a",
+   "party": "Revolutionary Goans Party",
+   "year": "2023-24",
+   "title": "Revolutionary Goans Party - Contribution Report for FY 2023-24",
+   "revised": false,
+   "expected": 0
+  },
+  {
+   "url": "https://www.eci.gov.in/eci-backend/public//pdf/report/December/1734703520.pdf",
+   "kind": "contrib_24a",
+   "party": "All India United Democratic Front",
+   "year": "2023-24",
+   "title": "All India United Democratic Front - Contribution Report for FY 2023-24",
+   "revised": false,
+   "expected": 0
+  },
+  {
+   "url": "https://www.eci.gov.in/eci-backend/public//pdf/report/December/1734703474.pdf",
+   "kind": "contrib_24a",
+   "party": "Sikkim Democratic Front",
+   "year": "2023-24",
+   "title": "Sikkim Democratic Front - Contribution Report for FY 2023-24",
+   "revised": false,
+   "expected": 0
+  },
+  {
+   "url": "https://www.eci.gov.in/eci-backend/public//pdf/report/September/1726134223.pdf",
+   "kind": "contrib_24a",
+   "party": "Lok Janshakti Party (Ram Vilas)",
+   "year": "2023-24",
+   "title": "Lok Janshakti Party (Ram Vilas) - Contribution Report for FY 2023-24",
+   "revised": false,
+   "expected": 0
+  },
+  {
+   "url": "https://www.eci.gov.in/eci-backend/public//pdf/report/September/1726134154.pdf",
+   "kind": "contrib_24a",
+   "party": "All India Anna Dravida Munnetra Kazhagam",
+   "year": "2023-24",
+   "title": "All India Anna Dravida Munnetra Kazhagam - Contribution Report for FY 2023-24",
+   "revised": false,
+   "expected": 0
+  },
+  {
+   "url": "https://www.eci.gov.in/eci-backend/public//pdf/report/August/1724925865.pdf",
+   "kind": "contrib_24a",
+   "party": "Jannayak Janta Party",
+   "year": "2023-24",
+   "title": "Jannayak Janta Party - Contribution Report for FY 2023-24",
+   "revised": false,
+   "expected": 0
+  },
+  {
+   "url": "https://www.eci.gov.in/eci-backend/public//pdf/report/August/1724925834.pdf",
+   "kind": "contrib_24a",
+   "party": "Kerala Congress (M)",
+   "year": "2023-24",
+   "title": "Kerala Congress (M) - Contribution Report for FY 2023-24",
+   "revised": false,
+   "expected": 0
+  },
+  {
+   "url": "https://www.eci.gov.in/eci-backend/public//pdf/report/August/1724925795.pdf",
+   "kind": "contrib_24a",
+   "party": "Maharashtrawadi Gomantak",
+   "year": "2023-24",
+   "title": "Maharashtrawadi Gomantak - Contribution Report for FY 2023-24",
+   "revised": false,
+   "expected": 0
+  },
+  {
+   "url": "https://www.eci.gov.in/eci-backend/public//pdf/report/April/1712579759.pdf",
+   "kind": "contrib_24a",
+   "party": "Voice of the People Party",
+   "year": "2022-23",
+   "title": "Voice of the People Party - Contribution Report for FY 2022-23",
+   "revised": false,
+   "expected": 0
+  },
+  {
+   "url": "https://www.eci.gov.in/eci-backend/public//pdf/report/April/1712579656.pdf",
+   "kind": "contrib_24a",
+   "party": "Rashtriya Loktantrik Party",
+   "year": "2022-23",
+   "title": "Rashtriya Loktantrik Party-Contribution Report for FY 2022-23",
+   "revised": false,
+   "expected": 0
+  },
+  {
+   "url": "https://www.eci.gov.in/eci-backend/public/pdf/report/2023/January/contribution/CR of BSP for 2022-23.pdf",
+   "kind": "contrib_24a",
+   "party": "Bahujan Samaj Party",
+   "year": "2022-23",
+   "title": "Bahujan Samaj Party - Contribution Report for FY 2022-23",
+   "revised": false,
+   "expected": 0
+  },
+  {
+   "url": "https://www.eci.gov.in/eci-backend/public/pdf/report/2023/January/contribution/AAP CR for 2022-23.pdf",
+   "kind": "contrib_24a",
+   "party": "Aam Aadmi Party",
+   "year": "2022-23",
+   "title": "Aam Aadmi Party - Contribution Report for FY 2022-23",
+   "revised": false,
+   "expected": 0
+  },
+  {
+   "url": "https://www.eci.gov.in/eci-backend/public/pdf/report/2023/January/contribution/CPI-M CR for FY 2022-23.pdf",
+   "kind": "contrib_24a",
+   "party": "Communist Party of India (Marxist)",
+   "year": "2022-23",
+   "title": "Communist Party of India (Marxist) - Contribution Report for FY 2022-23",
+   "revised": false,
+   "expected": 0
+  },
+  {
+   "url": "https://www.eci.gov.in/eci-backend/public/pdf/report/2023/January/contribution/BJP CR for FY 2022-23.pdf",
+   "kind": "contrib_24a",
+   "party": "Bharatiya Janata Party",
+   "year": "2022-23",
+   "title": "Bharatiya Janata Party - Contribution Report for FY 2022-23",
+   "revised": false,
+   "expected": 0
+  },
+  {
+   "url": "https://www.eci.gov.in/eci-backend/public/pdf/report/2023/January/contribution/Cr of National People's Party for FY 2022-23.pdf",
+   "kind": "contrib_24a",
+   "party": "National People's Party",
+   "year": "2022-23",
+   "title": "National People's Party - Contribution report for FY 2022-23",
+   "revised": false,
+   "expected": 0
+  },
+  {
+   "url": "https://www.eci.gov.in/eci-backend/public/pdf/report/2023/January/contribution/CR of INC for FY 2022-23.pdf",
+   "kind": "contrib_24a",
+   "party": "Indian National Congress",
+   "year": "2022-23",
+   "title": "Indian National Congress - Contribution Report for FY 2022-23",
+   "revised": false,
+   "expected": 0
+  },
+  {
+   "url": "https://www.eci.gov.in/eci-backend/public/pdf/report/2023/January/contribution/CR of Kerala Congress (M) for FY 2022-23.pdf",
+   "kind": "contrib_24a",
+   "party": "Kerala Congress (M)",
+   "year": "2022-23",
+   "title": "Kerala Congress (M) - Contribution Report for FY 2022-23",
+   "revised": false,
+   "expected": 0
+  },
+  {
+   "url": "https://www.eci.gov.in/eci-backend/public/pdf/report/2023/January/contribution/CR of NPF for FY 2022-23.pdf",
+   "kind": "contrib_24a",
+   "party": "Naga People's Front",
+   "year": "2022-23",
+   "title": "Naga People's Front - Contribution Report for FY 2022-23",
+   "revised": false,
+   "expected": 0
+  },
+  {
+   "url": "https://www.eci.gov.in/eci-backend/public/pdf/report/2023/January/contribution/CR of All India United Democratic Front for FY 2022-23.pdf",
+   "kind": "contrib_24a",
+   "party": "All India United Democratic Front",
+   "year": "2022-23",
+   "title": "All India United Democratic Front - Contribution Report for FY 2022-23",
+   "revised": false,
+   "expected": 0
+  },
+  {
+   "url": "https://www.eci.gov.in/eci-backend/public/pdf/report/2023/January/contribution/CR of AJSU for FY 2022-23.pdf",
+   "kind": "contrib_24a",
+   "party": "AJSU Party",
+   "year": "2022-23",
+   "title": "AJSU Party - Contribution Report for FY 2022-23",
+   "revised": false,
+   "expected": 0
+  },
+  {
+   "url": "https://www.eci.gov.in/eci-backend/public/pdf/report/2023/January/contribution/CR of BJD for FY 2022-23.pdf",
+   "kind": "contrib_24a",
+   "party": "Biju Janata Dal",
+   "year": "2022-23",
+   "title": "Biju Janata Dal - Contribution Report for FY 2022-23",
+   "revised": false,
+   "expected": 0
+  },
+  {
+   "url": "https://www.eci.gov.in/eci-backend/public/pdf/report/2023/January/contribution/CR of MG for FY 2022-23.pdf",
+   "kind": "contrib_24a",
+   "party": "Maharashtrawadi Gomantak",
+   "year": "2022-23",
+   "title": "Maharashtrawadi Gomantak - Contribution Report for FY 2022-23",
+   "revised": false,
+   "expected": 0
+  },
+  {
+   "url": "https://www.eci.gov.in/eci-backend/public/pdf/report/2023/January/contribution/CR of SAD for FY 2022-23.pdf",
+   "kind": "contrib_24a",
+   "party": "Shiromani Akali Dal",
+   "year": "2022-23",
+   "title": "Shiromani Akali Dal - Contribution Report for FY 2022-23",
+   "revised": false,
+   "expected": 0
+  },
+  {
+   "url": "https://www.eci.gov.in/eci-backend/public/pdf/report/2023/January/contribution/CR of MNS for FY 2022-23.pdf",
+   "kind": "contrib_24a",
+   "party": "Maharashtra Navnirman Sena",
+   "year": "2022-23",
+   "title": "Maharashtra Navnirman Sena - Contribution Report for FY 2022-23",
+   "revised": false,
+   "expected": 0
+  },
+  {
+   "url": "https://www.eci.gov.in/eci-backend/public/pdf/report/2023/January/contribution/CR of YSRCP for FY 2022-23.pdf",
+   "kind": "contrib_24a",
+   "party": "Yuvajana Sramika Rythu Congress Party",
+   "year": "2022-23",
+   "title": "Yuvajana Sramika Rythu Congress Party - Contribution Report for FY 2022-23",
+   "revised": false,
+   "expected": 0
+  },
+  {
+   "url": "https://www.eci.gov.in/eci-backend/public/pdf/report/2023/January/contribution/CR of Nationalist Democratic Progressive Party for FY 2022-23.pdf",
+   "kind": "contrib_24a",
+   "party": "Nationalist Democratic Progressive Party",
+   "year": "2022-23",
+   "title": "Nationalist Democratic Progressive Party - Contribution Report for FY 2022-23",
+   "revised": false,
+   "expected": 0
+  },
+  {
+   "url": "https://www.eci.gov.in/eci-backend/public/pdf/report/2023/January/contribution/CR of AITC for FY 2022-23.pdf",
+   "kind": "contrib_24a",
+   "party": "All India Trinamool Congress",
+   "year": "2022-23",
+   "title": "All India Trinamool Congress - Contribution Report for FY 2022-23",
+   "revised": false,
+   "expected": 0
+  },
+  {
+   "url": "https://www.eci.gov.in/eci-backend/public/pdf/report/2023/January/contribution/CR of JJP for FY 2022-23.pdf",
+   "kind": "contrib_24a",
+   "party": "Jannayak Janta Party",
+   "year": "2022-23",
+   "title": "Jannayak Janta Party - Contribution Report for FY 2022-23",
+   "revised": false,
+   "expected": 0
+  },
+  {
+   "url": "https://www.eci.gov.in/eci-backend/public/pdf/report/2023/January/contribution/CR of BRS for FY 2022-23.pdf",
+   "kind": "contrib_24a",
+   "party": "Bharat Rashtra Samithi",
+   "year": "2022-23",
+   "title": "Bharat Rashtra Samithi - Contribution Report for FY 2022-23",
+   "revised": false,
+   "expected": 0
+  },
+  {
+   "url": "https://www.eci.gov.in/eci-backend/public/pdf/report/2023/January/contribution/CR of Telugu Desam Party for FY 2022-23.pdf",
+   "kind": "contrib_24a",
+   "party": "Telugu Desam Party",
+   "year": "2022-23",
+   "title": "Telugu Desam Party - Contribution Report for FY 2022-23",
+   "revised": false,
+   "expected": 0
+  },
+  {
+   "url": "https://www.eci.gov.in/eci-backend/public/pdf/report/2023/January/contribution/CR of  Sikkim Krantikari Morchafor FY 2022-23.pdf",
+   "kind": "contrib_24a",
+   "party": "Sikkim Krantikari Morcha",
+   "year": "2022-23",
+   "title": "Sikkim Krantikari Morcha - Contribution Report for FY 2022-23",
+   "revised": false,
+   "expected": 0
+  },
+  {
+   "url": "https://www.eci.gov.in/eci-backend/public/pdf/report/2023/January/contribution/CR of IUML for FY 2022-23.pdf",
+   "kind": "contrib_24a",
+   "party": "Indian Union Muslim League",
+   "year": "2022-23",
+   "title": "Indian Union Muslim League - Contribution Report for FY 2022-23",
+   "revised": false,
+   "expected": 0
+  },
+  {
+   "url": "https://www.eci.gov.in/eci-backend/public/pdf/report/2023/January/contribution/CR of Samajwadi Party for FY 2022-23.pdf",
+   "kind": "contrib_24a",
+   "party": "Samajwadi Party",
+   "year": "2022-23",
+   "title": "Samajwadi Party - Contribution Report for FY 2022-23",
+   "revised": false,
+   "expected": 0
+  },
+  {
+   "url": "https://www.eci.gov.in/eci-backend/public/pdf/report/2023/January/contribution/CR of Apna Dal (Soneylal) for FY 2022-23.pdf",
+   "kind": "contrib_24a",
+   "party": "Apna Dal (Soneylal)",
+   "year": "2022-23",
+   "title": "Apna Dal (Soneylal) - Contribution Report for FY 2022-23",
+   "revised": false,
+   "expected": 0
+  },
+  {
+   "url": "https://www.eci.gov.in/eci-backend/public/pdf/report/2023/January/contribution/CR of CPI-ML-L for FY 2022-23.pdf",
+   "kind": "contrib_24a",
+   "party": "Communist Party of India (Marxist-Leninist) Liberation",
+   "year": "2022-23",
+   "title": "Communist Party of India (Marxist-Leninist) Liberation - Contribution Report for FY 2022-23",
+   "revised": false,
+   "expected": 0
+  },
+  {
+   "url": "https://www.eci.gov.in/eci-backend/public/pdf/report/2023/January/contribution/CR of Janata Dal-Secular for FY 2022-23.pdf",
+   "kind": "contrib_24a",
+   "party": "Janata Dal (Secular)",
+   "year": "2022-23",
+   "title": "Janata Dal (Secular) - Contribution Report for FY 2022-23",
+   "revised": false,
+   "expected": 0
+  },
+  {
+   "url": "https://www.eci.gov.in/eci-backend/public/pdf/report/2023/January/contribution/CR of Janata Dal-United for FY 2022-23.pdf",
+   "kind": "contrib_24a",
+   "party": "Janata Dal (United)",
+   "year": "2022-23",
+   "title": "Janata Dal (United) - Contribution Report for FY 2022-23",
+   "revised": false,
+   "expected": 0
+  },
+  {
+   "url": "https://www.eci.gov.in/eci-backend/public/pdf/report/2023/January/contribution/CR of Asom Gana Parishad for FY 2022-23.pdf",
+   "kind": "contrib_24a",
+   "party": "Asom Gana Parishad",
+   "year": "2022-23",
+   "title": "Asom Gana Parishad - Contribution Report for FY 2022-23",
+   "revised": false,
+   "expected": 0
+  },
+  {
+   "url": "https://www.eci.gov.in/eci-backend/public/pdf/report/2023/January/contribution/CR of Desiya Murpokku Dravida Kazhagam for FY 2022-23.pdf",
+   "kind": "contrib_24a",
+   "party": "Desiya Murpokku Dravida Kazhagam",
+   "year": "2022-23",
+   "title": "Desiya Murpokku Dravida Kazhagam - Contribution Report for FY 2022-23",
+   "revised": false,
+   "expected": 0
+  },
+  {
+   "url": "https://www.eci.gov.in/eci-backend/public/pdf/report/2023/January/contribution/CR of Goa Forward Party for FY 2022-23.pdf",
+   "kind": "contrib_24a",
+   "party": "Goa Forward Party",
+   "year": "2022-23",
+   "title": "Goa Forward Party - Contribution Report for FY 2022-23",
+   "revised": false,
+   "expected": 0
+  },
+  {
+   "url": "https://www.eci.gov.in/eci-backend/public/pdf/report/2023/January/contribution/CR of Indian National Lok Dal for FY 2022-23.pdf",
+   "kind": "contrib_24a",
+   "party": "Indian National Lok Dal",
+   "year": "2022-23",
+   "title": "Indian National Lok Dal -Contribution Report for FY 2022-23",
+   "revised": false,
+   "expected": 0
+  },
+  {
+   "url": "https://www.eci.gov.in/eci-backend/public/pdf/report/2023/January/contribution/CR of Sikkim Democratic Front for FY 2022-23.pdf",
+   "kind": "contrib_24a",
+   "party": "Sikkim Democratic Front",
+   "year": "2022-23",
+   "title": "Sikkim Democratic Front - Contribution Report for FY 2022-23",
+   "revised": false,
+   "expected": 0
+  },
+  {
+   "url": "https://www.eci.gov.in/eci-backend/public/pdf/report/2023/January/contribution/CR of DMK for FY 2022-23.pdf",
+   "kind": "contrib_24a",
+   "party": "Dravida Munnetra Kazhagam",
+   "year": "2022-23",
+   "title": "Dravida Munnetra Kazhagam - Contribution Report for FY 2022-23",
+   "revised": false,
+   "expected": 0
+  },
+  {
+   "url": "https://www.eci.gov.in/eci-backend/public/pdf/report/2023/January/contribution/CR of CPI for FY 2022-23.pdf",
+   "kind": "contrib_24a",
+   "party": "Communist Party of India",
+   "year": "2022-23",
+   "title": "Communist Party of India - Contribution Report for FY 2022-23",
+   "revised": false,
+   "expected": 0
+  },
+  {
+   "url": "https://www.eci.gov.in/eci-backend/public/pdf/report/2023/January/contribution/CR of United People's Party Liberal for FY 2022-23.pdf",
+   "kind": "contrib_24a",
+   "party": "United People's Party Liberal",
+   "year": "2022-23",
+   "title": "United People's Party Liberal - Contribution Reports of State Recognized for 2022-23",
+   "revised": false,
+   "expected": 0
+  },
+  {
+   "url": "https://www.eci.gov.in/eci-backend/public/pdf/report/2023/January/contribution/CR of AIADMK for FY 2022-23.pdf",
+   "kind": "contrib_24a",
+   "party": "All India Anna Dravida Munnetra Kazhagam",
+   "year": "2022-23",
+   "title": "All India Anna Dravida Munnetra Kazhagam-Contribution Reports of State Recognized Pol. Party for 2022-23",
+   "revised": false,
+   "expected": 0
+  },
+  {
+   "url": "https://www.eci.gov.in/eci-backend/public/pdf/report/2023/January/contribution/J&K NC CR for FY 2022-23.pdf",
+   "kind": "contrib_24a",
+   "party": "Jammu & Kashmir National Conference",
+   "year": "2022-23",
+   "title": "Jammu & Kashmir National Conference - Contribution Reports of State Recognized Pol. Party for 2022-23",
+   "revised": false,
+   "expected": 0
+  },
+  {
+   "url": "https://www.eci.gov.in/eci-backend/public/pdf/report/2023/January/contribution/RLP CR for 2022-23.pdf",
+   "kind": "contrib_24a",
+   "party": "Rashtriya Loktantrik Party",
+   "year": "2022-23",
+   "title": "Rashtriya Loktantrik Party - Contribution Reports of State Recognized Pol. Party for 2022-23",
+   "revised": false,
+   "expected": 0
+  },
+  {
+   "url": "https://www.eci.gov.in/eci-backend/public/pdf/report/2023/January/contribution/CR of AIMIM for FY 2022-23.pdf",
+   "kind": "contrib_24a",
+   "party": "All India Majlis-e-Ittehadul Muslimeen",
+   "year": "2022-23",
+   "title": "All India Majlis-e-Ittehadul Muslimeen - Contribution Report for FY 2022-23",
+   "revised": false,
+   "expected": 0
+  },
+  {
+   "url": "https://www.eci.gov.in/eci-backend/public//pdf/report/October/1697188158.pdf",
+   "kind": "contrib_24a",
+   "party": "All India United Democratic Front",
+   "year": "2022-23",
+   "title": "All India United Democratic Front - Contribution Report for FY 2022-23",
+   "revised": false,
+   "expected": 0
+  },
+  {
+   "url": "https://www.eci.gov.in/eci-backend/public//pdf/report/October/1697188117.pdf",
+   "kind": "contrib_24a",
+   "party": "Naga Peoples Front",
+   "year": "2022-23",
+   "title": "Naga Peoples Front - Contribution Report for FY 2022-23",
+   "revised": false,
+   "expected": 0
+  },
+  {
+   "url": "https://www.eci.gov.in/eci-backend/public//pdf/report/October/1697188063.pdf",
+   "kind": "contrib_24a",
+   "party": "Kerala Congress (M)",
+   "year": "2022-23",
+   "title": "Kerala Congress (M) - Contribution Report for FY 2022-23",
+   "revised": false,
+   "expected": 0
+  },
+  {
+   "url": "https://www.eci.gov.in/eci-backend/public//pdf/report/October/1760696035.pdf",
+   "kind": "contrib_24a",
+   "party": "National People's Party",
+   "year": "2017-18",
+   "title": "National People's Party - Contribution Report for FY 2017-18",
+   "revised": false,
+   "expected": 0
+  },
+  {
+   "url": "https://www.eci.gov.in/eci-backend/public//pdf/report/October/1792062918.pdf",
+   "kind": "audit",
+   "party": "Aam Aadmi Party",
+   "year": "2025-26",
+   "title": "Aam Aadmi Party (Annual Audit Report for the Financial Year 2025-26)",
+   "revised": false,
+   "expected": 0
+  },
+  {
+   "url": "https://www.eci.gov.in/eci-backend/public//pdf/report/October/1792062900.pdf",
+   "kind": "audit",
+   "party": "Bharat Rashtra Samithi",
+   "year": "2025-26",
+   "title": "Bharat Rashtra Samithi (Annual Audit Report for the Financial Year 2025-26)",
+   "revised": false,
+   "expected": 0
+  },
+  {
+   "url": "https://www.eci.gov.in/eci-backend/public//pdf/report/October/1792062876.pdf",
+   "kind": "audit",
+   "party": "Biju Janata Dal",
+   "year": "2025-26",
+   "title": "Biju Janata Dal (Annual Audit Report for the Financial Year 2025-26)",
+   "revised": false,
+   "expected": 0
+  },
+  {
+   "url": "https://www.eci.gov.in/eci-backend/public//pdf/report/October/1791971433.pdf",
+   "kind": "audit",
+   "party": "National People's Party",
+   "year": "2025-26",
+   "title": "National People's Party (Annual Audit Report for the Financial Year 2025-26)",
+   "revised": false,
+   "expected": 0
+  },
+  {
+   "url": "https://www.eci.gov.in/eci-backend/public//pdf/report/October/1791525143.pdf",
+   "kind": "audit",
+   "party": "Naga People's Front",
+   "year": "2025-26",
+   "title": "Naga People's Front (Annual Audit Report for the Financial Year 2025-26)",
+   "revised": false,
+   "expected": 0
+  },
+  {
+   "url": "https://www.eci.gov.in/eci-backend/public//pdf/report/October/1791355492.pdf",
+   "kind": "audit",
+   "party": "Rashtriya Loktantrik Party",
+   "year": "2025-26",
+   "title": "Rashtriya Loktantrik Party (Annual Audit Report for the Financial Year 2025-26)",
+   "revised": false,
+   "expected": 0
+  },
+  {
+   "url": "https://www.eci.gov.in/eci-backend/public//pdf/report/September/1790661403.pdf",
+   "kind": "audit",
+   "party": "Sikkim Krantikari Morcha",
+   "year": "2025-26",
+   "title": "Sikkim Krantikari Morcha (Annual Audit Report for the Financial Year 2025-26)",
+   "revised": false,
+   "expected": 0
+  },
+  {
+   "url": "https://www.eci.gov.in/eci-backend/public//pdf/report/September/1790661384.pdf",
+   "kind": "audit",
+   "party": "Maharashtrawadi Gomantak",
+   "year": "2025-26",
+   "title": "Maharashtrawadi Gomantak (Annual Audit Report for the Financial Year 2025-26)",
+   "revised": false,
+   "expected": 0
+  },
+  {
+   "url": "https://www.eci.gov.in/eci-backend/public//pdf/report/September/1790581399.pdf",
+   "kind": "audit",
+   "party": "Bharat Adivasi Party",
+   "year": "2025-26",
+   "title": "Bharat Adivasi Party (Annual Audit Report for the Financial Year 2025-26)",
+   "revised": false,
+   "expected": 0
+  },
+  {
+   "url": "https://www.eci.gov.in/eci-backend/public//pdf/report/September/1788842954.pdf",
+   "kind": "audit",
+   "party": "Jammu and Kashmir Peoples Democratic Party",
+   "year": "2025-26",
+   "title": "Jammu and Kashmir Peoples Democratic Party (Annual Audit Report for the Financial Year 2025-26)",
+   "revised": false,
+   "expected": 0
+  },
+  {
+   "url": "https://www.eci.gov.in/eci-backend/public//pdf/report/August/1786706088.pdf",
+   "kind": "audit",
+   "party": "All India United Democratic Front",
+   "year": "2025-26",
+   "title": "All India United Democratic Front (Annual Audit Report for the Financial Year 2025-26)",
+   "revised": false,
+   "expected": 0
+  },
+  {
+   "url": "https://www.eci.gov.in/eci-backend/public//pdf/report/August/1786706065.pdf",
+   "kind": "audit",
+   "party": "Mizo National Front",
+   "year": "2025-26",
+   "title": "Mizo National Front (Annual Audit Report for the Financial Year 2025-26)",
+   "revised": false,
+   "expected": 0
+  },
+  {
+   "url": "https://www.eci.gov.in/eci-backend/public//pdf/report/October/1792062961.pdf",
+   "kind": "audit",
+   "party": "Indian Union Muslim League",
+   "year": "2024-25",
+   "title": "Indian Union Muslim League (Annual Audit Report for the Financial Year 2024-25)",
+   "revised": false,
+   "expected": 0
+  },
+  {
+   "url": "https://www.eci.gov.in/eci-backend/public//pdf/report/September/1788260296.pdf",
+   "kind": "audit",
+   "party": "Tipra Motha Party",
+   "year": "2024-25",
+   "title": "Tipra Motha Party (Annual Audit Report for the Financial Year 2024-25)",
+   "revised": false,
+   "expected": 0
+  },
+  {
+   "url": "https://www.eci.gov.in/eci-backend/public//pdf/report/August/1785845016.pdf",
+   "kind": "audit",
+   "party": "Naam Tamilar Katchi",
+   "year": "2024-25",
+   "title": "Naam Tamilar Katchi (Annual Audit Report for the Financial Year 2024-25)",
+   "revised": false,
+   "expected": 0
+  },
+  {
+   "url": "https://www.eci.gov.in/eci-backend/public//pdf/report/August/1785756338.pdf",
+   "kind": "audit",
+   "party": "Bharat Adivasi Party",
+   "year": "2024-25",
+   "title": "Bharat Adivasi Party (Annual Audit Report for the Financial Year 2024-25)",
+   "revised": false,
+   "expected": 0
+  },
+  {
+   "url": "https://www.eci.gov.in/eci-backend/public//pdf/report/August/1785756283.pdf",
+   "kind": "audit",
+   "party": "Goa Forward Party",
+   "year": "2024-25",
+   "title": "Goa Forward Party (Annual Audit Report for the Financial Year 2024-25)",
+   "revised": false,
+   "expected": 0
+  },
+  {
+   "url": "https://www.eci.gov.in/eci-backend/public//pdf/report/July/1783919466.pdf",
+   "kind": "audit",
+   "party": "Asom Gana Parishad",
+   "year": "2024-25",
+   "title": "Asom Gana Parishad (Revised Annual Audit Report for the Financial Year 2024-25)",
+   "revised": true,
+   "expected": 0
+  },
+  {
+   "url": "https://www.eci.gov.in/eci-backend/public//pdf/report/July/1783919438.pdf",
+   "kind": "audit",
+   "party": "Dravida Munnetra Kazhagam",
+   "year": "2024-25",
+   "title": "Dravida Munnetra Kazhagam (Annual Audit Report for the Financial Year 2024-25)",
+   "revised": false,
+   "expected": 0
+  },
+  {
+   "url": "https://www.eci.gov.in/eci-backend/public//pdf/report/June/1780556466.pdf",
+   "kind": "audit",
+   "party": "Republican Party of India (Athawale)",
+   "year": "2024-25",
+   "title": "Republican Party of India (Athawale) (Annual Audit Report for the Financial Year 2024-25)",
+   "revised": false,
+   "expected": 0
+  },
+  {
+   "url": "https://www.eci.gov.in/eci-backend/public//pdf/report/May/1780029237.pdf",
+   "kind": "audit",
+   "party": "Jharkhand Mukti Morcha",
+   "year": "2024-25",
+   "title": "Jharkhand Mukti Morcha (Annual Audit Report for the Financial Year 2024-25)",
+   "revised": false,
+   "expected": 0
+  },
+  {
+   "url": "https://www.eci.gov.in/eci-backend/public//pdf/report/May/1779854535.pdf",
+   "kind": "audit",
+   "party": "Citizen Action Party",
+   "year": "2024-25",
+   "title": "Citizen Action Party - Sikkim (Annual Audit Report for the Financial Year 2024-25)",
+   "revised": false,
+   "expected": 0
+  },
+  {
+   "url": "https://www.eci.gov.in/eci-backend/public//pdf/report/April/1775106169.pdf",
+   "kind": "audit",
+   "party": "Jammu and Kashmir People's Democratic Party",
+   "year": "2024-25",
+   "title": "Jammu and Kashmir People's Democratic Party (Revised Annual Audit Report for the Financial Year 2024-25)",
+   "revised": true,
+   "expected": 0
+  },
+  {
+   "url": "https://www.eci.gov.in/eci-backend/public//pdf/report/April/1775106133.pdf",
+   "kind": "audit",
+   "party": "AJSU Party",
+   "year": "2024-25",
+   "title": "AJSU Party (Revised Annual Audit Report for the Financial Year 2024-25)",
+   "revised": true,
+   "expected": 0
+  },
+  {
+   "url": "https://www.eci.gov.in/eci-backend/public//pdf/report/April/1775106110.pdf",
+   "kind": "audit",
+   "party": "Indian National Lok Dal",
+   "year": "2024-25",
+   "title": "Indian National Lok Dal (Annual Audit Report for the Financial Year 2024-25)",
+   "revised": false,
+   "expected": 0
+  },
+  {
+   "url": "https://www.eci.gov.in/eci-backend/public//pdf/report/March/1774440326.pdf",
+   "kind": "audit",
+   "party": "Apna Dal (Soneylal)",
+   "year": "2024-25",
+   "title": "Apna Dal (Soneylal) (Annual Audit Report for the Financial Year 2024-25)",
+   "revised": false,
+   "expected": 0
+  },
+  {
+   "url": "https://www.eci.gov.in/eci-backend/public//pdf/report/March/1774440305.pdf",
+   "kind": "audit",
+   "party": "Asom Gana Parishad",
+   "year": "2024-25",
+   "title": "Asom Gana Parishad (Revised Annual Audit Report for the Financial Year 2024-25)",
+   "revised": true,
+   "expected": 0
+  },
+  {
+   "url": "https://www.eci.gov.in/eci-backend/public//pdf/report/March/1774440280.pdf",
+   "kind": "audit",
+   "party": "All India Majilis-e-Ittehadul Muslimeen",
+   "year": "2024-25",
+   "title": "All India Majilis-e-Ittehadul Muslimeen (Revised Annual Audit Report for the Financial Year 2024-25)",
+   "revised": true,
+   "expected": 0
+  },
+  {
+   "url": "https://www.eci.gov.in/eci-backend/public//pdf/report/March/1774440218.pdf",
+   "kind": "audit",
+   "party": "All India Forward Bloc",
+   "year": "2024-25",
+   "title": "All India Forward Bloc (Annual Audit Report for the Financial Year 2024-25)",
+   "revised": false,
+   "expected": 0
+  },
+  {
+   "url": "https://www.eci.gov.in/eci-backend/public//pdf/report/March/1774440174.pdf",
+   "kind": "audit",
+   "party": "Rashtriya Janta Dal",
+   "year": "2024-25",
+   "title": "Rashtriya Janta Dal (Annual Audit Report for the Financial Year 2024-25)",
+   "revised": false,
+   "expected": 0
+  },
+  {
+   "url": "https://www.eci.gov.in/eci-backend/public//pdf/report/March/1774440140.pdf",
+   "kind": "audit",
+   "party": "Janata Dal (Secular)",
+   "year": "2024-25",
+   "title": "Janata Dal (Secular) (Revised Annual Audit Report for the Financial Year 2024-25)",
+   "revised": true,
+   "expected": 0
+  },
+  {
+   "url": "https://www.eci.gov.in/eci-backend/public//pdf/report/February/1770801326.pdf",
+   "kind": "audit",
+   "party": "Maharashtrawadi Gomantak",
+   "year": "2024-25",
+   "title": "Maharashtrawadi Gomantak (Annual Audit Report for the Financial Year 2024-25)",
+   "revised": false,
+   "expected": 0
+  },
+  {
+   "url": "https://www.eci.gov.in/eci-backend/public//pdf/report/February/1770801306.pdf",
+   "kind": "audit",
+   "party": "Jammu and Kashmir People's Democratic Party",
+   "year": "2024-25",
+   "title": "Jammu and Kashmir People's Democratic Party (Annual Audit Report for the Financial Year 2024-25)",
+   "revised": false,
+   "expected": 0
+  },
+  {
+   "url": "https://www.eci.gov.in/eci-backend/public//pdf/report/January/1769774415.pdf",
+   "kind": "audit",
+   "party": "Kerala Congress (M)",
+   "year": "2024-25",
+   "title": "Kerala Congress (M) (Annual Audit Report for the Financial Year 2024-25)",
+   "revised": false,
+   "expected": 0
+  },
+  {
+   "url": "https://www.eci.gov.in/eci-backend/public//pdf/report/January/1769774392.pdf",
+   "kind": "audit",
+   "party": "Maharashtra Navnirman Sena",
+   "year": "2024-25",
+   "title": "Maharashtra Navnirman Sena (Annual Audit Report for the Financial Year 2024-25)",
+   "revised": false,
+   "expected": 0
+  },
+  {
+   "url": "https://www.eci.gov.in/eci-backend/public//pdf/report/January/1769774375.pdf",
+   "kind": "audit",
+   "party": "Communist Party of India",
+   "year": "2024-25",
+   "title": "Communist Party of India (Annual Audit Report for the Financial Year 2024-25)",
+   "revised": false,
+   "expected": 0
+  },
+  {
+   "url": "https://www.eci.gov.in/eci-backend/public//pdf/report/January/1769774358.pdf",
+   "kind": "audit",
+   "party": "AJSU Party",
+   "year": "2024-25",
+   "title": "AJSU Party (Annual Audit Report for the Financial Year 2024-25)",
+   "revised": false,
+   "expected": 0
+  },
+  {
+   "url": "https://www.eci.gov.in/eci-backend/public//pdf/report/January/1769774344.pdf",
+   "kind": "audit",
+   "party": "Janata Dal (United)",
+   "year": "2024-25",
+   "title": "Janata Dal (United) (Annual Audit Report for the Financial Year 2024-25)",
+   "revised": false,
+   "expected": 0
+  },
+  {
+   "url": "https://www.eci.gov.in/eci-backend/public//pdf/report/January/1769774327.pdf",
+   "kind": "audit",
+   "party": "All India Majilis-e-Ittehadul Muslimeen",
+   "year": "2024-25",
+   "title": "All India Majilis-e-Ittehadul Muslimeen (Annual Audit Report for the Financial Year 2024-25)",
+   "revised": false,
+   "expected": 0
+  },
+  {
+   "url": "https://www.eci.gov.in/eci-backend/public//pdf/report/January/1769774303.pdf",
+   "kind": "audit",
+   "party": "Janata Dal (Secular)",
+   "year": "2024-25",
+   "title": "Janata Dal (Secular) (Annual Audit Report for the Financial Year 2024-25)",
+   "revised": false,
+   "expected": 0
+  },
+  {
+   "url": "https://www.eci.gov.in/eci-backend/public//pdf/report/January/1769774279.pdf",
+   "kind": "audit",
+   "party": "All India United Democratic Front",
+   "year": "2024-25",
+   "title": "All India United Democratic Front (Annual Audit Report for the Financial Year 2024-25)",
+   "revised": false,
+   "expected": 0
+  },
+  {
+   "url": "https://www.eci.gov.in/eci-backend/public//pdf/report/January/1769774261.pdf",
+   "kind": "audit",
+   "party": "Samajwadi Party",
+   "year": "2024-25",
+   "title": "Samajwadi Party (Annual Audit Report for the Financial Year 2024-25)",
+   "revised": false,
+   "expected": 0
+  },
+  {
+   "url": "https://www.eci.gov.in/eci-backend/public//pdf/report/January/1769774247.pdf",
+   "kind": "audit",
+   "party": "Asom Gana Parishad",
+   "year": "2024-25",
+   "title": "Asom Gana Parishad (Annual Audit Report for the Financial Year 2024-25)",
+   "revised": false,
+   "expected": 0
+  },
+  {
+   "url": "https://www.eci.gov.in/eci-backend/public//pdf/report/January/1768798471.pdf",
+   "kind": "audit",
+   "party": "Bharatiya Janata Party",
+   "year": "2024-25",
+   "title": "Bharatiya Janata Party (Annual Audit Report for the Financial Year 2024-25)",
+   "revised": false,
+   "expected": 0
+  },
+  {
+   "url": "https://www.eci.gov.in/eci-backend/public//pdf/report/January/1767327489.pdf",
+   "kind": "audit",
+   "party": "Communist Party of India (Marxist)",
+   "year": "2024-25",
+   "title": "Communist Party of India (Marxist) (Annual Audit Report for the Financial Year 2024-25)",
+   "revised": false,
+   "expected": 0
+  },
+  {
+   "url": "https://www.eci.gov.in/eci-backend/public//pdf/report/December/1765881957.pdf",
+   "kind": "audit",
+   "party": "All India N R Congress",
+   "year": "2024-25",
+   "title": "All India N R Congress (Annual Audit Report for the Financial Year 2024-25)",
+   "revised": false,
+   "expected": 0
+  },
+  {
+   "url": "https://www.eci.gov.in/eci-backend/public//pdf/report/December/1765881897.pdf",
+   "kind": "audit",
+   "party": "Desiya Murpokku Dravida Kazhagam",
+   "year": "2024-25",
+   "title": "Desiya Murpokku Dravida Kazhagam (Annual Audit Report for the Financial Year 2024-25)",
+   "revised": false,
+   "expected": 0
+  },
+  {
+   "url": "https://www.eci.gov.in/eci-backend/public//pdf/report/December/1765881863.pdf",
+   "kind": "audit",
+   "party": "Sikkim Democratic Front",
+   "year": "2024-25",
+   "title": "Sikkim Democratic Front (Annual Audit Report for the Financial Year 2024-25)",
+   "revised": false,
+   "expected": 0
+  },
+  {
+   "url": "https://www.eci.gov.in/eci-backend/public//pdf/report/December/1765881843.pdf",
+   "kind": "audit",
+   "party": "Janasena Party",
+   "year": "2024-25",
+   "title": "Janasena Party (Annual Audit Report for the Financial Year 2024-25)",
+   "revised": false,
+   "expected": 0
+  },
+  {
+   "url": "https://www.eci.gov.in/eci-backend/public//pdf/report/December/1765881794.pdf",
+   "kind": "audit",
+   "party": "Jharkhand Mukti Morcha",
+   "year": "2024-25",
+   "title": "Jharkhand Mukti Morcha (Annual Audit Report for the Financial Year 2024-25)",
+   "revised": false,
+   "expected": 0
+  },
+  {
+   "url": "https://www.eci.gov.in/eci-backend/public//pdf/report/December/1765881772.pdf",
+   "kind": "audit",
+   "party": "Revolutionary Goans Party",
+   "year": "2024-25",
+   "title": "Revolutionary Goans Party (Annual Audit Report for the Financial Year 2024-25)",
+   "revised": false,
+   "expected": 0
+  },
+  {
+   "url": "https://www.eci.gov.in/eci-backend/public//pdf/report/December/1765881737.pdf",
+   "kind": "audit",
+   "party": "Yuvajana Sramika Rythu Congress Party",
+   "year": "2024-25",
+   "title": "Yuvajana Sramika Rythu Congress Party (Annual Audit Report for the Financial Year 2024-25)",
+   "revised": false,
+   "expected": 0
+  },
+  {
+   "url": "https://www.eci.gov.in/eci-backend/public//pdf/report/December/1765433140.pdf",
+   "kind": "audit",
+   "party": "Indian National Congress",
+   "year": "2024-25",
+   "title": "Indian National Congress (Annual Audit Report for the Financial Year 2024-25)",
+   "revised": false,
+   "expected": 0
+  },
+  {
+   "url": "https://www.eci.gov.in/eci-backend/public//pdf/report/December/1764587104.pdf",
+   "kind": "audit",
+   "party": "Bahujan Samaj Party",
+   "year": "2024-25",
+   "title": "Bahujan Samaj Party (Annual Audit Report for the Financial Year 2024-25)",
+   "revised": false,
+   "expected": 0
+  },
+  {
+   "url": "https://www.eci.gov.in/eci-backend/public//pdf/report/December/1764587081.pdf",
+   "kind": "audit",
+   "party": "Rashtriya Loktantrik Party",
+   "year": "2024-25",
+   "title": "Rashtriya Loktantrik Party (Annual Audit Report for the Financial Year 2024-25)",
+   "revised": false,
+   "expected": 0
+  },
+  {
+   "url": "https://www.eci.gov.in/eci-backend/public//pdf/report/December/1764587064.pdf",
+   "kind": "audit",
+   "party": "Sikkim Krantikari Morcha",
+   "year": "2024-25",
+   "title": "Sikkim Krantikari Morcha (Annual Audit Report for the Financial Year 2024-25)",
+   "revised": false,
+   "expected": 0
+  },
+  {
+   "url": "https://www.eci.gov.in/eci-backend/public//pdf/report/December/1764587045.pdf",
+   "kind": "audit",
+   "party": "Shiromani Akali Dal",
+   "year": "2024-25",
+   "title": "Shiromani Akali Dal (Annual Audit Report for the Financial Year 2024-25)",
+   "revised": false,
+   "expected": 0
+  },
+  {
+   "url": "https://www.eci.gov.in/eci-backend/public//pdf/report/December/1764587018.pdf",
+   "kind": "audit",
+   "party": "All India Trinamool Congress",
+   "year": "2024-25",
+   "title": "All India Trinamool Congress (Annual Audit Report for the Financial Year 2024-25)",
+   "revised": false,
+   "expected": 0
+  },
+  {
+   "url": "https://www.eci.gov.in/eci-backend/public//pdf/report/December/1764586982.pdf",
+   "kind": "audit",
+   "party": "Communist Party of India (Marxist-Leninist) Liberation",
+   "year": "2024-25",
+   "title": "Communist Party of India (Marxist-Leninist) Liberation (Annual Audit Report for the Financial Year 2024-25)",
+   "revised": false,
+   "expected": 0
+  },
+  {
+   "url": "https://www.eci.gov.in/eci-backend/public//pdf/report/December/1764586947.pdf",
+   "kind": "audit",
+   "party": "Zoram People's Movement",
+   "year": "2024-25",
+   "title": "Zoram People's Movement (Annual Audit Report for the Financial Year 2024-25)",
+   "revised": false,
+   "expected": 0
+  },
+  {
+   "url": "https://www.eci.gov.in/eci-backend/public//pdf/report/December/1764586930.pdf",
+   "kind": "audit",
+   "party": "All India Anna Dravida Munnetra Kazhagam",
+   "year": "2024-25",
+   "title": "All India Anna Dravida Munnetra Kazhagam (Annual Audit Report for the Financial Year 2024-25)",
+   "revised": false,
+   "expected": 0
+  },
+  {
+   "url": "https://www.eci.gov.in/eci-backend/public//pdf/report/December/1764586894.pdf",
+   "kind": "audit",
+   "party": "Nationalist Democratic Progressive Party",
+   "year": "2024-25",
+   "title": "Nationalist Democratic Progressive Party (Annual Audit Report for the Financial Year 2024-25)",
+   "revised": false,
+   "expected": 0
+  },
+  {
+   "url": "https://www.eci.gov.in/eci-backend/public//pdf/report/December/1764586873.pdf",
+   "kind": "audit",
+   "party": "Telugu Desam Party",
+   "year": "2024-25",
+   "title": "Telugu Desam Party (Annual Audit Report for the Financial Year 2024-25)",
+   "revised": false,
+   "expected": 0
+  },
+  {
+   "url": "https://www.eci.gov.in/eci-backend/public//pdf/report/December/1764586855.pdf",
+   "kind": "audit",
+   "party": "Bharat Rashtra Samithi",
+   "year": "2024-25",
+   "title": "Bharat Rashtra Samithi (Annual Audit Report for the Financial Year 2024-25)",
+   "revised": false,
+   "expected": 0
+  },
+  {
+   "url": "https://www.eci.gov.in/eci-backend/public//pdf/report/October/1760680754.pdf",
+   "kind": "audit",
+   "party": "Mizo National Front",
+   "year": "2024-25",
+   "title": "Mizo National Front (Annual Audit Report for the Financial Year 2024-25)",
+   "revised": false,
+   "expected": 0
+  },
+  {
+   "url": "https://www.eci.gov.in/eci-backend/public//pdf/report/October/1760680723.pdf",
+   "kind": "audit",
+   "party": "Maharashtrawadi Gomantak",
+   "year": "2024-25",
+   "title": "Maharashtrawadi Gomantak (Annual Audit Report for the Financial Year 2024-25)",
+   "revised": false,
+   "expected": 0
+  },
+  {
+   "url": "https://www.eci.gov.in/eci-backend/public//pdf/report/October/1760680700.pdf",
+   "kind": "audit",
+   "party": "Biju Janata Dal",
+   "year": "2024-25",
+   "title": "Biju Janata Dal (Annual Audit Report for the Financial Year 2024-25)",
+   "revised": false,
+   "expected": 0
+  },
+  {
+   "url": "https://www.eci.gov.in/eci-backend/public//pdf/report/October/1760525677.pdf",
+   "kind": "audit",
+   "party": "Aam Aadmi Party",
+   "year": "2024-25",
+   "title": "Aam Aadmi Party (Annual Audit Report for the Financial Year 2024-25)",
+   "revised": false,
+   "expected": 0
+  },
+  {
+   "url": "https://www.eci.gov.in/eci-backend/public//pdf/report/October/1760525654.pdf",
+   "kind": "audit",
+   "party": "National People's Party",
+   "year": "2024-25",
+   "title": "National People's Party (Annual Audit Report for the Financial Year 2024-25)",
+   "revised": false,
+   "expected": 0
+  },
+  {
+   "url": "https://www.eci.gov.in/eci-backend/public//pdf/report/September/1758020203.pdf",
+   "kind": "audit",
+   "party": "Zoram People's Movement",
+   "year": "2024-25",
+   "title": "Zoram People's Movement (Annual Audit Report for the Financial Year 2024-25)",
+   "revised": false,
+   "expected": 0
+  },
+  {
+   "url": "https://www.eci.gov.in/eci-backend/public//pdf/report/September/1758020151.pdf",
+   "kind": "audit",
+   "party": "Jammu and Kashmir Peoples Democratic Party",
+   "year": "2024-25",
+   "title": "Jammu and Kashmir Peoples Democratic Party (Annual Audit Report for the Financial Year 2024-25)",
+   "revised": false,
+   "expected": 0
+  },
+  {
+   "url": "https://www.eci.gov.in/eci-backend/public//pdf/report/September/1758020083.pdf",
+   "kind": "audit",
+   "party": "Naga People's Front",
+   "year": "2024-25",
+   "title": "Naga People's Front (Annual Audit Report for the Financial Year 2024-25)",
+   "revised": false,
+   "expected": 0
+  },
+  {
+   "url": "https://www.eci.gov.in/eci-backend/public//pdf/report/September/1788342020.pdf",
+   "kind": "audit",
+   "party": "Zoram People's Movement",
+   "year": "2023-24",
+   "title": "Zoram People's Movement (Revised Annual Audit Report for the Financial Year 2023-24)",
+   "revised": true,
+   "expected": 0
+  },
+  {
+   "url": "https://www.eci.gov.in/eci-backend/public//pdf/report/December/1765967353.pdf",
+   "kind": "audit",
+   "party": "Sikkim Krantikari Morcha",
+   "year": "2023-24",
+   "title": "Sikkim Krantikari Morcha (Revised Annual Audit Report for the Financial Year 2023-24)",
+   "revised": true,
+   "expected": 0
+  },
+  {
+   "url": "https://www.eci.gov.in/eci-backend/public//pdf/report/December/1765967331.pdf",
+   "kind": "audit",
+   "party": "Zoram People's Movement",
+   "year": "2023-24",
+   "title": "Zoram People's Movement (Revised Annual Audit Report for the Financial Year 2023-24)",
+   "revised": true,
+   "expected": 0
+  },
+  {
+   "url": "https://www.eci.gov.in/eci-backend/public//pdf/report/October/1760502820.pdf",
+   "kind": "audit",
+   "party": "Mizo National Front",
+   "year": "2023-24",
+   "title": "Mizo National Front (Revised Annual Audit Report for the Financial Year 2023-24)",
+   "revised": true,
+   "expected": 0
+  },
+  {
+   "url": "https://www.eci.gov.in/eci-backend/public//pdf/report/September/1758282214.pdf",
+   "kind": "audit",
+   "party": "Jammu and Kashmir National Conference",
+   "year": "2023-24",
+   "title": "Jammu and Kashmir National Conference (Annual Audit Report for the Financial Year 2023-24)",
+   "revised": false,
+   "expected": 0
+  },
+  {
+   "url": "https://www.eci.gov.in/eci-backend/public//pdf/report/September/1758282189.pdf",
+   "kind": "audit",
+   "party": "United People's Party Liberal",
+   "year": "2023-24",
+   "title": "United People's Party Liberal (Annual Audit Report for the Financial Year 2023-24)",
+   "revised": false,
+   "expected": 0
+  },
+  {
+   "url": "https://www.eci.gov.in/eci-backend/public//pdf/report/September/1758282169.pdf",
+   "kind": "audit",
+   "party": "Rashtriya Janata Dal",
+   "year": "2023-24",
+   "title": "Rashtriya Janata Dal (Revised Annual Audit Report for the Financial Year 2023-24)",
+   "revised": true,
+   "expected": 0
+  },
+  {
+   "url": "https://www.eci.gov.in/eci-backend/public//pdf/report/July/1752558979.pdf",
+   "kind": "audit",
+   "party": "Mizo National Front",
+   "year": "2023-24",
+   "title": "Mizo National Front (Annual Audit Report for the Financial Year 2023-24)",
+   "revised": false,
+   "expected": 0
+  },
+  {
+   "url": "https://www.eci.gov.in/eci-backend/public//pdf/report/June/1750240290.pdf",
+   "kind": "audit",
+   "party": "Bahujan Samaj Party",
+   "year": "2023-24",
+   "title": "Bahujan Samaj Party (Revised Schedule of Fixed Assets of Annual Audit Report for the Financial Year 2023-24)",
+   "revised": true,
+   "expected": 0
+  },
+  {
+   "url": "https://www.eci.gov.in/eci-backend/public//pdf/report/June/1750240171.pdf",
+   "kind": "audit",
+   "party": "Zoram People's Movement",
+   "year": "2023-24",
+   "title": "Zoram People's Movement (Annual Audit Report for the Financial Year 2023-24)",
+   "revised": false,
+   "expected": 0
+  },
+  {
+   "url": "https://www.eci.gov.in/eci-backend/public//pdf/report/May/1747818509.pdf",
+   "kind": "audit",
+   "party": "All India Majilis-e-Ittehadul Muslimeen",
+   "year": "2023-24",
+   "title": "All India Majilis-e-Ittehadul Muslimeen (Revised Annual Audit Report for the Financial Year 2023-24)",
+   "revised": true,
+   "expected": 0
+  },
+  {
+   "url": "https://www.eci.gov.in/eci-backend/public//pdf/report/May/1747818465.pdf",
+   "kind": "audit",
+   "party": "Jannayak Janta Party",
+   "year": "2023-24",
+   "title": "Jannayak Janta Party (Annual Audit Report for the Financial Year 2023-24)",
+   "revised": false,
+   "expected": 0
+  },
+  {
+   "url": "https://www.eci.gov.in/eci-backend/public//pdf/report/March/1742880106.pdf",
+   "kind": "audit",
+   "party": "Apna Dal (Soneylal)",
+   "year": "2023-24",
+   "title": "Apna Dal (Soneylal) (Annual Audit Report for the Financial Year 2023-24)",
+   "revised": false,
+   "expected": 0
+  },
+  {
+   "url": "https://www.eci.gov.in/eci-backend/public//pdf/report/March/1742880085.pdf",
+   "kind": "audit",
+   "party": "Indian National Lok Dal",
+   "year": "2023-24",
+   "title": "Indian National Lok Dal (Annual Audit Report for the Financial Year 2023-24)",
+   "revised": false,
+   "expected": 0
+  },
+  {
+   "url": "https://www.eci.gov.in/eci-backend/public//pdf/report/March/1742880035.pdf",
+   "kind": "audit",
+   "party": "Maharashtra Navnirman Sena",
+   "year": "2023-24",
+   "title": "Maharashtra Navnirman Sena (Annual Audit Report for the Financial Year 2023-24)",
+   "revised": false,
+   "expected": 0
+  },
+  {
+   "url": "https://www.eci.gov.in/eci-backend/public//pdf/report/March/1742880006.pdf",
+   "kind": "audit",
+   "party": "All India Majilis-e-Ittehadul Muslimeen",
+   "year": "2023-24",
+   "title": "All India Majilis-e-Ittehadul Muslimeen (Annual Audit Report for the Financial Year 2023-24)",
+   "revised": false,
+   "expected": 0
+  },
+  {
+   "url": "https://www.eci.gov.in/eci-backend/public//pdf/report/March/1741329019.pdf",
+   "kind": "audit",
+   "party": "Peoples Party of Arunachal",
+   "year": "2023-24",
+   "title": "Peoples Party of Arunachal (Annual Audit Report for the Financial Year 2023-24)",
+   "revised": false,
+   "expected": 0
+  },
+  {
+   "url": "https://www.eci.gov.in/eci-backend/public//pdf/report/March/1741328992.pdf",
+   "kind": "audit",
+   "party": "Naga Peoples Front",
+   "year": "2023-24",
+   "title": "Naga Peoples Front (Annual Audit Report for the Financial Year 2023-24)",
+   "revised": false,
+   "expected": 0
+  },
+  {
+   "url": "https://www.eci.gov.in/eci-backend/public//pdf/report/March/1741328946.pdf",
+   "kind": "audit",
+   "party": "Asom Gana Parishad",
+   "year": "2023-24",
+   "title": "Asom Gana Parishad (Annual Audit Report for the Financial Year 2023-24)",
+   "revised": false,
+   "expected": 0
+  },
+  {
+   "url": "https://www.eci.gov.in/eci-backend/public//pdf/report/March/1741328877.pdf",
+   "kind": "audit",
+   "party": "All India Forward Bloc",
+   "year": "2023-24",
+   "title": "All India Forward Bloc (Annual Audit Report for the Financial Year 2023-24)",
+   "revised": false,
+   "expected": 0
+  },
+  {
+   "url": "https://www.eci.gov.in/eci-backend/public//pdf/report/March/1741328848.pdf",
+   "kind": "audit",
+   "party": "Lok Jan Shakti Party",
+   "year": "2023-24",
+   "title": "Lok Jan Shakti Party - Ramvilas - (Annual Audit Report for the Financial Year 2023-24)",
+   "revised": false,
+   "expected": 0
+  },
+  {
+   "url": "https://www.eci.gov.in/eci-backend/public//pdf/report/March/1741328784.pdf",
+   "kind": "audit",
+   "party": "Zoram Peoples Movement",
+   "year": "2023-24",
+   "title": "Zoram Peoples Movement (Annual Audit Report for the Financial Year 2023-24)",
+   "revised": false,
+   "expected": 0
+  },
+  {
+   "url": "https://www.eci.gov.in/eci-backend/public//pdf/report/March/1741328765.pdf",
+   "kind": "audit",
+   "party": "Samajwadi Party",
+   "year": "2023-24",
+   "title": "Samajwadi Party (Annual Audit Report for the Financial Year 2023-24)",
+   "revised": false,
+   "expected": 0
+  },
+  {
+   "url": "https://www.eci.gov.in/eci-backend/public//pdf/report/March/1741328749.pdf",
+   "kind": "audit",
+   "party": "Communist Party of India (Marxist-Leninist) Liberation",
+   "year": "2023-24",
+   "title": "Communist Party of India (Marxist-Leninist) Liberation - (Annual Audit Report for the Financial Year 2023-24)",
+   "revised": false,
+   "expected": 0
+  },
+  {
+   "url": "https://www.eci.gov.in/eci-backend/public//pdf/report/March/1741328716.pdf",
+   "kind": "audit",
+   "party": "Janata Dal",
+   "year": "2023-24",
+   "title": "Janata Dal - Secular (Annual Audit Report for the Financial Year 2023-24)",
+   "revised": false,
+   "expected": 0
+  },
+  {
+   "url": "https://www.eci.gov.in/eci-backend/public//pdf/report/January/1737958167.pdf",
+   "kind": "audit",
+   "party": "Bharatiya Janata Party",
+   "year": "2023-24",
+   "title": "Bharatiya Janata Party (Annual Audit Report for the Financial Year 2023-24)",
+   "revised": false,
+   "expected": 0
+  },
+  {
+   "url": "https://www.eci.gov.in/eci-backend/public//pdf/report/January/1737958148.pdf",
+   "kind": "audit",
+   "party": "Indian National Congress",
+   "year": "2023-24",
+   "title": "Indian National Congress (Annual Audit Report for the Financial Year 2023-24)",
+   "revised": false,
+   "expected": 0
+  },
+  {
+   "url": "https://www.eci.gov.in/eci-backend/public//pdf/report/January/1737958126.pdf",
+   "kind": "audit",
+   "party": "All India Majlis-e-Ittehadul Muslimeen",
+   "year": "2023-24",
+   "title": "All India Majlis-e-Ittehadul Muslimeen (Annual Audit Report for the Financial Year 2023-24)",
+   "revised": false,
+   "expected": 0
+  },
+  {
+   "url": "https://www.eci.gov.in/eci-backend/public//pdf/report/January/1737958018.pdf",
+   "kind": "audit",
+   "party": "Maharashtra Navnirman Sena",
+   "year": "2023-24",
+   "title": "Maharashtra Navnirman Sena (Annual Audit Report for the Financial Year 2023-24)",
+   "revised": false,
+   "expected": 0
+  },
+  {
+   "url": "https://www.eci.gov.in/eci-backend/public//pdf/report/January/1737957999.pdf",
+   "kind": "audit",
+   "party": "Janata Dal (Secular)",
+   "year": "2023-24",
+   "title": "Janata Dal (Secular) (Annual Audit Report for the Financial Year 2023-24)",
+   "revised": false,
+   "expected": 0
+  },
+  {
+   "url": "https://www.eci.gov.in/eci-backend/public//pdf/report/January/1737957973.pdf",
+   "kind": "audit",
+   "party": "Goa Forward Party",
+   "year": "2023-24",
+   "title": "Goa Forward Party (Annual Audit Report for the Financial Year 2023-24)",
+   "revised": false,
+   "expected": 0
+  },
+  {
+   "url": "https://www.eci.gov.in/eci-backend/public//pdf/report/January/1737957956.pdf",
+   "kind": "audit",
+   "party": "Janata Dal (United)",
+   "year": "2023-24",
+   "title": "Janata Dal (United) (Annual Audit Report for the Financial Year 2023-24)",
+   "revised": false,
+   "expected": 0
+  },
+  {
+   "url": "https://www.eci.gov.in/eci-backend/public//pdf/report/January/1736763071.pdf",
+   "kind": "audit",
+   "party": "Samajwadi Party",
+   "year": "2023-24",
+   "title": "Samajwadi Party (Annual Audit Report for the Financial Year 2023-24)",
+   "revised": false,
+   "expected": 0
+  },
+  {
+   "url": "https://www.eci.gov.in/eci-backend/public//pdf/report/January/1736763043.pdf",
+   "kind": "audit",
+   "party": "Desiya Murpokku Dravida Kazhagam",
+   "year": "2023-24",
+   "title": "Desiya Murpokku Dravida Kazhagam (Annual Audit Report for the Financial Year 2023-24)",
+   "revised": false,
+   "expected": 0
+  },
+  {
+   "url": "https://www.eci.gov.in/eci-backend/public//pdf/report/January/1736763020.pdf",
+   "kind": "audit",
+   "party": "Revolutionary Goans Party",
+   "year": "2023-24",
+   "title": "Revolutionary Goans Party (Annual Audit Report for the Financial Year 2023-24)",
+   "revised": false,
+   "expected": 0
+  },
+  {
+   "url": "https://www.eci.gov.in/eci-backend/public//pdf/report/January/1736762990.pdf",
+   "kind": "audit",
+   "party": "Communist Party of India (Marxist-Leninist) Liberation",
+   "year": "2023-24",
+   "title": "Communist Party of India (Marxist-Leninist) Liberation (Annual Audit Report for the Financial Year 2023-24)",
+   "revised": false,
+   "expected": 0
+  },
+  {
+   "url": "https://www.eci.gov.in/eci-backend/public//pdf/report/January/1736762962.pdf",
+   "kind": "audit",
+   "party": "Sikkim Krantikari Morcha",
+   "year": "2023-24",
+   "title": "Sikkim Krantikari Morcha (Annual Audit Report for the Financial Year 2023-24)",
+   "revised": false,
+   "expected": 0
+  },
+  {
+   "url": "https://www.eci.gov.in/eci-backend/public//pdf/report/January/1736762926.pdf",
+   "kind": "audit",
+   "party": "Tipra Motha Party",
+   "year": "2023-24",
+   "title": "Tipra Motha Party (Annual Audit Report for the Financial Year 2023-24)",
+   "revised": false,
+   "expected": 0
+  },
+  {
+   "url": "https://www.eci.gov.in/eci-backend/public//pdf/report/January/1736762891.pdf",
+   "kind": "audit",
+   "party": "Dravida Munnetra Kazhagam",
+   "year": "2023-24",
+   "title": "Dravida Munnetra Kazhagam (Annual Audit Report for the Financial Year 2023-24)",
+   "revised": false,
+   "expected": 0
+  },
+  {
+   "url": "https://www.eci.gov.in/eci-backend/public//pdf/report/January/1736762850.pdf",
+   "kind": "audit",
+   "party": "Communist Party of India",
+   "year": "2023-24",
+   "title": "Communist Party of India (Annual Audit Report for the Financial Year 2023-24)",
+   "revised": false,
+   "expected": 0
+  },
+  {
+   "url": "https://www.eci.gov.in/eci-backend/public//pdf/report/January/1735896066.pdf",
+   "kind": "audit",
+   "party": "Aam Aadmi Party",
+   "year": "2023-24",
+   "title": "Aam Aadmi Party (Annual Audit Report for the Financial Year 2023-24)",
+   "revised": false,
+   "expected": 0
+  },
+  {
+   "url": "https://www.eci.gov.in/eci-backend/public//pdf/report/January/1735896046.pdf",
+   "kind": "audit",
+   "party": "Communist Party of India (Marxist)",
+   "year": "2023-24",
+   "title": "Communist Party of India (Marxist) (Annual Audit Report for the Financial Year 2023-24)",
+   "revised": false,
+   "expected": 0
+  },
+  {
+   "url": "https://www.eci.gov.in/eci-backend/public//pdf/report/January/1735896026.pdf",
+   "kind": "audit",
+   "party": "Bahujan Samaj Party",
+   "year": "2023-24",
+   "title": "Bahujan Samaj Party (Annual Audit Report for the Financial Year 2023-24)",
+   "revised": false,
+   "expected": 0
+  },
+  {
+   "url": "https://www.eci.gov.in/eci-backend/public//pdf/report/January/1735896007.pdf",
+   "kind": "audit",
+   "party": "National People's Party",
+   "year": "2023-24",
+   "title": "National People's Party (Annual Audit Report for the Financial Year 2023-24)",
+   "revised": false,
+   "expected": 0
+  },
+  {
+   "url": "https://www.eci.gov.in/eci-backend/public//pdf/report/December/1735635248.pdf",
+   "kind": "audit",
+   "party": "All India Anna Dravida Munnetra Kazhagam",
+   "year": "2023-24",
+   "title": "All India Anna Dravida Munnetra Kazhagam (Annual Audit Report for the Financial Year 2023-24)",
+   "revised": false,
+   "expected": 0
+  },
+  {
+   "url": "https://www.eci.gov.in/eci-backend/public//pdf/report/December/1735635211.pdf",
+   "kind": "audit",
+   "party": "All India N R Congress",
+   "year": "2023-24",
+   "title": "All India N R Congress (Annual Audit Report for the Financial Year 2023-24)",
+   "revised": false,
+   "expected": 0
+  },
+  {
+   "url": "https://www.eci.gov.in/eci-backend/public//pdf/report/December/1735635182.pdf",
+   "kind": "audit",
+   "party": "All India Trinamool Congress",
+   "year": "2023-24",
+   "title": "All India Trinamool Congress (Annual Audit Report for the Financial Year 2023-24)",
+   "revised": false,
+   "expected": 0
+  },
+  {
+   "url": "https://www.eci.gov.in/eci-backend/public//pdf/report/December/1735635143.pdf",
+   "kind": "audit",
+   "party": "AJSU Party",
+   "year": "2023-24",
+   "title": "AJSU Party (Annual Audit Report for the Financial Year 2023-24)",
+   "revised": false,
+   "expected": 0
+  },
+  {
+   "url": "https://www.eci.gov.in/eci-backend/public//pdf/report/December/1735635121.pdf",
+   "kind": "audit",
+   "party": "Biju Janata Dal",
+   "year": "2023-24",
+   "title": "Biju Janata Dal (Annual Audit Report for the Financial Year 2023-24)",
+   "revised": false,
+   "expected": 0
+  },
+  {
+   "url": "https://www.eci.gov.in/eci-backend/public//pdf/report/December/1735635098.pdf",
+   "kind": "audit",
+   "party": "Bharat Rashtra Samithi",
+   "year": "2023-24",
+   "title": "Bharat Rashtra Samithi (Annual Audit Report for the Financial Year 2023-24)",
+   "revised": false,
+   "expected": 0
+  },
+  {
+   "url": "https://www.eci.gov.in/eci-backend/public//pdf/report/December/1735635079.pdf",
+   "kind": "audit",
+   "party": "Goa Forward Party",
+   "year": "2023-24",
+   "title": "Goa Forward Party (Annual Audit Report for the Financial Year 2023-24)",
+   "revised": false,
+   "expected": 0
+  },
+  {
+   "url": "https://www.eci.gov.in/eci-backend/public//pdf/report/December/1735635061.pdf",
+   "kind": "audit",
+   "party": "Jammu and Kashmir Peoples Democratic Party",
+   "year": "2023-24",
+   "title": "Jammu and Kashmir Peoples Democratic Party (Annual Audit Report for the Financial Year 2023-24)",
+   "revised": false,
+   "expected": 0
+  },
+  {
+   "url": "https://www.eci.gov.in/eci-backend/public//pdf/report/December/1735635034.pdf",
+   "kind": "audit",
+   "party": "Jharkhand Mukti Morcha",
+   "year": "2023-24",
+   "title": "Jharkhand Mukti Morcha (Annual Audit Report for the Financial Year 2023-24)",
+   "revised": false,
+   "expected": 0
+  },
+  {
+   "url": "https://www.eci.gov.in/eci-backend/public//pdf/report/December/1735635013.pdf",
+   "kind": "audit",
+   "party": "Kerala Congress (M)",
+   "year": "2023-24",
+   "title": "Kerala Congress (M) (Annual Audit Report for the Financial Year 2023-24)",
+   "revised": false,
+   "expected": 0
+  },
+  {
+   "url": "https://www.eci.gov.in/eci-backend/public//pdf/report/December/1735634964.pdf",
+   "kind": "audit",
+   "party": "Maharashtrawadi Gomantak",
+   "year": "2023-24",
+   "title": "Maharashtrawadi Gomantak (Annual Audit Report for the Financial Year 2023-24)",
+   "revised": false,
+   "expected": 0
+  },
+  {
+   "url": "https://www.eci.gov.in/eci-backend/public//pdf/report/December/1735634946.pdf",
+   "kind": "audit",
+   "party": "Nationalist Democratic Progressive Party",
+   "year": "2023-24",
+   "title": "Nationalist Democratic Progressive Party (Annual Audit Report for the Financial Year 2023-24)",
+   "revised": false,
+   "expected": 0
+  },
+  {
+   "url": "https://www.eci.gov.in/eci-backend/public//pdf/report/December/1735634925.pdf",
+   "kind": "audit",
+   "party": "Rashtriya Loktantrik Party",
+   "year": "2023-24",
+   "title": "Rashtriya Loktantrik Party (Annual Audit Report for the Financial Year 2023-24)",
+   "revised": false,
+   "expected": 0
+  },
+  {
+   "url": "https://www.eci.gov.in/eci-backend/public//pdf/report/December/1735634896.pdf",
+   "kind": "audit",
+   "party": "Shiromani Akali Dal",
+   "year": "2023-24",
+   "title": "Shiromani Akali Dal (Annual Audit Report for the Financial Year 2023-24)",
+   "revised": false,
+   "expected": 0
+  },
+  {
+   "url": "https://www.eci.gov.in/eci-backend/public//pdf/report/December/1735634877.pdf",
+   "kind": "audit",
+   "party": "Sikkim Democratic Front",
+   "year": "2023-24",
+   "title": "Sikkim Democratic Front (Annual Audit Report for the Financial Year 2023-24)",
+   "revised": false,
+   "expected": 0
+  },
+  {
+   "url": "https://www.eci.gov.in/eci-backend/public//pdf/report/December/1735634859.pdf",
+   "kind": "audit",
+   "party": "Telugu Desam Party",
+   "year": "2023-24",
+   "title": "Telugu Desam Party (Annual Audit Report for the Financial Year 2023-24)",
+   "revised": false,
+   "expected": 0
+  },
+  {
+   "url": "https://www.eci.gov.in/eci-backend/public//pdf/report/December/1735634840.pdf",
+   "kind": "audit",
+   "party": "Yuvajana Sramika Rythu Congress Party",
+   "year": "2023-24",
+   "title": "Yuvajana Sramika Rythu Congress Party (Annual Audit Report for the Financial Year 2023-24)",
+   "revised": false,
+   "expected": 0
+  },
+  {
+   "url": "https://www.eci.gov.in/eci-backend/public//pdf/report/September/1727162889.pdf",
+   "kind": "audit",
+   "party": "All India United Democratic Front",
+   "year": "2023-24",
+   "title": "All India United Democratic Front (Annual Audit Report for the Financial Year 2023-24)",
+   "revised": false,
+   "expected": 0
+  },
+  {
+   "url": "https://www.eci.gov.in/eci-backend/public//pdf/report/August/1723804300.pdf",
+   "kind": "audit",
+   "party": "Jammu and Kashmir People's Democratic Party",
+   "year": "2023-24",
+   "title": "Jammu and Kashmir People's Democratic Party (Annual Audit Report for the Financial Year 2023-24)",
+   "revised": false,
+   "expected": 0
+  },
+  {
+   "url": "https://www.eci.gov.in/eci-backend/public//pdf/report/October/1792062987.pdf",
+   "kind": "audit",
+   "party": "Indian Union Muslim League",
+   "year": "2022-23",
+   "title": "Indian Union Muslim League (Annual Audit Report for the Financial Year 2022-23)",
+   "revised": false,
+   "expected": 0
+  },
+  {
+   "url": "https://www.eci.gov.in/eci-backend/public//pdf/report/September/1790154054.pdf",
+   "kind": "audit",
+   "party": "Revolutionary Socialist Party",
+   "year": "2022-23",
+   "title": "Revolutionary Socialist Party (Annual Audit Report for the Financial Year 2022-23)",
+   "revised": false,
+   "expected": 0
+  },
+  {
+   "url": "https://www.eci.gov.in/eci-backend/public//pdf/report/October/1761296520.pdf",
+   "kind": "audit",
+   "party": "Hill State People's Democratic Party",
+   "year": "2022-23",
+   "title": "Hill State People's Democratic Party (Annual Audit Report for the Financial Year 2022-23)",
+   "revised": false,
+   "expected": 0
+  },
+  {
+   "url": "https://www.eci.gov.in/eci-backend/public//pdf/report/October/1760502793.pdf",
+   "kind": "audit",
+   "party": "Mizo National Front",
+   "year": "2022-23",
+   "title": "Mizo National Front (Revised Annual Audit Report for the Financial Year 2022-23)",
+   "revised": true,
+   "expected": 0
+  },
+  {
+   "url": "https://www.eci.gov.in/eci-backend/public//pdf/report/September/1758282270.pdf",
+   "kind": "audit",
+   "party": "Bodoland Peoples Front",
+   "year": "2022-23",
+   "title": "Bodoland Peoples Front (Annual Audit Report for the Financial Year 2022-23)",
+   "revised": false,
+   "expected": 0
+  },
+  {
+   "url": "https://www.eci.gov.in/eci-backend/public//pdf/report/August/1755770572.pdf",
+   "kind": "audit",
+   "party": "Communist Party of India (Marxist)",
+   "year": "2022-23",
+   "title": "Communist Party of India (Marxist) - (Revised Annual Audit Report for FY 2022-23)",
+   "revised": true,
+   "expected": 0
+  },
+  {
+   "url": "https://www.eci.gov.in/eci-backend/public//pdf/report/July/1752559002.pdf",
+   "kind": "audit",
+   "party": "Mizo National Front",
+   "year": "2022-23",
+   "title": "Mizo National Front (Annual Audit Report for the Financial Year 2022-23)",
+   "revised": false,
+   "expected": 0
+  },
+  {
+   "url": "https://www.eci.gov.in/eci-backend/public//pdf/report/January/1737011705.pdf",
+   "kind": "audit",
+   "party": "All India Forward Bloc",
+   "year": "2022-23",
+   "title": "All India Forward Bloc - Other notes to accounts and significant accounting policies for FY 2022-23",
+   "revised": false,
+   "expected": 0
+  },
+  {
+   "url": "https://www.eci.gov.in/eci-backend/public//pdf/report/October/1730185497.pdf",
+   "kind": "audit",
+   "party": "United Democratic Party",
+   "year": "2022-23",
+   "title": "United Democratic Party (Annual Audit Report for the Financial Year 2022-23)",
+   "revised": false,
+   "expected": 0
+  },
+  {
+   "url": "https://www.eci.gov.in/eci-backend/public//pdf/report/October/1730185453.pdf",
+   "kind": "audit",
+   "party": "Tipra Motha Party",
+   "year": "2022-23",
+   "title": "Tipra Motha Party (Annual Audit Report for the Financial Year 2022-23)",
+   "revised": false,
+   "expected": 0
+  },
+  {
+   "url": "https://www.eci.gov.in/eci-backend/public//pdf/report/July/1720503984.pdf",
+   "kind": "audit",
+   "party": "Naga People's Front",
+   "year": "2022-23",
+   "title": "Naga People's Front-Revised Cash Flow Statement for FY 2022-23",
+   "revised": true,
+   "expected": 0
+  },
+  {
+   "url": "https://www.eci.gov.in/eci-backend/public//pdf/report/July/1720503940.pdf",
+   "kind": "audit",
+   "party": "Rashtriya Loktantrik Party",
+   "year": "2022-23",
+   "title": "Rashtriya Loktantrik Party - Cash Flow Statement for FY 2022-23",
+   "revised": false,
+   "expected": 0
+  },
+  {
+   "url": "https://www.eci.gov.in/eci-backend/public//pdf/report/July/1720503901.pdf",
+   "kind": "audit",
+   "party": "All India Forward Bloc",
+   "year": "2022-23",
+   "title": "All India Forward Bloc (Annual Audit Report for the Financial Year 2022-23)",
+   "revised": false,
+   "expected": 0
+  },
+  {
+   "url": "https://www.eci.gov.in/eci-backend/public//pdf/report/June/1717653196.pdf",
+   "kind": "audit",
+   "party": "United People's Party Liberal",
+   "year": "2022-23",
+   "title": "United People's Party Liberal - (Annual Audit Report for the Financial Year 2022-23)",
+   "revised": false,
+   "expected": 0
+  },
+  {
+   "url": "https://www.eci.gov.in/eci-backend/public//pdf/report/June/1717653124.pdf",
+   "kind": "audit",
+   "party": "People's Party of Arunachal",
+   "year": "2022-23",
+   "title": "People's Party of Arunachal - (Annual Audit Report for the Financial Year 2022-23)",
+   "revised": false,
+   "expected": 0
+  },
+  {
+   "url": "https://www.eci.gov.in/eci-backend/public//pdf/report/June/1717653083.pdf",
+   "kind": "audit",
+   "party": "Voice of the People Party",
+   "year": "2022-23",
+   "title": "Voice of the People Party - (Annual Audit Report for the Financial Year 2022-23)",
+   "revised": false,
+   "expected": 0
+  },
+  {
+   "url": "https://www.eci.gov.in/eci-backend/public//pdf/report/June/1717653020.pdf",
+   "kind": "audit",
+   "party": "Lok Janshakti Party (Ram Vilas)",
+   "year": "2022-23",
+   "title": "Lok Janshakti Party (Ram Vilas) - Revised (Annual Audit Report for the Financial Year 2022-23)",
+   "revised": true,
+   "expected": 0
+  },
+  {
+   "url": "https://www.eci.gov.in/eci-backend/public//pdf/report/June/1717652980.pdf",
+   "kind": "audit",
+   "party": "Apna Dal (Soneylal)",
+   "year": "2022-23",
+   "title": "Apna Dal (Soneylal) - Revised (Annual Audit Report for the Financial Year 2022-23)",
+   "revised": true,
+   "expected": 0
+  },
+  {
+   "url": "https://www.eci.gov.in/eci-backend/public//pdf/report/June/1717652949.pdf",
+   "kind": "audit",
+   "party": "Indian National Lok Dal",
+   "year": "2022-23",
+   "title": "Indian National Lok Dal - (Annual Audit Report for the Financial Year 2022-23)",
+   "revised": false,
+   "expected": 0
+  },
+  {
+   "url": "https://www.eci.gov.in/eci-backend/public//pdf/report/June/1717652881.pdf",
+   "kind": "audit",
+   "party": "All India N R Congress",
+   "year": "2022-23",
+   "title": "All India N R Congress - Revised (Annual Audit Report for the Financial Year 2022-23)",
+   "revised": true,
+   "expected": 0
+  },
+  {
+   "url": "https://www.eci.gov.in/eci-backend/public//pdf/report/June/1717652787.pdf",
+   "kind": "audit",
+   "party": "All India United Democratic Front",
+   "year": "2022-23",
+   "title": "All India United Democratic Front - Revised (Annual Audit Report for the Financial Year 2022-23)",
+   "revised": true,
+   "expected": 0
+  },
+  {
+   "url": "https://www.eci.gov.in/eci-backend/public//pdf/report/March/1709542224.pdf",
+   "kind": "audit",
+   "party": "Samajwadi Party",
+   "year": "2022-23",
+   "title": "Revised Report- Samajwadi Party (Annual Audit Report for the Financial Year 2022-23)",
+   "revised": true,
+   "expected": 0
+  },
+  {
+   "url": "https://www.eci.gov.in/eci-backend/public//pdf/report/March/1709542148.pdf",
+   "kind": "audit",
+   "party": "Rashtriya Janata Dal",
+   "year": "2022-23",
+   "title": "Rashtriya Janata Dal(Annual Audit Report for the Financial Year 2022-23)",
+   "revised": false,
+   "expected": 0
+  },
+  {
+   "url": "https://www.eci.gov.in/eci-backend/public//pdf/report/March/1709542131.pdf",
+   "kind": "audit",
+   "party": "Naga People's Front",
+   "year": "2022-23",
+   "title": "Revised Report -Naga People's Front (Annual Audit Report for the Financial Year 2022-23)",
+   "revised": true,
+   "expected": 0
+  },
+  {
+   "url": "https://www.eci.gov.in/eci-backend/public//pdf/report/March/1709542100.pdf",
+   "kind": "audit",
+   "party": "Maharashtrawadi Gomantak Party",
+   "year": "2022-23",
+   "title": "Maharashtrawadi Gomantak Party (Annual Audit Report for the Financial Year 2022-23)",
+   "revised": false,
+   "expected": 0
+  },
+  {
+   "url": "https://www.eci.gov.in/eci-backend/public//pdf/report/March/1709542075.pdf",
+   "kind": "audit",
+   "party": "Lok Janshakti Party (Ram Vilas)",
+   "year": "2022-23",
+   "title": "Lok Janshakti Party (Ram Vilas) (Annual Audit Report for the Financial Year 2022-23)",
+   "revised": false,
+   "expected": 0
+  },
+  {
+   "url": "https://www.eci.gov.in/eci-backend/public//pdf/report/March/1709542049.pdf",
+   "kind": "audit",
+   "party": "Jharkhand Mukti Morcha",
+   "year": "2022-23",
+   "title": "Jharkhand Mukti Morcha (Annual Audit Report for the Financial Year 2022-23)",
+   "revised": false,
+   "expected": 0
+  },
+  {
+   "url": "https://www.eci.gov.in/eci-backend/public//pdf/report/March/1709542030.pdf",
+   "kind": "audit",
+   "party": "Janata Dal (United)",
+   "year": "2022-23",
+   "title": "Janata Dal (United) (Annual Audit Report for the Financial Year 2022-23)",
+   "revised": false,
+   "expected": 0
+  },
+  {
+   "url": "https://www.eci.gov.in/eci-backend/public//pdf/report/March/1709541993.pdf",
+   "kind": "audit",
+   "party": "Janata Dal (Secular)",
+   "year": "2022-23",
+   "title": "Revised Report - Janata Dal (Secular) (Annual Audit Report for the Financial Year 2022-23)",
+   "revised": true,
+   "expected": 0
+  },
+  {
+   "url": "https://www.eci.gov.in/eci-backend/public//pdf/report/March/1709541970.pdf",
+   "kind": "audit",
+   "party": "All India Majilis-e-Ittehadul Muslimeen",
+   "year": "2022-23",
+   "title": "All India Majilis-e-Ittehadul Muslimeen (Annual Audit Report for the Financial Year 2022-23)",
+   "revised": false,
+   "expected": 0
+  },
+  {
+   "url": "https://www.eci.gov.in/eci-backend/public/pdf/report/2023/January/annual/AAP AA 2022-23.pdf",
+   "kind": "audit",
+   "party": "Aam Aadmi Party",
+   "year": "2022-23",
+   "title": "Aam Aadmi Party (Annual Audit Report Year 2022-23)",
+   "revised": false,
+   "expected": 0
+  },
+  {
+   "url": "https://www.eci.gov.in/eci-backend/public/pdf/report/2023/January/annual/CPI (M). AA 2022-23.pdf",
+   "kind": "audit",
+   "party": "Communist Party of India (Marxist)",
+   "year": "2022-23",
+   "title": "Communist Party of India (Marxist) -(Annual Audit Report Year 2022-23)",
+   "revised": false,
+   "expected": 0
+  },
+  {
+   "url": "https://www.eci.gov.in/eci-backend/public/pdf/report/2023/January/annual/AAR of JKPDP for FY 2022-23.pdf",
+   "kind": "audit",
+   "party": "Jammu & Kashmir People's Democratic Party",
+   "year": "2022-23",
+   "title": "Jammu & Kashmir People's Democratic Party (Annual Audit Report for the Financial Year 2022-23)",
+   "revised": false,
+   "expected": 0
+  },
+  {
+   "url": "https://www.eci.gov.in/eci-backend/public/pdf/report/2023/January/annual/AITC AA 2022-23.pdf",
+   "kind": "audit",
+   "party": "All India Trinamool Congress",
+   "year": "2022-23",
+   "title": "All India Trinamool Congress - (Annual Audit Report for the Financial Year 2022-23)",
+   "revised": false,
+   "expected": 0
+  },
+  {
+   "url": "https://www.eci.gov.in/eci-backend/public/pdf/report/2023/January/annual/AJSU AA 2022-23.pdf",
+   "kind": "audit",
+   "party": "AJSU Party",
+   "year": "2022-23",
+   "title": "AJSU Party -(Annual Audit Report for the Financial Year 2022-23)",
+   "revised": false,
+   "expected": 0
+  },
+  {
+   "url": "https://www.eci.gov.in/eci-backend/public/pdf/report/2023/January/annual/Asom Gana Parishad, AA 2022-23 (1).pdf",
+   "kind": "audit",
+   "party": "Asom Gana Parishad",
+   "year": "2022-23",
+   "title": "Asom Gana Parishad -(Annual Audit Report Year 2022-23)",
+   "revised": false,
+   "expected": 0
+  },
+  {
+   "url": "https://www.eci.gov.in/eci-backend/public/pdf/report/2023/January/annual/Bharat Rashtra Samithi AA 2022-23.pdf",
+   "kind": "audit",
+   "party": "Bharat Rashtra Samithi",
+   "year": "2022-23",
+   "title": "Bharat Rashtra Samithi -(Annual Audit Report Year 2022-23)",
+   "revised": false,
+   "expected": 0
+  },
+  {
+   "url": "https://www.eci.gov.in/eci-backend/public/pdf/report/2023/January/annual/BJD. AA 2022-23.pdf",
+   "kind": "audit",
+   "party": "Biju Janta Dal",
+   "year": "2022-23",
+   "title": "Biju Janta Dal-(Annual Audit Report Year 2022-23)",
+   "revised": false,
+   "expected": 0
+  },
+  {
+   "url": "https://www.eci.gov.in/eci-backend/public/pdf/report/2023/January/annual/CPI (ML)-L, AA 2022-23.pdf",
+   "kind": "audit",
+   "party": "Communist Party of India (Marxist-Leninist) Liberation",
+   "year": "2022-23",
+   "title": "Communist Party of India (Marxist-Leninist) Liberation - (Annual Audit Report Year 2022-23)",
+   "revised": false,
+   "expected": 0
+  },
+  {
+   "url": "https://www.eci.gov.in/eci-backend/public/pdf/report/2023/January/annual/DMK AA 2022-23.pdf",
+   "kind": "audit",
+   "party": "Dravida Munnetra Kazhagam",
+   "year": "2022-23",
+   "title": "Dravida Munnetra Kazhagam - (Annual Audit Report Year 2022-23)",
+   "revised": false,
+   "expected": 0
+  },
+  {
+   "url": "https://www.eci.gov.in/eci-backend/public/pdf/report/2023/January/annual/Jannayak Janta Party AA 2022-23.pdf",
+   "kind": "audit",
+   "party": "Jannayak Janta Party",
+   "year": "2022-23",
+   "title": "Jannayak Janta Party -(Annual Audit Report Year 2022-23)",
+   "revised": false,
+   "expected": 0
+  },
+  {
+   "url": "https://www.eci.gov.in/eci-backend/public/pdf/report/2023/January/annual/Maharashtra Navnirman Sena,  AA, 2022-23.pdf",
+   "kind": "audit",
+   "party": "Maharashtra Navnirman Sena",
+   "year": "2022-23",
+   "title": "Maharashtra Navnirman Sena -(Annual Audit Report Year 2022-23)",
+   "revised": false,
+   "expected": 0
+  },
+  {
+   "url": "https://www.eci.gov.in/eci-backend/public/pdf/report/2023/January/annual/Sikkim Democratic Front,  AA 2022-23.pdf",
+   "kind": "audit",
+   "party": "Sikkim Democratic Front",
+   "year": "2022-23",
+   "title": "Sikkim Democratic Front -(Annual Audit Report Year 2022-23)",
+   "revised": false,
+   "expected": 0
+  },
+  {
+   "url": "https://www.eci.gov.in/eci-backend/public/pdf/report/2023/January/annual/YSRCP AA 2022-23.pdf",
+   "kind": "audit",
+   "party": "Yuvajan Sramika Rythu Congress Party",
+   "year": "2022-23",
+   "title": "Yuvajan Sramika Rythu Congress Party-(Annual Audit Report Year 2022-23)",
+   "revised": false,
+   "expected": 0
+  },
+  {
+   "url": "https://www.eci.gov.in/eci-backend/public/pdf/report/2023/January/annual/RSP  AA 2022-23.pdf",
+   "kind": "audit",
+   "party": "Revolutionary Socialist Party",
+   "year": "2022-23",
+   "title": "Revolutionary Socialist Party -(Annual Audit Report 2022-23)",
+   "revised": false,
+   "expected": 0
+  },
+  {
+   "url": "https://www.eci.gov.in/eci-backend/public/pdf/report/2023/January/annual/Revised AAR of NPF for FY 2022-23.pdf",
+   "kind": "audit",
+   "party": "Naga People's Front",
+   "year": "2022-23",
+   "title": "Revised - Naga People's Front (Annual Audit Report for the Financial Year 2022-23)",
+   "revised": true,
+   "expected": 0
+  },
+  {
+   "url": "https://www.eci.gov.in/eci-backend/public/pdf/report/2023/January/annual/AAR of NPF for FY 2022-23.pdf",
+   "kind": "audit",
+   "party": "Naga People's Front",
+   "year": "2022-23",
+   "title": "Naga People's Front (Annual Audit Report for the Financial Year 2022-23)",
+   "revised": false,
+   "expected": 0
+  },
+  {
+   "url": "https://www.eci.gov.in/eci-backend/public/pdf/report/2023/January/annual/Revised AAR of AINRC for FY 2022-23.pdf",
+   "kind": "audit",
+   "party": "All India N.R. Congress",
+   "year": "2022-23",
+   "title": "Revised - All India N.R. Congress (Annual Audit Report for the Financial Year 2022-23)",
+   "revised": true,
+   "expected": 0
+  },
+  {
+   "url": "https://www.eci.gov.in/eci-backend/public/pdf/report/2023/January/annual/AAR of AINRC for FY 2022-23.pdf",
+   "kind": "audit",
+   "party": "All India N.R. Congress",
+   "year": "2022-23",
+   "title": "All India N.R. Congress (Annual Audit Report for the Financial Year 2022-23)",
+   "revised": false,
+   "expected": 0
+  },
+  {
+   "url": "https://www.eci.gov.in/eci-backend/public/pdf/report/2023/January/annual/AAR of AIADMK for FY 2022-23.pdf",
+   "kind": "audit",
+   "party": "All India Anna Dravida Munnetra Kazhagam",
+   "year": "2022-23",
+   "title": "All India Anna Dravida Munnetra Kazhagam (Annual Audit Report for the Financial Year 2022-23)",
+   "revised": false,
+   "expected": 0
+  },
+  {
+   "url": "https://www.eci.gov.in/eci-backend/public/pdf/report/2023/January/annual/AAR of AIUDF for FY 2022-23.pdf",
+   "kind": "audit",
+   "party": "All India United Democratic Front",
+   "year": "2022-23",
+   "title": "All India United Democratic Front (Annual Audit Report for the Financial Year 2022-23)",
+   "revised": false,
+   "expected": 0
+  },
+  {
+   "url": "https://www.eci.gov.in/eci-backend/public/pdf/report/2023/January/annual/AAR of DMDK for FY 2022-23.pdf",
+   "kind": "audit",
+   "party": "Desiya Murpokku Dravida Kazhagam",
+   "year": "2022-23",
+   "title": "Desiya Murpokku Dravida Kazhagam",
+   "revised": false,
+   "expected": 0
+  },
+  {
+   "url": "https://www.eci.gov.in/eci-backend/public/pdf/report/2023/January/annual/AAR of JDS for FY 2022-23.pdf",
+   "kind": "audit",
+   "party": "Janata Dal (Secular)",
+   "year": "2022-23",
+   "title": "Janata Dal (Secular)",
+   "revised": false,
+   "expected": 0
+  },
+  {
+   "url": "https://www.eci.gov.in/eci-backend/public/pdf/report/2023/January/annual/AAR of KC-M for FY 2022-23.pdf",
+   "kind": "audit",
+   "party": "Kerala Congress (M)",
+   "year": "2022-23",
+   "title": "Kerala Congress (M)-(Annual Audit Report for the Financial Year 2022-23)",
+   "revised": false,
+   "expected": 0
+  },
+  {
+   "url": "https://www.eci.gov.in/eci-backend/public/pdf/report/2023/January/annual/AAR of SAD for FY 2022-23.pdf",
+   "kind": "audit",
+   "party": "Shiromani Akali Dal",
+   "year": "2022-23",
+   "title": "Shiromani Akali Dal (Annual Audit Report for the Financial Year 2022-23)",
+   "revised": false,
+   "expected": 0
+  },
+  {
+   "url": "https://www.eci.gov.in/eci-backend/public/pdf/report/2023/January/annual/AAR of NDPP  for FY 2022-23.pdf",
+   "kind": "audit",
+   "party": "Nationalist Democratic Progressive Party",
+   "year": "2022-23",
+   "title": "Nationalist Democratic Progressive Party",
+   "revised": false,
+   "expected": 0
+  },
+  {
+   "url": "https://www.eci.gov.in/eci-backend/public/pdf/report/2023/January/annual/AAR of TDP for FY 2022-23.pdf",
+   "kind": "audit",
+   "party": "Telugu Desam Party",
+   "year": "2022-23",
+   "title": "Telugu Desam Party",
+   "revised": false,
+   "expected": 0
+  },
+  {
+   "url": "https://www.eci.gov.in/eci-backend/public/pdf/report/2023/January/annual/AAR of SKM for FY 2022-23.pdf",
+   "kind": "audit",
+   "party": "Sikkim Krantikari Morcha",
+   "year": "2022-23",
+   "title": "Sikkim Krantikari Morcha",
+   "revised": false,
+   "expected": 0
+  },
+  {
+   "url": "https://www.eci.gov.in/eci-backend/public/pdf/report/2023/January/annual/AAR of SP for FY 2022-23.pdf",
+   "kind": "audit",
+   "party": "Samajwadi Party",
+   "year": "2022-23",
+   "title": "Samajwadi Party",
+   "revised": false,
+   "expected": 0
+  },
+  {
+   "url": "https://www.eci.gov.in/eci-backend/public//pdf/report/October/1697694088.pdf",
+   "kind": "audit",
+   "party": "Jammu & Kashmir People's Democratic Party",
+   "year": "2022-23",
+   "title": "Jammu & Kashmir People's Democratic Party (Annual Audit Report for the Financial Year 2022-23)",
+   "revised": false,
+   "expected": 0
+  },
+  {
+   "url": "https://www.eci.gov.in/eci-backend/public//pdf/report/October/1697694024.pdf",
+   "kind": "audit",
+   "party": "Naga People's Front",
+   "year": "2022-23",
+   "title": "Naga People's Front (Annual Audit Report for the Financial Year 2022-23)",
+   "revised": false,
+   "expected": 0
+  },
+  {
+   "url": "https://www.eci.gov.in/eci-backend/public//pdf/report/October/1697693889.pdf",
+   "kind": "audit",
+   "party": "All India N.R. Congress",
+   "year": "2022-23",
+   "title": "All India N.R. Congress (Annual Audit Report for the Financial Year 2022-23)",
+   "revised": false,
+   "expected": 0
+  },
+  {
+   "url": "https://www.eci.gov.in/eci-backend/public//pdf/report/October/1792063009.pdf",
+   "kind": "audit",
+   "party": "Indian Union Muslim League",
+   "year": "2021-22",
+   "title": "Indian Union Muslim League (Annual Audit Report for the Financial Year 2021-22)",
+   "revised": false,
+   "expected": 0
+  },
+  {
+   "url": "https://www.eci.gov.in/eci-backend/public//pdf/report/September/1790154074.pdf",
+   "kind": "audit",
+   "party": "Revolutionary Socialist Party",
+   "year": "2021-22",
+   "title": "Revolutionary Socialist Party (Annual Audit Report for the Financial Year 2021-22)",
+   "revised": false,
+   "expected": 0
+  },
+  {
+   "url": "https://www.eci.gov.in/eci-backend/public//pdf/report/October/1760502757.pdf",
+   "kind": "audit",
+   "party": "Mizo National Front",
+   "year": "2021-22",
+   "title": "Mizo National Front (Revised Annual Audit Report for the Financial Year 2021-22)",
+   "revised": true,
+   "expected": 0
+  },
+  {
+   "url": "https://www.eci.gov.in/eci-backend/public//pdf/report/October/1759814585.pdf",
+   "kind": "audit",
+   "party": "Hills State People's Democratic Party",
+   "year": "2021-22",
+   "title": "Hills State People's Democratic Party (Annual Audit Report for the Financial Year 2021-22)",
+   "revised": false,
+   "expected": 0
+  },
+  {
+   "url": "https://www.eci.gov.in/eci-backend/public//pdf/report/September/1756957384.pdf",
+   "kind": "audit",
+   "party": "Bodoland Peoples Front",
+   "year": "2021-22",
+   "title": "Bodoland Peoples Front (Revised Annual Audit Report for the Financial Year 2021-22)",
+   "revised": true,
+   "expected": 0
+  },
+  {
+   "url": "https://www.eci.gov.in/eci-backend/public//pdf/report/July/1752559024.pdf",
+   "kind": "audit",
+   "party": "Mizo National Front",
+   "year": "2021-22",
+   "title": "Mizo National Front (Annual Audit Report for the Financial Year 2021-22)",
+   "revised": false,
+   "expected": 0
+  },
+  {
+   "url": "https://www.eci.gov.in/eci-backend/public//pdf/report/October/1730185557.pdf",
+   "kind": "audit",
+   "party": "United Democratic Party",
+   "year": "2021-22",
+   "title": "United Democratic Party (Annual Audit Report for the Financial Year 2021-22)",
+   "revised": false,
+   "expected": 0
+  },
+  {
+   "url": "https://www.eci.gov.in/eci-backend/public//pdf/report/October/1792063027.pdf",
+   "kind": "audit",
+   "party": "Indian Union Muslim League",
+   "year": "2020-21",
+   "title": "Indian Union Muslim League (Annual Audit Report for the Financial Year 2020-21)",
+   "revised": false,
+   "expected": 0
+  },
+  {
+   "url": "https://www.eci.gov.in/eci-backend/public//pdf/report/September/1790154090.pdf",
+   "kind": "audit",
+   "party": "Revolutionary Socialist Party",
+   "year": "2020-21",
+   "title": "Revolutionary Socialist Party (Annual Audit Report for the Financial Year 2020-21)",
+   "revised": false,
+   "expected": 0
+  },
+  {
+   "url": "https://www.eci.gov.in/eci-backend/public//pdf/report/October/1760502736.pdf",
+   "kind": "audit",
+   "party": "Mizo National Front",
+   "year": "2020-21",
+   "title": "Mizo National Front (Revised Annual Audit Report for the Financial Year 2020-21)",
+   "revised": true,
+   "expected": 0
+  },
+  {
+   "url": "https://www.eci.gov.in/eci-backend/public//pdf/report/September/1758020024.pdf",
+   "kind": "audit",
+   "party": "Indian Union Muslim League",
+   "year": "2020-21",
+   "title": "Indian Union Muslim League (Annual Audit Report for the Financial Year 2020-21)",
+   "revised": false,
+   "expected": 0
+  },
+  {
+   "url": "https://www.eci.gov.in/eci-backend/public//pdf/report/July/1752559048.pdf",
+   "kind": "audit",
+   "party": "Mizo National Front",
+   "year": "2020-21",
+   "title": "Mizo National Front (Annual Audit Report for the Financial Year 2020-21)",
+   "revised": false,
+   "expected": 0
+  },
+  {
+   "url": "https://www.eci.gov.in/eci-backend/public//pdf/report/October/1730185585.pdf",
+   "kind": "audit",
+   "party": "United Democratic Party",
+   "year": "2020-21",
+   "title": "United Democratic Party (Annual Audit Report for the Financial Year 2020-21)",
+   "revised": false,
+   "expected": 0
+  },
+  {
+   "url": "https://www.eci.gov.in/eci-backend/public//pdf/report/September/1790154109.pdf",
+   "kind": "audit",
+   "party": "Revolutionary Socialist Party",
+   "year": "2019-20",
+   "title": "Revolutionary Socialist Party (Annual Audit Report for the Financial Year 2019-20)",
+   "revised": false,
+   "expected": 0
+  },
+  {
+   "url": "https://www.eci.gov.in/eci-backend/public//pdf/report/September/1790154129.pdf",
+   "kind": "audit",
+   "party": "Revolutionary Socialist Party",
+   "year": "2018-19",
+   "title": "Revolutionary Socialist Party (Annual Audit Report for the Financial Year 2018-19)",
+   "revised": false,
+   "expected": 0
+  },
+  {
+   "url": "https://www.eci.gov.in/eci-backend/public//pdf/report/September/1790154150.pdf",
+   "kind": "audit",
+   "party": "Revolutionary Socialist Party",
+   "year": "2017-18",
+   "title": "Revolutionary Socialist Party (Annual Audit Report for the Financial Year 2017-18)",
+   "revised": false,
+   "expected": 0
+  },
+  {
+   "url": "https://www.eci.gov.in/eci-backend/public//pdf/report/September/1790154182.pdf",
+   "kind": "audit",
+   "party": "Revolutionary Socialist Party",
+   "year": "2016-17",
+   "title": "Revolutionary Socialist Party (Annual Audit Report for the Financial Year 2016-17)",
+   "revised": false,
+   "expected": 0
+  }
+ ]
+}

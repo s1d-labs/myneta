@@ -1,13 +1,33 @@
 {
   "family": "myneta",
-  "about": "myneta info",
+  "about": "Political links and public officials (planned-sources category E): candidate affidavits, electoral bonds and party funding, MPs/MLAs/ministers, IAS postings, government directories.",
   "setup": [
     "pip install -r requirements.txt"
   ],
   "tasks": {
-    "crawl": [
+    "myneta": [
       "python",
-      "crawl.py"
+      "myneta.py"
+    ],
+    "members": [
+      "python",
+      "members.py"
+    ],
+    "civil_list": [
+      "python",
+      "civil_list.py"
+    ],
+    "igod": [
+      "python",
+      "igod.py"
+    ],
+    "eci_docs": [
+      "python",
+      "eci_docs.py"
+    ],
+    "myneta_party": [
+      "python",
+      "myneta_party.py"
     ]
   }
 }
