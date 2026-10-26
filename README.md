@@ -19,7 +19,7 @@ officials** (https://india.s1d.me/#/planned-sources). `CLAUDE.md` is the pool co
 
 1. **plan-myneta** and **plan-myneta-party** workflows: list MyNeta's elections and parties into `data/` (committed back).
 2. **setup** workflow with `max_items` 3-5: registers the projects, health checks and a small trial queue. Watch scrape.s1d.me → Runs.
-3. If the trial looks right, run **setup** again with `max_items` empty to seed everything (existing items are kept).
+3. If the trial looks right, run **setup** again with `max_items` 0 to seed everything (existing items are kept).
 
 Locally: `python -m venv .venv && .venv/bin/pip install -r requirements.txt pytest "scrape-hub-client @ git+https://github.com/s1d-labs/runner@main#subdirectory=sdk"`,
 then `.venv/bin/python -m pytest tests`, `python <task>.py --local ...`, and `.venv/bin/scrape-check`.

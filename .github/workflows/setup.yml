@@ -6,7 +6,7 @@ on:
   workflow_dispatch:
     inputs:
       max_items:
-        description: "Seed only the first N items per project (3-5 for a first trial; empty = all)"
+        description: "Seed only the first N items per project (3-5 for a first trial; 0 = everything)"
         default: "5"
 
 permissions:

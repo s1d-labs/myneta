@@ -2,7 +2,7 @@
 
 FAMILY must equal the repo name (s1d-labs/<FAMILY>) and the family the hub owner added on scrape.s1d.me/runners.
 Each project is one queue of work on one site; `target` is the host it hits (the hub caps workers per target).
-MAX_ITEMS (env, set by the setup workflow's input) seeds only the first N items of each project: use 3-5 for the first trial.
+MAX_ITEMS (env, set by the setup workflow's input) seeds only the first N items of each project: 3-5 for a first trial, 0 for everything.
 """
 import json
 import os
