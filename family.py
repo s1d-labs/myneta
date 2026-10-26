@@ -146,6 +146,12 @@ PROJECTS += [
     },
 ]
 
+# Out of the pool: in the 2026-10-26 trial these sites refused GitHub's runners as well as the team box (www.eci.gov.in: 406 from
+# its firewall; igod.gov.in: 403; supremo.nic.in: no connection). Retrying would only pile up refusals. setup_family.py takes them
+# out of the pool; move a project back into PROJECTS when a route to its site exists.
+OFF = [p for p in PROJECTS if p["name"] in (f"{FAMILY}-eci", f"{FAMILY}-ias-er", f"{FAMILY}-igod")]
+PROJECTS = [p for p in PROJECTS if p not in OFF]
+
 for p in PROJECTS:
     p["items"] = p["items"][:MAX_ITEMS]
 
