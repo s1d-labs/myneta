@@ -498,6 +498,8 @@ def work(hub, session, p):
             n += 1
             pause(hub)
         hub.metric("rows_obfuscated", obf)
+        if obf:                                     # rows reveal() could not decode: retry rather than finish without them
+            missing.append(f"{obf} obfuscated rows left")
     elif kind == "unrecognised":
         page = get(SITE + UNRECOGNISED[p["table"]])
         if page is None:
@@ -510,9 +512,10 @@ def work(hub, session, p):
         if page is None:
             return 0, None
         records = bond_records(p["list"], int(p.get("page") or 1), page)
-        hub.metric("rows_obfuscated", sum(t["obfuscated"] for t in parse_tables(page)))
-        if not records:
-            missing.append("no rows parsed")
+        left = sum(t["obfuscated"] for t in parse_tables(page))
+        hub.metric("rows_obfuscated", left)
+        if not records or left:
+            missing.append("no rows parsed" if not records else f"{left} obfuscated rows left")
     else:
         raise ValueError(f"unknown kind {kind!r}")
     if files:

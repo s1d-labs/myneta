@@ -19,11 +19,20 @@ from plan_eci import plan_eci
 HERE = Path(__file__).parent
 FAMILY = json.loads((HERE / "scrape.json").read_text())["family"]
 MAX_ITEMS = int(os.environ.get("MAX_ITEMS") or 0) or None
+# Items the hub marked done without their data (the hub never re-runs a done item, and only failed ones can be reset): each key
+# listed here is queued again as "<key>/redo<n>", same payload. 2026-10-26: ~1,000 candidate list pages that workers still on
+# pre-reveal() code finished with 0 candidates. Records are upserts by stable id, so a redo only fills in what is missing.
+REDO = json.loads((HERE / "data" / "redo.json").read_text()) if (HERE / "data" / "redo.json").exists() else {}
+
+
+def with_redo(project, items):
+    by_key, redo = {i["key"]: i for i in items}, REDO.get(project, {})
+    return items + [{"key": f"{k}/redo{redo['round']}", "payload": by_key[k]["payload"]} for k in redo.get("keys", []) if k in by_key]
 
 
 # myneta.info: ADR's terms of use (https://adrindia.org/content/adr-terms-use) forbid automated collection without ADR's express
 # written consent. nikish reported ADR's written permission for this non-commercial research on 2026-10-26; the record is kept
-# by the family owner (see CONSENT.md). Any number of workers allowed; raw pages kept, hidden rows not decoded.
+# by the family owner (see CONSENT.md). Any number of workers allowed; raw pages kept; obfuscated rows decoded (ADR's OK).
 PROJECTS = [
     {
         "name": f"{FAMILY}-candidates",              # E02
@@ -35,7 +44,7 @@ PROJECTS = [
         # no cap of our own: ADR allows any number of workers (CONSENT.md); the hub's per-target limit (8 by default, shared with
         # myneta-party) and its back-off on slow answers or refusals still apply
         "unit_label": "list page", "record_label": "candidate",
-        "items": myneta_queue(),                 # plan_myneta.queue_items(): list pages, winners, expenses, recontest
+        "items": with_redo(f"{FAMILY}-candidates", myneta_queue()),   # list pages, winners, expenses, recontest (plan_myneta)
     },
     {
         "name": f"{FAMILY}-party",           # E04/E06 as ADR's HTML, plus ADR's electoral-bond tables

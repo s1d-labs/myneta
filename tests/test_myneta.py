@@ -322,3 +322,16 @@ def test_unpack():
             out += s + n[e]
         return out
     assert myneta.unpack(enc("<tr>ठ</tr>"), n, t, e) == "<tr>ठ</tr>"
+
+
+def test_list_page_never_done_without_candidates(monkeypatch):
+    """A list page that yields no candidates (or still has obfuscated rows) is reported missing, so the item fails and is
+    retried: on 2026-10-26 workers running pre-reveal() code marked ~1,000 pages done with 0 candidates."""
+    monkeypatch.setattr(myneta, "pause", lambda hub: None)
+    monkeypatch.setattr(myneta, "reveal", lambda page: page)              # what a worker without the decoder saw
+    hub = FakeHub()
+    stored, missing = myneta.work(hub, Session(page("ls24_all.html"), ""), "LokSabha2024", 1)
+    assert (stored, missing) == (0, ["LokSabha2024:list:p0001"])
+    hub = FakeHub()
+    stored, missing = myneta.work(hub, Session("<html><table></table></html>", ""), "LokSabha2024", 2)
+    assert (stored, missing) == (0, ["LokSabha2024:list:p0002"])

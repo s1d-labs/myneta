@@ -528,6 +528,9 @@ def work(hub, session, election, page, limit=None):
     files = [raw(f"pages/{election}/list/p{page:04d}.html.gz", listing)]
     hub.metric("rows_hidden", hidden(listing))
     rows = parse_list(listing)[:limit]
+    if not rows or hidden(listing):                 # never "done" without its candidates: the planner counted this page
+        save_raw(hub, files)
+        return 0, [f"{election}:list:p{page:04d}"]
     ids = {f"{election}:{r['candidate_id']}": r for r in rows}
     stored, missing = 0, []
     for rid in ids:
@@ -562,6 +565,9 @@ def work_winners(hub, session, election):
         return 0, None
     hub.metric("rows_hidden", hidden(page))
     rows = parse_winners(page)
+    if not rows or hidden(page):
+        save_raw(hub, [raw(f"pages/{election}/winners.html.gz", page)])
+        return 0, [f"{election}:winners"]
     for r in rows:
         hub.record(f"{election}:winner:{r['candidate_id']}", {**r, "kind": "winner", "election": election})
     save_raw(hub, [raw(f"pages/{election}/winners.html.gz", page)])
