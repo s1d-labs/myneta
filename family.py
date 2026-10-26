@@ -158,7 +158,9 @@ for p in PROJECTS:
 # health checks the hub runs every minute; work for a project holds while its probe fails
 PROBES = [
     {"name": f"{FAMILY}:myneta.info", "url": "https://myneta.info/", "expect": "myneta"},
-    {"name": f"{FAMILY}:sansad.in", "url": "https://sansad.in/api_ls/business/AllLoksabhaAndSessionDates", "expect": "loksabha"},
+    # no `expect`: the hub probes from the team server's IP, which sansad.in answers with a captcha page (GitHub's runners get the
+    # real data), so the check can only tell whether the site answers at all
+    {"name": f"{FAMILY}:sansad.in", "url": "https://sansad.in/api_ls/business/AllLoksabhaAndSessionDates"},
     {"name": f"{FAMILY}:supremo.nic.in", "url": "https://supremo.nic.in/ERSheetHtml.aspx?OffIDErhtml=332&PageId=", "expect": "one-column-emphasis"},
     {"name": f"{FAMILY}:igod.gov.in", "url": "https://igod.gov.in/ug/E003/organizations", "expect": "search-result-row"},
     {"name": f"{FAMILY}:bonds-mirror", "expect": "electoral bonds",
