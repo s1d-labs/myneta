@@ -8,6 +8,9 @@ on:
       max_items:
         description: "Seed only the first N items per project (3-5 for a first trial; 0 = everything)"
         default: "5"
+      hold:
+        description: "Projects to take out of the pool for now, comma-separated (e.g. myneta-candidates); empty = none"
+        default: ""
 
 permissions:
   id-token: write
@@ -27,3 +30,4 @@ jobs:
         env:
           SCRAPE_HUB_URL: https://scrape.s1d.me
           MAX_ITEMS: ${{ inputs.max_items }}
+          HOLD: ${{ inputs.hold }}
