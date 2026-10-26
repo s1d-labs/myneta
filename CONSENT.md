@@ -8,5 +8,7 @@ How we use MyNeta under that permission:
 - any number of workers (ADR's permission): no cap of our own; the hub's per-target limit (8 by default, shared by both MyNeta
   projects) and its automatic back-off still apply; a short pause between requests and a named User-Agent;
 - raw pages kept in the family's private bucket; records keep only what the analysis needs (DPDP, see README);
-- rows ADR hides with scripts are counted but not decoded, unless ADR says that is fine (or sends the data);
+- rows ADR writes with obfuscated scripts (every list row when the request comes from a datacenter such as GitHub's runners) are
+  decoded by `myneta.reveal()`: ADR confirmed in writing that decoding is fine (nikish, 2026-10-26; the email was forwarded to the
+  family owner). Remove `reveal()` from the fetch functions if ADR ever withdraws that;
 - cite ADR in anything published: "Association for Democratic Reforms (ADR), MyNeta.info, <year>".

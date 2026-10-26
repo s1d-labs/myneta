@@ -223,7 +223,7 @@ def test_work_donation_run(monkeypatch):
     hub = FakeHub()
     stored, missing = m.work(hub, FakeSession({base: page("donation_2024_3.html")}),
                              {"kind": "party_donations", "id": "3", "year": "2024", "from_page": 1, "to_page": 2})
-    assert stored == 27 and missing == ["page 2"] and hub.counts["rows_obfuscated"] == 3
+    assert stored == 30 and missing == ["page 2"] and hub.counts["rows_revealed"] == 3 and hub.counts.get("rows_obfuscated", 0) == 0
     assert m.work(FakeHub(), FakeSession({}), {"kind": "party_itr", "id": "3", "year": "2025"}) == (0, None)
 
 

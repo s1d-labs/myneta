@@ -15,8 +15,9 @@ Every page fetched is also stored raw (gzip) in the family's bucket under pages/
 where a record leaves fields out.
 
 Some rows and tables are not in the page's HTML: the site writes them with obfuscated scripts (about 2 of every 20 list rows,
-some winners rows, and on many affidavit pages the movable-assets table). This task does not decode them; it counts them
-(`rows_hidden`, `movable_hidden`), and the raw pages keep them.
+some winners rows, the movable-assets table on many affidavits, and every list row when the request comes from a datacenter
+such as GitHub's runners). fetch() decodes them with reveal() (ADR confirmed that is fine, CONSENT.md) and counts them
+(`rows_revealed`); `rows_hidden` and `movable_hidden` count what is still hidden after that (should be 0).
 
 Personal data (DPDP Act): records keep what links candidates to parties, firms, contracts, posts, cases and money totals. Voter-roll
 serial numbers, property addresses and survey numbers, bank account lines, private lenders' and borrowers' names, income-tax
@@ -44,6 +45,8 @@ EXPENSES = "{site}/{election}/index.php?action=showWinnersExpense&sortExp=defaul
 EXPENSE = "{site}/{election}/expense.php?candidate_id={cid}"
 RECONTEST = "{site}/{election}/index.php?action=recontestAssetsComparison"
 HIDDEN = re.compile(r"eval\(function\(h,u,n,t,e,r\)")      # a row or table the site writes with an obfuscated script
+PACKED = re.compile(r'<script[^>]*>(?:(?!</script>).)*?eval\(function\(h,u,n,t,e,r\)\{.*?\}\("([^"]*)",\d+,"([^"]*)",(\d+),(\d+),\d+\)\)'
+                    r'(?:(?!</script>).)*</script>', re.S)
 
 # row labels of the asset and liability tables -> short keys (first match wins; unknown labels get a slug of the label)
 MOVABLE = (("cash", "cash"), ("deposits", "deposits"), ("shares", "shares"), ("nss", "nss_postal"), ("insurance", "insurance"),
@@ -106,8 +109,30 @@ def last_page(page):
 
 
 def hidden(page):
-    """Rows or tables on the page written by obfuscated scripts (not read by this task)."""
+    """Rows or tables on the page still written by obfuscated scripts (reveal() replaces them)."""
     return len(HIDDEN.findall(page))
+
+
+def unpack(h, n, t, e):
+    """The text one obfuscated block decodes to: numbers in base e, their digits spelt by the letters of n and separated by n[e],
+    each minus t, are the UTF-8 bytes of the text (what the page's own decoder function does in the browser). Pure."""
+    out = []
+    for seg in h.split(n[e]):
+        if seg:
+            for j, ch in enumerate(n[:e]):
+                seg = seg.replace(ch, str(j))
+            out.append(chr(int(seg, e) - t))
+    return "".join(out).encode("latin-1").decode("utf-8")
+
+
+def reveal(page):
+    """The page with every obfuscated <script> replaced by the HTML it writes. myneta.info writes some rows and tables this way,
+    and every list row when the request comes from a datacenter (GitHub's runners). ADR confirmed decoding is fine (CONSENT.md).
+    Pure."""
+    def one(m):
+        code = unpack(m.group(1), m.group(2), int(m.group(3)), int(m.group(4)))
+        return "".join(re.sub(r"\\(.)", r"\1", w) for w in re.findall(r"document\.write\('(.*?)'\);", code, re.S))
+    return PACKED.sub(one, page)
 
 
 def list_rows(soup):
@@ -475,7 +500,8 @@ def fetch(hub, session, url):
     if re.search(r"captcha", r.text[:20000], re.I):
         hub.block()
         raise Blocked("captcha")
-    return r.text
+    hub.metric("rows_revealed", hidden(r.text))
+    return reveal(r.text)
 
 
 def pause(hub):

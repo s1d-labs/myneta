@@ -23,7 +23,8 @@ individuals only name, amount, party, financial year and the kind of payment (ch
 cheque or bank-account line, no PAN flag. When in doubt a donor counts as an individual. The raw pages are stored as captured.
 
 Some rows are not in the HTML: on donation lists and per-donor bond pages ADR writes every 9th (5th) row with obfuscated
-JavaScript. Those rows are counted (metric rows_obfuscated) and left in the raw capture; this task does not decode them.
+JavaScript. fetch() decodes them with myneta.reveal() (ADR confirmed that is fine, CONSENT.md) and counts them (rows_revealed);
+rows_obfuscated counts any left after that (should be 0).
 """
 import gzip
 import json
@@ -36,6 +37,8 @@ from pathlib import Path
 
 import requests
 from bs4 import BeautifulSoup
+
+from myneta import hidden, reveal
 
 PROJECT = os.environ.get("SCRAPE_POOL_PROJECT", "")
 SITE = os.environ.get("SITE", "https://myneta.info")
@@ -392,7 +395,8 @@ def fetch(hub, session, url):
         hub.metric("captcha")
         hub.block()
         raise Blocked("captcha page")
-    return r.text
+    hub.metric("rows_revealed", hidden(r.text))
+    return reveal(r.text)
 
 
 def pause(hub):

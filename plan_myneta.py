@@ -20,7 +20,7 @@ from pathlib import Path
 import requests
 from bs4 import BeautifulSoup
 
-from myneta import EXPENSES, LIST, SITE, UA, hidden, last_page, parse_expense_list, parse_list
+from myneta import EXPENSES, LIST, SITE, UA, hidden, last_page, parse_expense_list, parse_list, reveal
 
 OUT = Path(__file__).parent / "data" / "myneta_elections.json"
 NOT_ELECTIONS = {"party", "electoral_bonds", "lib", "images", "images_candidate", "compare_profile.php"}
@@ -36,7 +36,7 @@ def get(session, url):
             r.encoding = r.encoding if r.encoding and r.encoding.lower() != "iso-8859-1" else (r.apparent_encoding or "utf-8")
             if re.search(r"captcha", r.text[:20000], re.I):
                 sys.exit(f"{url}: captcha, stopping (tell the family owner)")
-            return r.text
+            return reveal(r.text)                  # from GitHub's runners every list row is obfuscated (see myneta.reveal)
         if r.status_code in (403, 429, 503):
             sys.exit(f"{url}: http {r.status_code}, the site refused us; stopping (tell the family owner)")
         time.sleep(30 * (attempt + 1))

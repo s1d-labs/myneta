@@ -248,14 +248,15 @@ def test_work_stores_records_and_raw_pages(monkeypatch):
     assert paths[0] == "pages/unioncouncil2016/list/p0001.html.gz" and len(paths) == 4
     assert all(re.fullmatch(r"[A-Za-z0-9._-]+(/[A-Za-z0-9._-]+)*", p) for p in paths)
     assert gzip.decompress(hub.files[1][1]).decode("utf-8") == page("myneta/uc2016_3123.html")
-    assert hub.counts["rows_hidden"] == 2
+    assert hub.counts["rows_hidden"] == 0 and hub.counts["rows_revealed"] == 2      # decoded by fetch() (myneta.reveal)
 
 
 def test_run_item_kinds(monkeypatch):
     monkeypatch.setattr(myneta, "pause", lambda hub: None)
     hub = FakeHub()
     stored, missing = myneta.run_item(hub, Session(page("myneta/ls19_winners.html"), ""), {"kind": "winners", "election": "LokSabha2019"})
-    assert stored == 498 and missing == [] and "LokSabha2019:winner:5069" in hub.records
+    assert stored == 558 and missing == []          # 60 winners are obfuscated rows, now decoded
+    assert "LokSabha2019:winner:5069" in hub.records
     stored, _ = myneta.run_item(hub, Session("", page("myneta/ls19_expense_5069.html")),
                                 {"kind": "expenses", "election": "LokSabha2019", "ids": ["5069"]})
     assert stored == 1 and hub.records["LokSabha2019:expense:5069"]["funds"]["party"] == 5000000
@@ -277,7 +278,7 @@ def test_main_against_test_hub(monkeypatch, tmp_path):
              myneta.RECONTEST.format(site=site, election="karnataka2018"): page("myneta/k18_recontest.html"),
              myneta.EXPENSE.format(site=site, election="LokSabha2019", cid="5069"): page("myneta/ls19_expense_5069.html"),
              myneta.EXPENSE.format(site=site, election="LokSabha2019", cid="5522"): 500}
-    for r in myneta.parse_list(listing):
+    for r in myneta.parse_list(myneta.reveal(listing)):            # 20 candidates: 18 plain rows + 2 decoded
         pages[myneta.CANDIDATE.format(site=site, election=el, cid=r["candidate_id"])] = page("myneta/uc2016_3123.html")
     items = [{"key": f"{el}/p0001", "payload": {"kind": "candidates_page", "election": el, "page": 1, "expected": 20}},
              {"key": "LokSabha2019/winners", "payload": {"kind": "winners", "election": "LokSabha2019"}},
@@ -285,13 +286,39 @@ def test_main_against_test_hub(monkeypatch, tmp_path):
              {"key": "LokSabha2019/expenses000", "payload": {"kind": "expenses", "election": "LokSabha2019", "ids": ["5069", "5522"]}}]
     st = run_main(myneta, monkeypatch, "myneta-candidates", items, FakeSession(pages))
     q = st["queue"]["myneta-candidates"]
-    assert q[f"{el}/p0001"]["status"] == "done" and q[f"{el}/p0001"]["fetched"] == 18
+    assert q[f"{el}/p0001"]["status"] == "done" and q[f"{el}/p0001"]["fetched"] == 20
     assert q["LokSabha2019/winners"]["status"] == q["karnataka2018/recontest"]["status"] == "done"
     assert q["LokSabha2019/expenses000"]["status"] == "failed" and q["LokSabha2019/expenses000"]["fetched"] == 1
     rec = st["records"]["myneta-candidates"]
-    assert sum(k.startswith(f"{el}:") for k in rec) == 18 and "LokSabha2019:expense:5069" in rec
+    assert sum(k.startswith(f"{el}:") for k in rec) == 20 and "LokSabha2019:expense:5069" in rec
     assert ("myneta_page", "LokSabha2019:expense:5522") in st["failures"]["myneta-candidates"]
     m = st["metrics"]["myneta-candidates"]
-    assert m["n_http"] == 1 + 18 + 1 + 1 + 2 and m["t_http_s"] >= 0 and m["http_500"] == 1 and m["rows_hidden"] == 2 + 60 + 20
-    assert len(st["uploads"]) == 1 + 18 + 1 + 1 + 1
+    assert m["n_http"] == 1 + 20 + 1 + 1 + 2 and m["t_http_s"] >= 0 and m["http_500"] == 1 and m["rows_revealed"] == 2 + 60 + 20
+    assert m.get("rows_hidden", 0) == 0
+    assert len(st["uploads"]) == 1 + 20 + 1 + 1 + 1
     assert [r["state"] for r in st["runs"].values()] == ["finished"]
+
+
+def test_reveal_decodes_obfuscated_rows():
+    """reveal() turns each obfuscated <script> into the HTML it writes (ADR confirmed decoding is fine, CONSENT.md). From GitHub's
+    runners every list row arrives this way; from a box about 2 in 20."""
+    raw = page("ls24_all.html")
+    out = myneta.reveal(raw)
+    assert myneta.hidden(raw) == 2 and myneta.hidden(out) == 0
+    ids = [r["candidate_id"] for r in myneta.parse_list(out)]
+    assert len(ids) == 20 and len(set(ids)) == 20 and "6163" in ids          # 6163 is one of the two obfuscated rows
+    assert myneta.reveal("<p>no scripts</p>") == "<p>no scripts</p>"
+
+
+def test_unpack():
+    """The site's encoding: base-e numbers spelt with the letters of n, separated by n[e], minus t, are UTF-8 bytes."""
+    n, e, t = "XrMWYOHJD", 3, 20
+    def enc(text):
+        out = ""
+        for b in text.encode("utf-8"):
+            v, s = b + t, ""
+            while v:
+                s, v = n[v % e] + s, v // e
+            out += s + n[e]
+        return out
+    assert myneta.unpack(enc("<tr>ठ</tr>"), n, t, e) == "<tr>ठ</tr>"

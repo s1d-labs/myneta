@@ -16,6 +16,7 @@ from pathlib import Path
 
 import requests
 
+from myneta import reveal
 from myneta_party import BOND_LISTS, INDEX, PLAN, SITE, SUMMARY, UA, last_page, parse_index, parse_summary
 
 DELAY = 2.0
@@ -26,7 +27,7 @@ def get(session, url):
         r = session.get(url, timeout=60, headers={"User-Agent": UA})
         if r.status_code == 200:
             r.encoding = r.encoding if r.encoding and r.encoding.lower() != "iso-8859-1" else (r.apparent_encoding or "utf-8")
-            return r.text
+            return reveal(r.text)                  # obfuscated rows decoded (see myneta.reveal)
         if r.status_code in (403, 429, 503):
             sys.exit(f"{url}: http {r.status_code}, the site refused us; stopping (tell the family owner)")
         time.sleep(30 * (attempt + 1))
