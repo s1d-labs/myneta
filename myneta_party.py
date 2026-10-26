@@ -400,7 +400,8 @@ def fetch(hub, session, url):
 
 
 def pause(hub):
-    time.sleep(max(2.0, hub.settings.get("delay_ms", 0) / 1000))
+    # 0.5 s floor between requests (ADR allows any pace, CONSENT.md); the hub's delay_ms wins when it asks for more
+    time.sleep(max(0.5, hub.settings.get("delay_ms", 0) / 1000))
 
 
 def gz(page):
