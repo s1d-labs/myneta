@@ -387,7 +387,7 @@ def test_work_honest_failures():
     hub = FakeHub()
     s = FakeSession({"sitting-members": FakeResponse(RS_PAGE)})              # term-years answers 404
     stored, problem = members.work(hub, s, {"kind": "sansad_rs", "page": 1})
-    assert stored == 0 and problem == "1 members missing terms" and hub.failures[0][:2] == ("rs_member", "2222")
+    assert stored == 1 and problem is None and hub.failures[0][:2] == ("rs_member", "2222")    # kept as rs-2222-unknown
     with pytest.raises(members.Blocked):
         members.work(hub, FakeSession({"mem_1_9": FakeResponse("", 429, "text/html")}), {"kind": "assembly_kl", "kla": 9, "path": "codes/mem_1_9.htm"})
     with pytest.raises(members.Blocked):
@@ -435,3 +435,14 @@ def test_main_wikidata_lagged(monkeypatch):
     monkeypatch.setattr(members.requests, "Session", lambda: FakeSession({"list=search": lag}))
     members.main()
     assert hub.done["wikidata_ls/t17-p1"] == ("failed", "wikidata lagged", 0) and members.LAG_WAIT in waits and hub.closed == "finished"
+
+
+def test_kerala_11th_bullets_and_12th_names():
+    """KLA 11 lists '<li>Name - Constituency (note)</li>' without numbers; KLA 12 only names linking to profiles or PDFs."""
+    rows = dict(members.parse_kerala(page("kl_mem_1_11.htm"), 11, "u"))
+    assert len(rows) == 140
+    antony = next(d for d in rows.values() if d["name"] == "A.K. Antony")
+    assert (antony["constituency"], antony["note"]) == ("Sherthalai", "Resigned on 8-6-2005")
+    assert next(d for d in rows.values() if d["name"] == "A.P. Anilkumar")["reserved"] == "SC"
+    rows = dict(members.parse_kerala(page("kl_members_12kla.htm"), 12, "u"))
+    assert len(rows) == 140 and all(d["constituency"] is None for d in rows.values())

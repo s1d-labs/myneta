@@ -295,7 +295,7 @@ def parse_candidate(page):
     soup = BeautifulSoup(page, "html.parser")
     head = soup.find("h5")
     place = re.match(r"(.*?)\s*\(([^)]*)\)\s*$", text(head)) if head else None
-    name_h = head.find_previous("h2") if head else None
+    name_h = head.find_previous("h2") if head else soup.find("h2")    # ministers' declarations (2011, 2014) have no <h5> line
     name = text(name_h)
     winner = bool(re.search(r"\(\s*winner\s*\)\s*$", name, re.I))
     name = re.sub(r"\s*\(\s*winner\s*\)\s*$", "", name, flags=re.I)

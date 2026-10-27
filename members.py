@@ -428,10 +428,33 @@ def parse_kerala_list(soup, kla, url):
     return [kerala_record(kla, url, name, href, const, "; ".join(paren_groups(note)) or None) for name, href, const, note in entries]
 
 
+def parse_kerala_bullets(soup, kla, url):
+    """KLA 11 style: '<li><a href=members/m040.htm>Shri A.K. Antony</a> - Sherthalai (Resigned on 8-6-2005)</li>', unnumbered."""
+    out = []
+    for li in soup.find_all("li"):
+        a = li.find("a", href=re.compile(r"(^|/)(members|\d+kla)/"))
+        if not a:
+            continue
+        rest = squash(li.get_text(" ")[len(a.get_text(" ")):] if li.get_text(" ").startswith(a.get_text(" ")) else
+                      li.get_text(" ").split(a.get_text(" "), 1)[-1])
+        const, paren, note = rest.lstrip("- ").partition("(")
+        out.append(kerala_record(kla, url, a.get_text(" "), a["href"], const, "; ".join(paren_groups(paren + note)) or None))
+    return out
+
+
+def parse_kerala_names(soup, kla, url):
+    """KLA 12 style: a table of names (linking to profile pages or PDFs) and photos, with no constituency on the page."""
+    return [kerala_record(kla, url, a.get_text(" "), a["href"], "")
+            for a in soup.find_all("a", href=re.compile(r"^members/(?!m_deputy)"))
+            if squash(a.get_text(" ")) and a.find_parent("td")]
+
+
 def parse_kerala(page, kla, url=""):
-    """[(record id, data)] for one Kerala members page, whichever of the two layouts it uses. Pure."""
-    soup = BeautifulSoup(page, "html.parser")
-    rows = parse_kerala_table(soup, kla, url) or parse_kerala_list(soup, kla, url)
+    """[(record id, data)] for one Kerala members page, whichever of its four layouts it uses. Pure."""
+    def fresh():                              # parse_kerala_list rewrites the tree it is given
+        return BeautifulSoup(page, "html.parser")
+    rows = (parse_kerala_table(fresh(), kla, url) or parse_kerala_list(fresh(), kla, url)
+            or parse_kerala_bullets(fresh(), kla, url) or parse_kerala_names(fresh(), kla, url))
     seen, out = set(), []
     for rid, d in rows:                       # the same member listed twice for one seat (rare): keep the first
         if rid not in seen:
@@ -542,9 +565,9 @@ def do_sansad_rs(hub, session, p, limit=None):
             continue
         pause(hub)
         terms = fetch_json(hub, session, RS_TERMS.format(site=SANSAD, mpsno=m["mpsno"]))
-        if terms is None:
+        if terms is None:                       # some members' term-years never load (e.g. mpCode 165): keep the member, note it
             hub.failure("rs_member", m["mpsno"], "term-years did not load", name=m["name"])
-            missing.append(m["mpsno"])
+            stored += store(hub, rs_records(m, [(None, None)]))
             continue
         rows = rs_records(m, parse_rs_terms(terms))
         if not rows:

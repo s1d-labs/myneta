@@ -1586,5 +1586,20 @@
    "WestBengal2026/p0122",
    "WestBengal2026/p0143"
   ]
+ },
+ "myneta-kerala": {
+  "round": 1,
+  "note": "KLA 11 (bullet list) and 12 (names only) layouts added 2026-10-27; both used up 40 attempts",
+  "keys": [
+   "assembly_kl/k11",
+   "assembly_kl/k12"
+  ]
+ },
+ "myneta-sansad": {
+  "round": 1,
+  "note": "a member whose term-years never load no longer fails the page (2026-10-27); used up 40 attempts",
+  "keys": [
+   "sansad_rs/p011"
+  ]
  }
 }

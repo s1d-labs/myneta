@@ -12,6 +12,8 @@ PAGES = {
     "kl_mem_1.htm": "https://niyamasabha.org/codes/mem_1.htm",
     "kl_mem_1_1.htm": "https://niyamasabha.org/codes/mem_1_1.htm",
     "kl_mem_1_9.htm": "https://niyamasabha.org/codes/mem_1_9.htm",
+    "kl_mem_1_11.htm": "https://niyamasabha.org/codes/mem_1_11.htm",
+    "kl_members_12kla.htm": "https://niyamasabha.org/codes/members_12kla.htm",
     "kl_members14kla.htm": "https://niyamasabha.org/codes/members14kla.htm",
 }
 out = Path(__file__).parent / "pages"

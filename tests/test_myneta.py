@@ -335,3 +335,10 @@ def test_list_page_never_done_without_candidates(monkeypatch):
     hub = FakeHub()
     stored, missing = myneta.work(hub, Session("<html><table></table></html>", ""), "LokSabha2024", 2)
     assert (stored, missing) == (0, ["LokSabha2024:list:p0002"])
+
+
+def test_ministers_declaration_has_no_constituency_line():
+    """Union Council of Ministers 2011/2014 pages have the name in <h2> and no <h5> constituency line."""
+    for name, who in (("myneta/um11_5.html", "Shri P. Chidambaram"), ("myneta/uc14_5.html", "Shri M. Venkaiah Naidu")):
+        d = myneta.parse_candidate(myneta.reveal(page(name)))
+        assert d["name"] == who and d["constituency"] == "" and d["assets"] > 0

@@ -70,7 +70,7 @@ PROJECTS += [
         "probe": f"{FAMILY}:sansad.in",          # sansad.in refused the team IP once (captcha): if the probe never passes, ask the owner
         "max_workers": 1,
         "unit_label": "list", "record_label": "member term",
-        "items": MEMBERS["sansad"],
+        "items": with_redo(f"{FAMILY}-sansad", MEMBERS["sansad"]),
     },
     {
         "name": f"{FAMILY}-kerala",
@@ -81,7 +81,7 @@ PROJECTS += [
         "probe": f"{FAMILY}:niyamasabha.org",
         "max_workers": 1,                        # robots.txt Crawl-delay: 10; members.py waits 10 s between items
         "unit_label": "assembly", "record_label": "member",
-        "items": MEMBERS["kerala"],
+        "items": with_redo(f"{FAMILY}-kerala", MEMBERS["kerala"]),
     },
 ]
 
