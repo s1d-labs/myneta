@@ -3,3 +3,5 @@ __pycache__/
 *.pyc
 tests/pages/
 .scrape-check/
+.pytest_cache/
+.DS_Store
